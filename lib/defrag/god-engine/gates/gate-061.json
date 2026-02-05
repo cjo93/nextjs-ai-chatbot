@@ -1,0 +1,60 @@
+{
+  "id": 61,
+  "label": "Inner Truth",
+  "i_ching_name": "Zhong Fu / Inner Truth",
+  "frequencies": {
+    "shadow": {
+      "name": "PSYCHOSIS",
+      "description": "The shadow frequency of Inner Truth, expressing through psychosis",
+      "behavioral_signature": "Behavioral patterns associated with psychosis",
+      "somatic_signature": "Somatic manifestation of psychosis",
+      "thought_pattern": "Thought patterns characteristic of psychosis",
+      "emotional_state": "Emotional states related to psychosis"
+    },
+    "gift": {
+      "name": "INSPIRATION",
+      "description": "The gift frequency of Inner Truth, expressing through inspiration",
+      "behavioral_signature": "Behavioral patterns associated with inspiration",
+      "somatic_signature": "Somatic manifestation of inspiration",
+      "thought_pattern": "Thought patterns characteristic of inspiration",
+      "emotional_state": "Emotional states related to inspiration"
+    },
+    "siddhi": {
+      "name": "SANCTITY",
+      "description": "The siddhi frequency of Inner Truth, expressing through sanctity",
+      "behavioral_signature": "Behavioral patterns associated with sanctity",
+      "somatic_signature": "Somatic manifestation of sanctity",
+      "thought_pattern": "Thought patterns characteristic of sanctity",
+      "emotional_state": "Emotional states related to sanctity"
+    }
+  },
+  "circuit": "Individual",
+  "center": "HEAD",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "psychosis",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "HEAD Dysfunction",
+        "distortion": "PSYCHOSIS Pattern"
+      },
+      "script": "This is Gate 61 shadow frequency. The psychosis you're experiencing is a distortion of your natural inspiration. Through awareness and experimentation, you can shift from psychosis to inspiration.",
+      "somatic_anchor": "Feel into your head. Notice the sensation of psychosis.",
+      "experiment": {
+        "id": "gate_61_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 61 consciously for 7 days, the psychosis pattern will shift toward inspiration.",
+        "action": "Daily practice working with Gate 61 energy.",
+        "success_criteria": {
+          "metric": "psychosis_reduction",
+          "target": "Noticeable shift from psychosis toward inspiration",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

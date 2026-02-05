@@ -1,0 +1,60 @@
+{
+  "id": 62,
+  "label": "Preponderance of the Small",
+  "i_ching_name": "Xiao Guo / Preponderance of the Small",
+  "frequencies": {
+    "shadow": {
+      "name": "INTELLECT",
+      "description": "The shadow frequency of Preponderance of the Small, expressing through intellect",
+      "behavioral_signature": "Behavioral patterns associated with intellect",
+      "somatic_signature": "Somatic manifestation of intellect",
+      "thought_pattern": "Thought patterns characteristic of intellect",
+      "emotional_state": "Emotional states related to intellect"
+    },
+    "gift": {
+      "name": "PRECISION",
+      "description": "The gift frequency of Preponderance of the Small, expressing through precision",
+      "behavioral_signature": "Behavioral patterns associated with precision",
+      "somatic_signature": "Somatic manifestation of precision",
+      "thought_pattern": "Thought patterns characteristic of precision",
+      "emotional_state": "Emotional states related to precision"
+    },
+    "siddhi": {
+      "name": "IMPECCABILITY",
+      "description": "The siddhi frequency of Preponderance of the Small, expressing through impeccability",
+      "behavioral_signature": "Behavioral patterns associated with impeccability",
+      "somatic_signature": "Somatic manifestation of impeccability",
+      "thought_pattern": "Thought patterns characteristic of impeccability",
+      "emotional_state": "Emotional states related to impeccability"
+    }
+  },
+  "circuit": "Collective",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "intellect",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "THROAT Dysfunction",
+        "distortion": "INTELLECT Pattern"
+      },
+      "script": "This is Gate 62 shadow frequency. The intellect you're experiencing is a distortion of your natural precision. Through awareness and experimentation, you can shift from intellect to precision.",
+      "somatic_anchor": "Feel into your throat. Notice the sensation of intellect.",
+      "experiment": {
+        "id": "gate_62_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 62 consciously for 7 days, the intellect pattern will shift toward precision.",
+        "action": "Daily practice working with Gate 62 energy.",
+        "success_criteria": {
+          "metric": "intellect_reduction",
+          "target": "Noticeable shift from intellect toward precision",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

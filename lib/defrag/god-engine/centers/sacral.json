@@ -1,0 +1,56 @@
+{
+  "name": "sacral",
+  "display_name": "Sacral Center",
+  "function": "Life force energy and response",
+  "neural_correlate": "Reproductive system, life force energy center",
+  "location": "Below navel, pelvic area",
+  "pressure_type": "Energy to work and respond to life",
+  "gates": [
+    3,
+    9,
+    14,
+    27,
+    29,
+    34,
+    42,
+    5,
+    59
+  ],
+  "defined_mechanics": {
+    "description": "Consistent life force energy, designed to work",
+    "traits": [
+      "Sustainable energy for work",
+      "Respond with gut sounds",
+      "Generators and Manifesting Generators only"
+    ],
+    "challenges": [
+      "Not honoring sacral response",
+      "Overworking without listening to body",
+      "Frustration from initiating"
+    ]
+  },
+  "open_mechanics": {
+    "description": "No consistent life force energy",
+    "traits": [
+      "Not designed to work all the time",
+      "Wisdom about when to work",
+      "Flexible work rhythm"
+    ],
+    "challenges": [
+      "Trying to keep up with Generator pace",
+      "Not knowing when to stop working",
+      "Burnout from overcommitment"
+    ],
+    "conditioning": "Pressure to work consistently like energy types"
+  },
+  "somatic_scan_instructions": "Feel your gut and pelvis. Notice life force energy or emptiness.",
+  "regulation_techniques": [
+    "Honor that you're not designed for 8 hour work days",
+    "Work in bursts, rest deeply",
+    "Know when to stop before exhaustion"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

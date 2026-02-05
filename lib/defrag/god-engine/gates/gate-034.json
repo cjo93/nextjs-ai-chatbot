@@ -1,0 +1,56 @@
+{
+  "id": 34,
+  "label": "Power of the Great",
+  "i_ching_name": "Da Zhuang / The Power of the Great",
+  "frequencies": {
+    "shadow": {
+      "name": "FORCE",
+      "description": "Using power to dominate, bulldozing through obstacles",
+      "behavioral_signature": "Aggressive pushing, impatient forcing",
+      "somatic_signature": "Jaw tension, chest thrust forward, combative stance",
+      "thought_pattern": "I'll make this happen through sheer will.",
+      "emotional_state": "Frustration, anger when blocked"
+    },
+    "gift": {
+      "name": "STRENGTH",
+      "description": "Natural power expressed in right timing, sustainable force",
+      "behavioral_signature": "Patient power, waiting for the right moment to act",
+      "somatic_signature": "Coiled energy, relaxed readiness",
+      "thought_pattern": "I have the power. I wait for the invitation.",
+      "emotional_state": "Calm confidence, grounded potency"
+    },
+    "siddhi": {
+      "name": "MAJESTY",
+      "description": "Divine power that serves universal unfolding",
+      "behavioral_signature": "Effortless impact, presence that commands respect",
+      "somatic_signature": "Transparent power, no ego investment",
+      "thought_pattern": "Power flows through me. I am not the doer.",
+      "emotional_state": "Humility in power, servant to the flow"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["forcing", "pushing", "frustrated", "blocked"],
+      "diagnosis": {
+        "mechanism": "Sacral Force Override",
+        "distortion": "Confusing Power with Force"
+      },
+      "script": "You are not blocked. You are being asked to wait. Gate 34 is the archetype of the king—power that acts when invited, not imposed. When you force, you waste the very power you're trying to express. True strength waits for the right timing. Your job is to be ready, not to push.",
+      "somatic_anchor": "Feel the tension in your jaw and shoulders. Soften. Drop the push. Feel the power beneath the force.",
+      "experiment": {
+        "id": "gate_34_power_patience",
+        "duration_days": 3,
+        "hypothesis": "If I stop forcing and wait for invitation, my actions will have more impact.",
+        "action": "For 3 days, do not initiate. Respond only to clear invitations. Notice the power in restraint.",
+        "success_criteria": {
+          "metric": "action_impact",
+          "target": "Actions taken feel more potent and effortless",
+          "duration": "3_days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 30,
+  "label": "Clinging Fire",
+  "i_ching_name": "Li / The Clinging Fire",
+  "frequencies": {
+    "shadow": {
+      "name": "DESIRE",
+      "description": "Craving for intensity, addiction to emotional experience",
+      "behavioral_signature": "Chasing highs, creating drama for stimulation",
+      "somatic_signature": "Restless craving, never satisfied",
+      "thought_pattern": "I need something more. This isn't enough.",
+      "emotional_state": "Perpetual hunger, dissatisfaction"
+    },
+    "gift": {
+      "name": "LIGHTNESS",
+      "description": "Recognition of desire without being enslaved by it",
+      "behavioral_signature": "Experiencing intensity without attachment",
+      "somatic_signature": "Allowing emotional fire without being consumed",
+      "thought_pattern": "I feel the desire. I am not the desire.",
+      "emotional_state": "Emotional freedom, playful engagement"
+    },
+    "siddhi": {
+      "name": "RAPTURE",
+      "description": "Pure ecstatic presence, desire fulfilled in being itself",
+      "behavioral_signature": "Burning with divine passion, nothing to attain",
+      "somatic_signature": "Continuous ecstasy, no lack",
+      "thought_pattern": "Everything is already complete. I am the fire itself.",
+      "emotional_state": "Eternal bliss, desire transcended"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SOLAR_PLEXUS",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["addictive patterns", "chasing intensity", "never satisfied", "restless craving"],
+      "diagnosis": {
+        "mechanism": "Emotional Intensity Addiction",
+        "distortion": "Believing Aliveness Requires Drama"
+      },
+      "script": "You are addicted to emotional intensity because you believe stillness is death. Gate 30 is emotional fuel—it craves experience. But when you chase intensity, you create suffering. True lightness comes from witnessing desire without acting on every impulse. You are already alive. You don't need drama to prove it.",
+      "somatic_anchor": "Feel the craving in your solar plexus. Don't feed it. Just feel it. Notice you're still alive without satisfying it.",
+      "experiment": {
+        "id": "gate_30_desire_witnessing",
+        "duration_days": 7,
+        "hypothesis": "If I witness desires without immediately satisfying them for 7 days, the craving will decrease.",
+        "action": "When desire arises, pause. Feel it. Don't act on it immediately. Wait 24 hours. Many desires will pass.",
+        "success_criteria": {
+          "metric": "craving_reduction",
+          "target": "Decreased urgency around desires, more peace",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

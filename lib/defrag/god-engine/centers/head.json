@@ -1,0 +1,50 @@
+{
+  "name": "head",
+  "display_name": "Head Center",
+  "function": "Inspiration and mental pressure to make sense of things",
+  "neural_correlate": "Pineal gland, neocortex pressure center",
+  "location": "Top of head",
+  "pressure_type": "Mental pressure to answer questions",
+  "gates": [
+    64,
+    61,
+    63
+  ],
+  "defined_mechanics": {
+    "description": "Consistent mental pressure to answer specific questions",
+    "traits": [
+      "Fixed inspiration patterns",
+      "Reliable mental pressure",
+      "Specific areas of questioning"
+    ],
+    "challenges": [
+      "Can't stop thinking about certain questions",
+      "Mental pressure feels constant",
+      "Others may not understand your specific mental focus"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Samples and amplifies others' mental pressure and questions",
+    "traits": [
+      "Flexible inspiration",
+      "Can think about many things",
+      "Wisdom about what questions are worth asking"
+    ],
+    "challenges": [
+      "Overwhelmed by others' mental pressure",
+      "Trying to answer everyone's questions",
+      "Lost in endless questioning"
+    ],
+    "conditioning": "Pressure to answer questions that aren't yours"
+  },
+  "somatic_scan_instructions": "Feel the top of your head. Notice if there's pressure, buzzing, or stillness.",
+  "regulation_techniques": [
+    "Ask: 'Is this question mine or am I amplifying someone else's?'",
+    "Release questions that don't belong to you",
+    "Honor the wisdom of not needing to answer everything"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

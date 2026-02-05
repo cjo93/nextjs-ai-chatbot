@@ -1,0 +1,60 @@
+{
+  "id": 14,
+  "label": "Possession in Great Measure",
+  "i_ching_name": "Da You / Possession in Great Measure",
+  "frequencies": {
+    "shadow": {
+      "name": "COMPROMISE",
+      "description": "The shadow frequency of Possession in Great Measure, expressing through compromise",
+      "behavioral_signature": "Behavioral patterns associated with compromise",
+      "somatic_signature": "Somatic manifestation of compromise",
+      "thought_pattern": "Thought patterns characteristic of compromise",
+      "emotional_state": "Emotional states related to compromise"
+    },
+    "gift": {
+      "name": "COMPETENCE",
+      "description": "The gift frequency of Possession in Great Measure, expressing through competence",
+      "behavioral_signature": "Behavioral patterns associated with competence",
+      "somatic_signature": "Somatic manifestation of competence",
+      "thought_pattern": "Thought patterns characteristic of competence",
+      "emotional_state": "Emotional states related to competence"
+    },
+    "siddhi": {
+      "name": "BOUNTEOUSNESS",
+      "description": "The siddhi frequency of Possession in Great Measure, expressing through bounteousness",
+      "behavioral_signature": "Behavioral patterns associated with bounteousness",
+      "somatic_signature": "Somatic manifestation of bounteousness",
+      "thought_pattern": "Thought patterns characteristic of bounteousness",
+      "emotional_state": "Emotional states related to bounteousness"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "compromise",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SACRAL Dysfunction",
+        "distortion": "COMPROMISE Pattern"
+      },
+      "script": "This is Gate 14 shadow frequency. The compromise you're experiencing is a distortion of your natural competence. Through awareness and experimentation, you can shift from compromise to competence.",
+      "somatic_anchor": "Feel into your sacral. Notice the sensation of compromise.",
+      "experiment": {
+        "id": "gate_14_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 14 consciously for 7 days, the compromise pattern will shift toward competence.",
+        "action": "Daily practice working with Gate 14 energy.",
+        "success_criteria": {
+          "metric": "compromise_reduction",
+          "target": "Noticeable shift from compromise toward competence",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

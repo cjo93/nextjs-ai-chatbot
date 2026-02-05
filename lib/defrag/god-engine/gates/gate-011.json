@@ -1,0 +1,60 @@
+{
+  "id": 11,
+  "label": "Peace",
+  "i_ching_name": "Tai / Peace",
+  "frequencies": {
+    "shadow": {
+      "name": "OBSCURITY",
+      "description": "The shadow frequency of Peace, expressing through obscurity",
+      "behavioral_signature": "Behavioral patterns associated with obscurity",
+      "somatic_signature": "Somatic manifestation of obscurity",
+      "thought_pattern": "Thought patterns characteristic of obscurity",
+      "emotional_state": "Emotional states related to obscurity"
+    },
+    "gift": {
+      "name": "IDEALISM",
+      "description": "The gift frequency of Peace, expressing through idealism",
+      "behavioral_signature": "Behavioral patterns associated with idealism",
+      "somatic_signature": "Somatic manifestation of idealism",
+      "thought_pattern": "Thought patterns characteristic of idealism",
+      "emotional_state": "Emotional states related to idealism"
+    },
+    "siddhi": {
+      "name": "LIGHT",
+      "description": "The siddhi frequency of Peace, expressing through light",
+      "behavioral_signature": "Behavioral patterns associated with light",
+      "somatic_signature": "Somatic manifestation of light",
+      "thought_pattern": "Thought patterns characteristic of light",
+      "emotional_state": "Emotional states related to light"
+    }
+  },
+  "circuit": "Collective",
+  "center": "AJNA",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "obscurity",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "AJNA Dysfunction",
+        "distortion": "OBSCURITY Pattern"
+      },
+      "script": "This is Gate 11 shadow frequency. The obscurity you're experiencing is a distortion of your natural idealism. Through awareness and experimentation, you can shift from obscurity to idealism.",
+      "somatic_anchor": "Feel into your ajna. Notice the sensation of obscurity.",
+      "experiment": {
+        "id": "gate_11_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 11 consciously for 7 days, the obscurity pattern will shift toward idealism.",
+        "action": "Daily practice working with Gate 11 energy.",
+        "success_criteria": {
+          "metric": "obscurity_reduction",
+          "target": "Noticeable shift from obscurity toward idealism",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

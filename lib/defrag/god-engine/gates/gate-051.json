@@ -1,0 +1,60 @@
+{
+  "id": 51,
+  "label": "The Arousing",
+  "i_ching_name": "Zhen / The Arousing",
+  "frequencies": {
+    "shadow": {
+      "name": "AGITATION",
+      "description": "The shadow frequency of The Arousing, expressing through agitation",
+      "behavioral_signature": "Behavioral patterns associated with agitation",
+      "somatic_signature": "Somatic manifestation of agitation",
+      "thought_pattern": "Thought patterns characteristic of agitation",
+      "emotional_state": "Emotional states related to agitation"
+    },
+    "gift": {
+      "name": "INITIATIVE",
+      "description": "The gift frequency of The Arousing, expressing through initiative",
+      "behavioral_signature": "Behavioral patterns associated with initiative",
+      "somatic_signature": "Somatic manifestation of initiative",
+      "thought_pattern": "Thought patterns characteristic of initiative",
+      "emotional_state": "Emotional states related to initiative"
+    },
+    "siddhi": {
+      "name": "AWAKENING",
+      "description": "The siddhi frequency of The Arousing, expressing through awakening",
+      "behavioral_signature": "Behavioral patterns associated with awakening",
+      "somatic_signature": "Somatic manifestation of awakening",
+      "thought_pattern": "Thought patterns characteristic of awakening",
+      "emotional_state": "Emotional states related to awakening"
+    }
+  },
+  "circuit": "Individual",
+  "center": "HEART",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "agitation",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "HEART Dysfunction",
+        "distortion": "AGITATION Pattern"
+      },
+      "script": "This is Gate 51 shadow frequency. The agitation you're experiencing is a distortion of your natural initiative. Through awareness and experimentation, you can shift from agitation to initiative.",
+      "somatic_anchor": "Feel into your heart. Notice the sensation of agitation.",
+      "experiment": {
+        "id": "gate_51_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 51 consciously for 7 days, the agitation pattern will shift toward initiative.",
+        "action": "Daily practice working with Gate 51 energy.",
+        "success_criteria": {
+          "metric": "agitation_reduction",
+          "target": "Noticeable shift from agitation toward initiative",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

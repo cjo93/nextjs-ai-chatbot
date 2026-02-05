@@ -1,0 +1,60 @@
+{
+  "id": 40,
+  "label": "Deliverance",
+  "i_ching_name": "Xie / Deliverance",
+  "frequencies": {
+    "shadow": {
+      "name": "EXHAUSTION",
+      "description": "The shadow frequency of Deliverance, expressing through exhaustion",
+      "behavioral_signature": "Behavioral patterns associated with exhaustion",
+      "somatic_signature": "Somatic manifestation of exhaustion",
+      "thought_pattern": "Thought patterns characteristic of exhaustion",
+      "emotional_state": "Emotional states related to exhaustion"
+    },
+    "gift": {
+      "name": "RESOLVE",
+      "description": "The gift frequency of Deliverance, expressing through resolve",
+      "behavioral_signature": "Behavioral patterns associated with resolve",
+      "somatic_signature": "Somatic manifestation of resolve",
+      "thought_pattern": "Thought patterns characteristic of resolve",
+      "emotional_state": "Emotional states related to resolve"
+    },
+    "siddhi": {
+      "name": "RESTORATION",
+      "description": "The siddhi frequency of Deliverance, expressing through restoration",
+      "behavioral_signature": "Behavioral patterns associated with restoration",
+      "somatic_signature": "Somatic manifestation of restoration",
+      "thought_pattern": "Thought patterns characteristic of restoration",
+      "emotional_state": "Emotional states related to restoration"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "HEART",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "exhaustion",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "HEART Dysfunction",
+        "distortion": "EXHAUSTION Pattern"
+      },
+      "script": "This is Gate 40 shadow frequency. The exhaustion you're experiencing is a distortion of your natural resolve. Through awareness and experimentation, you can shift from exhaustion to resolve.",
+      "somatic_anchor": "Feel into your heart. Notice the sensation of exhaustion.",
+      "experiment": {
+        "id": "gate_40_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 40 consciously for 7 days, the exhaustion pattern will shift toward resolve.",
+        "action": "Daily practice working with Gate 40 energy.",
+        "success_criteria": {
+          "metric": "exhaustion_reduction",
+          "target": "Noticeable shift from exhaustion toward resolve",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

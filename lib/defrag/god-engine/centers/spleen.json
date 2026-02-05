@@ -1,0 +1,54 @@
+{
+  "name": "spleen",
+  "display_name": "Spleen Center",
+  "function": "Survival instincts, intuition, and immune system",
+  "neural_correlate": "Spleen, immune system, survival awareness",
+  "location": "Left side of body, below ribs",
+  "pressure_type": "Existential fears and survival instincts",
+  "gates": [
+    18,
+    28,
+    32,
+    44,
+    48,
+    50,
+    57
+  ],
+  "defined_mechanics": {
+    "description": "Consistent intuitive awareness and survival instincts",
+    "traits": [
+      "Reliable intuition",
+      "Fixed fears",
+      "Consistent immune response"
+    ],
+    "challenges": [
+      "Ignoring intuition",
+      "Rigid about health/survival",
+      "Fixed fear patterns"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Samples others' fears and intuitions",
+    "traits": [
+      "Flexible intuition",
+      "Can feel others' fears",
+      "Wisdom about health and survival"
+    ],
+    "challenges": [
+      "Holding onto fears that aren't yours",
+      "Making fear-based decisions",
+      "Hypochondria or health anxiety"
+    ],
+    "conditioning": "Pressure to hold onto fear and be consistently afraid"
+  },
+  "somatic_scan_instructions": "Feel left side of body. Notice intuitive hits, fear, or neutrality.",
+  "regulation_techniques": [
+    "Ask: 'Is this fear mine or someone else's?'",
+    "Release fears that don't belong to you",
+    "Honor spontaneous intuition, don't hold onto it"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": 39,
+  "label": "Obstruction",
+  "i_ching_name": "Jian / Obstruction",
+  "frequencies": {
+    "shadow": {
+      "name": "PROVOCATION",
+      "description": "The shadow frequency of Obstruction, expressing through provocation",
+      "behavioral_signature": "Behavioral patterns associated with provocation",
+      "somatic_signature": "Somatic manifestation of provocation",
+      "thought_pattern": "Thought patterns characteristic of provocation",
+      "emotional_state": "Emotional states related to provocation"
+    },
+    "gift": {
+      "name": "DYNAMISM",
+      "description": "The gift frequency of Obstruction, expressing through dynamism",
+      "behavioral_signature": "Behavioral patterns associated with dynamism",
+      "somatic_signature": "Somatic manifestation of dynamism",
+      "thought_pattern": "Thought patterns characteristic of dynamism",
+      "emotional_state": "Emotional states related to dynamism"
+    },
+    "siddhi": {
+      "name": "LIBERATION",
+      "description": "The siddhi frequency of Obstruction, expressing through liberation",
+      "behavioral_signature": "Behavioral patterns associated with liberation",
+      "somatic_signature": "Somatic manifestation of liberation",
+      "thought_pattern": "Thought patterns characteristic of liberation",
+      "emotional_state": "Emotional states related to liberation"
+    }
+  },
+  "circuit": "Individual",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "provocation",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "PROVOCATION Pattern"
+      },
+      "script": "This is Gate 39 shadow frequency. The provocation you're experiencing is a distortion of your natural dynamism. Through awareness and experimentation, you can shift from provocation to dynamism.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of provocation.",
+      "experiment": {
+        "id": "gate_39_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 39 consciously for 7 days, the provocation pattern will shift toward dynamism.",
+        "action": "Daily practice working with Gate 39 energy.",
+        "success_criteria": {
+          "metric": "provocation_reduction",
+          "target": "Noticeable shift from provocation toward dynamism",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

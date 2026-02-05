@@ -1,0 +1,60 @@
+{
+  "id": 56,
+  "label": "The Wanderer",
+  "i_ching_name": "Lu / The Wanderer",
+  "frequencies": {
+    "shadow": {
+      "name": "DISTRACTION",
+      "description": "The shadow frequency of The Wanderer, expressing through distraction",
+      "behavioral_signature": "Behavioral patterns associated with distraction",
+      "somatic_signature": "Somatic manifestation of distraction",
+      "thought_pattern": "Thought patterns characteristic of distraction",
+      "emotional_state": "Emotional states related to distraction"
+    },
+    "gift": {
+      "name": "ENRICHMENT",
+      "description": "The gift frequency of The Wanderer, expressing through enrichment",
+      "behavioral_signature": "Behavioral patterns associated with enrichment",
+      "somatic_signature": "Somatic manifestation of enrichment",
+      "thought_pattern": "Thought patterns characteristic of enrichment",
+      "emotional_state": "Emotional states related to enrichment"
+    },
+    "siddhi": {
+      "name": "INTOXICATION",
+      "description": "The siddhi frequency of The Wanderer, expressing through intoxication",
+      "behavioral_signature": "Behavioral patterns associated with intoxication",
+      "somatic_signature": "Somatic manifestation of intoxication",
+      "thought_pattern": "Thought patterns characteristic of intoxication",
+      "emotional_state": "Emotional states related to intoxication"
+    }
+  },
+  "circuit": "Collective",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "distraction",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "THROAT Dysfunction",
+        "distortion": "DISTRACTION Pattern"
+      },
+      "script": "This is Gate 56 shadow frequency. The distraction you're experiencing is a distortion of your natural enrichment. Through awareness and experimentation, you can shift from distraction to enrichment.",
+      "somatic_anchor": "Feel into your throat. Notice the sensation of distraction.",
+      "experiment": {
+        "id": "gate_56_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 56 consciously for 7 days, the distraction pattern will shift toward enrichment.",
+        "action": "Daily practice working with Gate 56 energy.",
+        "success_criteria": {
+          "metric": "distraction_reduction",
+          "target": "Noticeable shift from distraction toward enrichment",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

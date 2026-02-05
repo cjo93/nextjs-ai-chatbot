@@ -1,0 +1,60 @@
+{
+  "id": 63,
+  "label": "After Completion",
+  "i_ching_name": "Ji Ji / After Completion",
+  "frequencies": {
+    "shadow": {
+      "name": "DOUBT",
+      "description": "The shadow frequency of After Completion, expressing through doubt",
+      "behavioral_signature": "Behavioral patterns associated with doubt",
+      "somatic_signature": "Somatic manifestation of doubt",
+      "thought_pattern": "Thought patterns characteristic of doubt",
+      "emotional_state": "Emotional states related to doubt"
+    },
+    "gift": {
+      "name": "INQUIRY",
+      "description": "The gift frequency of After Completion, expressing through inquiry",
+      "behavioral_signature": "Behavioral patterns associated with inquiry",
+      "somatic_signature": "Somatic manifestation of inquiry",
+      "thought_pattern": "Thought patterns characteristic of inquiry",
+      "emotional_state": "Emotional states related to inquiry"
+    },
+    "siddhi": {
+      "name": "TRUTH",
+      "description": "The siddhi frequency of After Completion, expressing through truth",
+      "behavioral_signature": "Behavioral patterns associated with truth",
+      "somatic_signature": "Somatic manifestation of truth",
+      "thought_pattern": "Thought patterns characteristic of truth",
+      "emotional_state": "Emotional states related to truth"
+    }
+  },
+  "circuit": "Collective",
+  "center": "HEAD",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "doubt",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "HEAD Dysfunction",
+        "distortion": "DOUBT Pattern"
+      },
+      "script": "This is Gate 63 shadow frequency. The doubt you're experiencing is a distortion of your natural inquiry. Through awareness and experimentation, you can shift from doubt to inquiry.",
+      "somatic_anchor": "Feel into your head. Notice the sensation of doubt.",
+      "experiment": {
+        "id": "gate_63_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 63 consciously for 7 days, the doubt pattern will shift toward inquiry.",
+        "action": "Daily practice working with Gate 63 energy.",
+        "success_criteria": {
+          "metric": "doubt_reduction",
+          "target": "Noticeable shift from doubt toward inquiry",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 47,
+  "label": "Oppression",
+  "i_ching_name": "Kun / Oppression",
+  "frequencies": {
+    "shadow": {
+      "name": "OPPRESSION",
+      "description": "The shadow frequency of Oppression, expressing through oppression",
+      "behavioral_signature": "Behavioral patterns associated with oppression",
+      "somatic_signature": "Somatic manifestation of oppression",
+      "thought_pattern": "Thought patterns characteristic of oppression",
+      "emotional_state": "Emotional states related to oppression"
+    },
+    "gift": {
+      "name": "TRANSMUTATION",
+      "description": "The gift frequency of Oppression, expressing through transmutation",
+      "behavioral_signature": "Behavioral patterns associated with transmutation",
+      "somatic_signature": "Somatic manifestation of transmutation",
+      "thought_pattern": "Thought patterns characteristic of transmutation",
+      "emotional_state": "Emotional states related to transmutation"
+    },
+    "siddhi": {
+      "name": "TRANSFIGURATION",
+      "description": "The siddhi frequency of Oppression, expressing through transfiguration",
+      "behavioral_signature": "Behavioral patterns associated with transfiguration",
+      "somatic_signature": "Somatic manifestation of transfiguration",
+      "thought_pattern": "Thought patterns characteristic of transfiguration",
+      "emotional_state": "Emotional states related to transfiguration"
+    }
+  },
+  "circuit": "Individual",
+  "center": "AJNA",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "oppression",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "AJNA Dysfunction",
+        "distortion": "OPPRESSION Pattern"
+      },
+      "script": "This is Gate 47 shadow frequency. The oppression you're experiencing is a distortion of your natural transmutation. Through awareness and experimentation, you can shift from oppression to transmutation.",
+      "somatic_anchor": "Feel into your ajna. Notice the sensation of oppression.",
+      "experiment": {
+        "id": "gate_47_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 47 consciously for 7 days, the oppression pattern will shift toward transmutation.",
+        "action": "Daily practice working with Gate 47 energy.",
+        "success_criteria": {
+          "metric": "oppression_reduction",
+          "target": "Noticeable shift from oppression toward transmutation",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

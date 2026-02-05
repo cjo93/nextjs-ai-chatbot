@@ -1,0 +1,56 @@
+{
+  "id": 25,
+  "label": "Innocence",
+  "i_ching_name": "Wu Wang / Innocence",
+  "frequencies": {
+    "shadow": {
+      "name": "CONSTRICTION",
+      "description": "Survival fear that contracts the spirit, defensive protection",
+      "behavioral_signature": "Hypervigilance, constant scanning for threat",
+      "somatic_signature": "Tight chest, shallow breath, Fight-flight activation",
+      "thought_pattern": "The world is dangerous. I must stay guarded.",
+      "emotional_state": "Chronic anxiety, perpetual readiness"
+    },
+    "gift": {
+      "name": "ACCEPTANCE",
+      "description": "Allowing life to unfold without resistance or control",
+      "behavioral_signature": "Graceful adaptation, resilient flexibility",
+      "somatic_signature": "Open heart, relaxed body, deep breathing",
+      "thought_pattern": "What is, is. I can handle what comes.",
+      "emotional_state": "Trust, equanimity, peaceful acceptance"
+    },
+    "siddhi": {
+      "name": "LOVE",
+      "description": "Unconditional embrace of all experience, no preference",
+      "behavioral_signature": "Radiant openness, fearless vulnerability",
+      "somatic_signature": "Boundless heart, no defense",
+      "thought_pattern": "Everything is love expressing itself.",
+      "emotional_state": "Pure devotion, sacred yes to existence"
+    }
+  },
+  "circuit": "Individual",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 4,
+      "trigger_context": ["anxious", "scared", "unsafe", "need protection"],
+      "diagnosis": {
+        "mechanism": "Survival Fear Override",
+        "distortion": "Mistaking Fear for Intuition"
+      },
+      "script": "Your anxiety is not intuition—it is your nervous system's habitual contraction. The G center's gift is acceptance, which does not mean passivity. It means meeting life without pre-defense. You are safe enough to lower the guard. Not because nothing bad will happen, but because you can handle whatever comes.",
+      "somatic_anchor": "Place both hands on heart. Count 5 deep breaths. Feel your body's actual safety in this exact moment.",
+      "experiment": {
+        "id": "gate_25_present_safety",
+        "duration_days": 7,
+        "hypothesis": "If I practice somatic regulation for 7 days, the baseline anxiety will decrease.",
+        "action": "3x daily: 5-minute body scan. Notice actual threat vs imagined. Ground in present safety.",
+        "success_criteria": {
+          "metric": "baseline_anxiety_reduction",
+          "target": "Decreased frequency of catastrophic thinking",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

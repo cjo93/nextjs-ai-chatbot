@@ -1,0 +1,60 @@
+{
+  "id": 23,
+  "label": "Splitting Apart",
+  "i_ching_name": "Bo / Splitting Apart",
+  "frequencies": {
+    "shadow": {
+      "name": "COMPLEXITY",
+      "description": "The shadow frequency of Splitting Apart, expressing through complexity",
+      "behavioral_signature": "Behavioral patterns associated with complexity",
+      "somatic_signature": "Somatic manifestation of complexity",
+      "thought_pattern": "Thought patterns characteristic of complexity",
+      "emotional_state": "Emotional states related to complexity"
+    },
+    "gift": {
+      "name": "SIMPLICITY",
+      "description": "The gift frequency of Splitting Apart, expressing through simplicity",
+      "behavioral_signature": "Behavioral patterns associated with simplicity",
+      "somatic_signature": "Somatic manifestation of simplicity",
+      "thought_pattern": "Thought patterns characteristic of simplicity",
+      "emotional_state": "Emotional states related to simplicity"
+    },
+    "siddhi": {
+      "name": "QUINTESSENCE",
+      "description": "The siddhi frequency of Splitting Apart, expressing through quintessence",
+      "behavioral_signature": "Behavioral patterns associated with quintessence",
+      "somatic_signature": "Somatic manifestation of quintessence",
+      "thought_pattern": "Thought patterns characteristic of quintessence",
+      "emotional_state": "Emotional states related to quintessence"
+    }
+  },
+  "circuit": "Individual",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "complexity",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "THROAT Dysfunction",
+        "distortion": "COMPLEXITY Pattern"
+      },
+      "script": "This is Gate 23 shadow frequency. The complexity you're experiencing is a distortion of your natural simplicity. Through awareness and experimentation, you can shift from complexity to simplicity.",
+      "somatic_anchor": "Feel into your throat. Notice the sensation of complexity.",
+      "experiment": {
+        "id": "gate_23_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 23 consciously for 7 days, the complexity pattern will shift toward simplicity.",
+        "action": "Daily practice working with Gate 23 energy.",
+        "success_criteria": {
+          "metric": "complexity_reduction",
+          "target": "Noticeable shift from complexity toward simplicity",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

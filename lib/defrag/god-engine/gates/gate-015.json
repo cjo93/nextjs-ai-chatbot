@@ -1,0 +1,60 @@
+{
+  "id": 15,
+  "label": "Modesty",
+  "i_ching_name": "Qian / Modesty",
+  "frequencies": {
+    "shadow": {
+      "name": "EXTREMES",
+      "description": "The shadow frequency of Modesty, expressing through extremes",
+      "behavioral_signature": "Behavioral patterns associated with extremes",
+      "somatic_signature": "Somatic manifestation of extremes",
+      "thought_pattern": "Thought patterns characteristic of extremes",
+      "emotional_state": "Emotional states related to extremes"
+    },
+    "gift": {
+      "name": "MAGNETISM",
+      "description": "The gift frequency of Modesty, expressing through magnetism",
+      "behavioral_signature": "Behavioral patterns associated with magnetism",
+      "somatic_signature": "Somatic manifestation of magnetism",
+      "thought_pattern": "Thought patterns characteristic of magnetism",
+      "emotional_state": "Emotional states related to magnetism"
+    },
+    "siddhi": {
+      "name": "FLORESCENCE",
+      "description": "The siddhi frequency of Modesty, expressing through florescence",
+      "behavioral_signature": "Behavioral patterns associated with florescence",
+      "somatic_signature": "Somatic manifestation of florescence",
+      "thought_pattern": "Thought patterns characteristic of florescence",
+      "emotional_state": "Emotional states related to florescence"
+    }
+  },
+  "circuit": "Individual",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "extremes",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "G_CENTER Dysfunction",
+        "distortion": "EXTREMES Pattern"
+      },
+      "script": "This is Gate 15 shadow frequency. The extremes you're experiencing is a distortion of your natural magnetism. Through awareness and experimentation, you can shift from extremes to magnetism.",
+      "somatic_anchor": "Feel into your g center. Notice the sensation of extremes.",
+      "experiment": {
+        "id": "gate_15_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 15 consciously for 7 days, the extremes pattern will shift toward magnetism.",
+        "action": "Daily practice working with Gate 15 energy.",
+        "success_criteria": {
+          "metric": "extremes_reduction",
+          "target": "Noticeable shift from extremes toward magnetism",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

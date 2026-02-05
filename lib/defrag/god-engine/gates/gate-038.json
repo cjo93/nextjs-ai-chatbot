@@ -1,0 +1,60 @@
+{
+  "id": 38,
+  "label": "Opposition",
+  "i_ching_name": "Kui / Opposition",
+  "frequencies": {
+    "shadow": {
+      "name": "STRUGGLE",
+      "description": "The shadow frequency of Opposition, expressing through struggle",
+      "behavioral_signature": "Behavioral patterns associated with struggle",
+      "somatic_signature": "Somatic manifestation of struggle",
+      "thought_pattern": "Thought patterns characteristic of struggle",
+      "emotional_state": "Emotional states related to struggle"
+    },
+    "gift": {
+      "name": "PERSEVERANCE",
+      "description": "The gift frequency of Opposition, expressing through perseverance",
+      "behavioral_signature": "Behavioral patterns associated with perseverance",
+      "somatic_signature": "Somatic manifestation of perseverance",
+      "thought_pattern": "Thought patterns characteristic of perseverance",
+      "emotional_state": "Emotional states related to perseverance"
+    },
+    "siddhi": {
+      "name": "HONOR",
+      "description": "The siddhi frequency of Opposition, expressing through honor",
+      "behavioral_signature": "Behavioral patterns associated with honor",
+      "somatic_signature": "Somatic manifestation of honor",
+      "thought_pattern": "Thought patterns characteristic of honor",
+      "emotional_state": "Emotional states related to honor"
+    }
+  },
+  "circuit": "Individual",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "struggle",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "STRUGGLE Pattern"
+      },
+      "script": "This is Gate 38 shadow frequency. The struggle you're experiencing is a distortion of your natural perseverance. Through awareness and experimentation, you can shift from struggle to perseverance.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of struggle.",
+      "experiment": {
+        "id": "gate_38_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 38 consciously for 7 days, the struggle pattern will shift toward perseverance.",
+        "action": "Daily practice working with Gate 38 energy.",
+        "success_criteria": {
+          "metric": "struggle_reduction",
+          "target": "Noticeable shift from struggle toward perseverance",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 6,
+  "label": "Conflict",
+  "i_ching_name": "Sung / Conflict",
+  "frequencies": {
+    "shadow": {
+      "name": "CONFLICT",
+      "description": "Emotional friction seeking resolution through confrontation",
+      "behavioral_signature": "Stirring up drama, perpetuating arguments",
+      "somatic_signature": "Solar plexus turbulence, hot flashes of emotion",
+      "thought_pattern": "Something is wrong. We need to fight this out.",
+      "emotional_state": "Agitation, confrontational energy"
+    },
+    "gift": {
+      "name": "DIPLOMACY",
+      "description": "Navigating emotional fields with grace, finding peace through patience",
+      "behavioral_signature": "Calm mediation, waiting out emotional storms",
+      "somatic_signature": "Steady through emotional waves, grounded presence",
+      "thought_pattern": "This feeling will pass. No need to act on it now.",
+      "emotional_state": "Emotional intelligence, patient witnessing"
+    },
+    "siddhi": {
+      "name": "PEACE",
+      "description": "Complete transcendence of emotional reactivity, inner stillness",
+      "behavioral_signature": "Peacemaker presence, calming influence",
+      "somatic_signature": "Unshakeable calm, eye of the storm",
+      "thought_pattern": "All emotions are weather. I am the sky.",
+      "emotional_state": "Transcendent peace, beyond the wave"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SOLAR_PLEXUS",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["argumentative", "picking fights", "confrontational", "emotional drama"],
+      "diagnosis": {
+        "mechanism": "Emotional Wave Reactivity",
+        "distortion": "Acting from Wave Peak or Trough"
+      },
+      "script": "You are not solving anything by confronting during an emotional wave. The Solar Plexus is a motor—it generates emotional energy that needs to be witnessed, not acted upon immediately. True clarity comes after the wave completes. Wait 24-72 hours before making decisions or confronting.",
+      "somatic_anchor": "Feel the emotional wave in your solar plexus. Notice it's a wave—it will pass. You don't need to do anything with it right now.",
+      "experiment": {
+        "id": "gate_6_emotional_patience",
+        "duration_days": 7,
+        "hypothesis": "If I wait 48 hours before responding to emotional triggers, conflicts will resolve naturally.",
+        "action": "When emotionally activated, wait 48 hours before responding. Journal the wave. Observe how it changes.",
+        "success_criteria": {
+          "metric": "conflict_reduction",
+          "target": "Fewer escalated conflicts, more natural resolutions",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

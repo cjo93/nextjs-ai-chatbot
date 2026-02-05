@@ -1,0 +1,60 @@
+{
+  "id": 43,
+  "label": "Breakthrough",
+  "i_ching_name": "Guai / Breakthrough",
+  "frequencies": {
+    "shadow": {
+      "name": "DEAFNESS",
+      "description": "The shadow frequency of Breakthrough, expressing through deafness",
+      "behavioral_signature": "Behavioral patterns associated with deafness",
+      "somatic_signature": "Somatic manifestation of deafness",
+      "thought_pattern": "Thought patterns characteristic of deafness",
+      "emotional_state": "Emotional states related to deafness"
+    },
+    "gift": {
+      "name": "INSIGHT",
+      "description": "The gift frequency of Breakthrough, expressing through insight",
+      "behavioral_signature": "Behavioral patterns associated with insight",
+      "somatic_signature": "Somatic manifestation of insight",
+      "thought_pattern": "Thought patterns characteristic of insight",
+      "emotional_state": "Emotional states related to insight"
+    },
+    "siddhi": {
+      "name": "EPIPHANY",
+      "description": "The siddhi frequency of Breakthrough, expressing through epiphany",
+      "behavioral_signature": "Behavioral patterns associated with epiphany",
+      "somatic_signature": "Somatic manifestation of epiphany",
+      "thought_pattern": "Thought patterns characteristic of epiphany",
+      "emotional_state": "Emotional states related to epiphany"
+    }
+  },
+  "circuit": "Individual",
+  "center": "AJNA",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "deafness",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "AJNA Dysfunction",
+        "distortion": "DEAFNESS Pattern"
+      },
+      "script": "This is Gate 43 shadow frequency. The deafness you're experiencing is a distortion of your natural insight. Through awareness and experimentation, you can shift from deafness to insight.",
+      "somatic_anchor": "Feel into your ajna. Notice the sensation of deafness.",
+      "experiment": {
+        "id": "gate_43_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 43 consciously for 7 days, the deafness pattern will shift toward insight.",
+        "action": "Daily practice working with Gate 43 energy.",
+        "success_criteria": {
+          "metric": "deafness_reduction",
+          "target": "Noticeable shift from deafness toward insight",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

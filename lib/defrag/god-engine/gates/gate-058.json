@@ -1,0 +1,60 @@
+{
+  "id": 58,
+  "label": "The Joyous",
+  "i_ching_name": "Dui / The Joyous",
+  "frequencies": {
+    "shadow": {
+      "name": "DISSATISFACTION",
+      "description": "The shadow frequency of The Joyous, expressing through dissatisfaction",
+      "behavioral_signature": "Behavioral patterns associated with dissatisfaction",
+      "somatic_signature": "Somatic manifestation of dissatisfaction",
+      "thought_pattern": "Thought patterns characteristic of dissatisfaction",
+      "emotional_state": "Emotional states related to dissatisfaction"
+    },
+    "gift": {
+      "name": "VITALITY",
+      "description": "The gift frequency of The Joyous, expressing through vitality",
+      "behavioral_signature": "Behavioral patterns associated with vitality",
+      "somatic_signature": "Somatic manifestation of vitality",
+      "thought_pattern": "Thought patterns characteristic of vitality",
+      "emotional_state": "Emotional states related to vitality"
+    },
+    "siddhi": {
+      "name": "BLISS",
+      "description": "The siddhi frequency of The Joyous, expressing through bliss",
+      "behavioral_signature": "Behavioral patterns associated with bliss",
+      "somatic_signature": "Somatic manifestation of bliss",
+      "thought_pattern": "Thought patterns characteristic of bliss",
+      "emotional_state": "Emotional states related to bliss"
+    }
+  },
+  "circuit": "Collective",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "dissatisfaction",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "DISSATISFACTION Pattern"
+      },
+      "script": "This is Gate 58 shadow frequency. The dissatisfaction you're experiencing is a distortion of your natural vitality. Through awareness and experimentation, you can shift from dissatisfaction to vitality.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of dissatisfaction.",
+      "experiment": {
+        "id": "gate_58_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 58 consciously for 7 days, the dissatisfaction pattern will shift toward vitality.",
+        "action": "Daily practice working with Gate 58 energy.",
+        "success_criteria": {
+          "metric": "dissatisfaction_reduction",
+          "target": "Noticeable shift from dissatisfaction toward vitality",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

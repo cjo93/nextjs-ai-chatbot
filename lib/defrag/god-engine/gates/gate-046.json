@@ -1,0 +1,56 @@
+{
+  "id": 46,
+  "label": "Pushing Upward",
+  "i_ching_name": "Sheng / Pushing Upward",
+  "frequencies": {
+    "shadow": {
+      "name": "SERIOUSNESS",
+      "description": "Heavy burden of purpose, joyless striving",
+      "behavioral_signature": "Grim determination, no play or levity",
+      "somatic_signature": "Heavy body, collapsed posture, energetic density",
+      "thought_pattern": "Life is hard work. I must push through.",
+      "emotional_state": "Depression, meaningless effort"
+    },
+    "gift": {
+      "name": "DELIGHT",
+      "description": "Finding joy in the process, body as instrument of pleasure",
+      "behavioral_signature": "Playful engagement, lightness in action",
+      "somatic_signature": "Upward energy, buoyant body",
+      "thought_pattern": "My body is designed for delight. I follow what feels good.",
+      "emotional_state": "Pleasure, joy in embodiment"
+    },
+    "siddhi": {
+      "name": "ECSTASY",
+      "description": "The body as temple of divine bliss",
+      "behavioral_signature": "Radiant aliveness, infectious joy",
+      "somatic_signature": "Pure energetic lightness, no weight",
+      "thought_pattern": "Every cell is celebration.",
+      "emotional_state": "Continuous rapture, embodied divinity"
+    }
+  },
+  "circuit": "Individual",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["depressed", "heavy", "joyless", "burdened"],
+      "diagnosis": {
+        "mechanism": "Somatic Depression",
+        "distortion": "Believing the Body is Obstacle, Not Vehicle"
+      },
+      "script": "Your depression is not about your circumstances—it is about your relationship with your body. Gate 46 is the gate of serendipity through the body. You have made the body a beast of burden rather than a source of delight. When you move toward pleasure, the body lights up. Follow what feels good.",
+      "somatic_anchor": "Stand up. Stretch. Move in ways that feel pleasurable. Follow the body's desire for sensation.",
+      "experiment": {
+        "id": "gate_46_pleasure_tracking",
+        "duration_days": 7,
+        "hypothesis": "If I prioritize bodily pleasure for 7 days, mood will lift.",
+        "action": "Daily: Do at least 3 things that bring physical pleasure (stretch, dance, warm bath, good food, etc.).",
+        "success_criteria": {
+          "metric": "mood_elevation",
+          "target": "Increased moments of lightness, reduced heaviness",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

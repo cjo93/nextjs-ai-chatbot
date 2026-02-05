@@ -1,0 +1,56 @@
+{
+  "id": 12,
+  "label": "Standstill",
+  "i_ching_name": "Pi / Standstill",
+  "frequencies": {
+    "shadow": {
+      "name": "VANITY",
+      "description": "Speaking to be seen, words without substance",
+      "behavioral_signature": "Performative communication, attention seeking",
+      "somatic_signature": "Hollow voice, disconnected from body",
+      "thought_pattern": "I need to say something impressive. People need to notice me.",
+      "emotional_state": "Insecurity masked as eloquence"
+    },
+    "gift": {
+      "name": "DISCRIMINATION",
+      "description": "Knowing when to speak and when to be silent",
+      "behavioral_signature": "Precise articulation, economy of words",
+      "somatic_signature": "Grounded voice, embodied speech",
+      "thought_pattern": "I speak only what wants to be spoken. Silence is also communication.",
+      "emotional_state": "Confidence in both voice and silence"
+    },
+    "siddhi": {
+      "name": "PURITY",
+      "description": "Words as sacred transmission, speech as prayer",
+      "behavioral_signature": "Every word carries divine frequency",
+      "somatic_signature": "Voice as healing instrument",
+      "thought_pattern": "My words are not mine. Truth speaks through me.",
+      "emotional_state": "Reverence for language, sacred speech"
+    }
+  },
+  "circuit": "Individual",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["talking too much", "performing", "needing attention", "hollow words"],
+      "diagnosis": {
+        "mechanism": "Compulsive Speaking",
+        "distortion": "Using Words to Fill Void"
+      },
+      "script": "You are speaking to avoid feeling. Gate 12 is about precise articulation—quality over quantity. When you perform with words, you dilute your power. True communication requires discrimination. Not everything needs to be said. Practice strategic silence.",
+      "somatic_anchor": "Before speaking, pause. Feel if the words want to be spoken or if you're filling space. Choose deliberately.",
+      "experiment": {
+        "id": "gate_12_strategic_silence",
+        "duration_days": 5,
+        "hypothesis": "If I speak only when truly moved to, my words will carry more impact.",
+        "action": "For 5 days, before speaking, pause and ask: 'Does this need to be said?' Speak only clear yeses.",
+        "success_criteria": {
+          "metric": "communication_impact",
+          "target": "Others report feeling more heard, words carry more weight",
+          "duration": "5_days"
+        }
+      }
+    }
+  ]
+}

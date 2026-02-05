@@ -1,0 +1,56 @@
+{
+  "id": 29,
+  "label": "The Abysmal",
+  "i_ching_name": "Kan / The Abysmal",
+  "frequencies": {
+    "shadow": {
+      "name": "HALF-HEARTEDNESS",
+      "description": "Saying yes when you mean no, chronic uncommitment",
+      "behavioral_signature": "Starting but not finishing, perpetual ambivalence",
+      "somatic_signature": "Heavy body, energetic depletion, dragging sensation",
+      "thought_pattern": "I should commit to this, even though I don't want to.",
+      "emotional_state": "Resentment, obligation, energetic drain"
+    },
+    "gift": {
+      "name": "PERSEVERANCE",
+      "description": "Total commitment to what generates sacral response",
+      "behavioral_signature": "Devoted follow-through, sustainable dedication",
+      "somatic_signature": "Deep reserves of energy, stamina for the long haul",
+      "thought_pattern": "My yes is sacred. When I commit, I'm all in.",
+      "emotional_state": "Deep satisfaction, fulfillment through dedication"
+    },
+    "siddhi": {
+      "name": "DEVOTION",
+      "description": "Complete surrender to life's sacred purpose",
+      "behavioral_signature": "Unwavering dedication that appears effortless",
+      "somatic_signature": "Infinite stamina, no separation between self and purpose",
+      "thought_pattern": "I am the commitment. There is no separate me.",
+      "emotional_state": "Ecstatic service, dissolution in devotion"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["can't finish", "unmotivated", "resentful", "dragging"],
+      "diagnosis": {
+        "mechanism": "Sacral Override",
+        "distortion": "Commitment from Mind, Not Body"
+      },
+      "script": "You are not lazy. You are committed to the wrong things. Half-heartedness is your body's wisdom telling you this isn't yours to do. The Sacral knows what it wants to devote to. When you force commitment from the mind, you create internal mutiny. Release what drains you.",
+      "somatic_anchor": "Think of your current commitments. Feel which ones create heaviness vs which create energy. Trust the body's response.",
+      "experiment": {
+        "id": "gate_29_commitment_audit",
+        "duration_days": 7,
+        "hypothesis": "If I quit one draining commitment, energy will return for true devotions.",
+        "action": "Identify the commitment that most drains you. Quit it or renegotiate it. Observe energy shift.",
+        "success_criteria": {
+          "metric": "energy_for_true_devotion",
+          "target": "Increased stamina for genuine commitments",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

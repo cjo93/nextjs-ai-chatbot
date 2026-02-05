@@ -1,0 +1,77 @@
+{
+  "id": 1,
+  "label": "The Creative",
+  "i_ching_name": "Qian / The Creative",
+  "frequencies": {
+    "shadow": {
+      "name": "ENTROPY",
+      "description": "The decay that occurs when creative force is released prematurely",
+      "behavioral_signature": "Impatience, forcing action, scattered energy",
+      "somatic_signature": "Restless agitation, inability to sit still",
+      "thought_pattern": "I need to DO something. I can't just wait.",
+      "emotional_state": "Frustration, urgency, desperation"
+    },
+    "gift": {
+      "name": "FRESHNESS",
+      "description": "The capacity to bring new creative impulses into form when timing is correct",
+      "behavioral_signature": "Patient readiness, explosive creativity when invited",
+      "somatic_signature": "Coiled spring, contained energy",
+      "thought_pattern": "The timing will reveal itself. I am ready.",
+      "emotional_state": "Alert calm, anticipatory peace"
+    },
+    "siddhi": {
+      "name": "BEAUTY",
+      "description": "When creative force aligns with divine timing, pure beauty emerges",
+      "behavioral_signature": "Spontaneous creation that moves others",
+      "somatic_signature": "Weightless presence, flow state",
+      "thought_pattern": "I am creation itself.",
+      "emotional_state": "Transcendent peace, awe"
+    }
+  },
+  "circuit": "Individual",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["stuck", "blocked", "numb", "can't create"],
+      "diagnosis": {
+        "mechanism": "Yang Energy Pulse",
+        "distortion": "Forcing the Timing"
+      },
+      "script": "You are experiencing Entropy. This is not a block; it is a battery recharge. Your creativity is a pulse, not a steady stream. The numbness you feel is the system gathering energy for the next spike. Do not push through it.",
+      "somatic_anchor": "Lie down on your back. Place hands on liver (right ribcage). Feel the heaviness.",
+      "experiment": {
+        "id": "gate_1_pulse_wait",
+        "duration_days": 3,
+        "hypothesis": "If I stop trying to create for 3 days, the energy will return explosively on Day 4.",
+        "action": "Complete cessation of creative output. Consumption only.",
+        "success_criteria": {
+          "metric": "creative_energy_return",
+          "target": "Natural impulse to create without forcing",
+          "duration": "3_days"
+        }
+      }
+    },
+    {
+      "severity_level": 4,
+      "trigger_context": ["depression", "pointless", "give up"],
+      "diagnosis": {
+        "mechanism": "Deep Melancholy",
+        "distortion": "Misinterpreting Void as Failure"
+      },
+      "script": "This is the Void. In the Individual circuitry, deep mutation requires deep darkness. You are currently in the chrysalis phase. The feeling of 'pointlessness' is chemical—it is protecting you from wasting energy while you mutate.",
+      "somatic_anchor": "Turn off all lights. Sit in total darkness for 10 minutes. Merge with the blackness.",
+      "experiment": {
+        "id": "gate_1_void_sit",
+        "duration_days": 1,
+        "hypothesis": "If I surrender to the melancholy, it will mutate into insight.",
+        "action": "Do not fix the mood. Sit in it like a hot bath.",
+        "success_criteria": {
+          "metric": "emotional_shift",
+          "target": "Natural emergence of clarity or creative impulse",
+          "duration": "1_day"
+        }
+      }
+    }
+  ]
+}

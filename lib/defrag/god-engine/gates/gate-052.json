@@ -1,0 +1,60 @@
+{
+  "id": 52,
+  "label": "Keeping Still",
+  "i_ching_name": "Gen / Keeping Still",
+  "frequencies": {
+    "shadow": {
+      "name": "STRESS",
+      "description": "The shadow frequency of Keeping Still, expressing through stress",
+      "behavioral_signature": "Behavioral patterns associated with stress",
+      "somatic_signature": "Somatic manifestation of stress",
+      "thought_pattern": "Thought patterns characteristic of stress",
+      "emotional_state": "Emotional states related to stress"
+    },
+    "gift": {
+      "name": "RESTRAINT",
+      "description": "The gift frequency of Keeping Still, expressing through restraint",
+      "behavioral_signature": "Behavioral patterns associated with restraint",
+      "somatic_signature": "Somatic manifestation of restraint",
+      "thought_pattern": "Thought patterns characteristic of restraint",
+      "emotional_state": "Emotional states related to restraint"
+    },
+    "siddhi": {
+      "name": "STILLNESS",
+      "description": "The siddhi frequency of Keeping Still, expressing through stillness",
+      "behavioral_signature": "Behavioral patterns associated with stillness",
+      "somatic_signature": "Somatic manifestation of stillness",
+      "thought_pattern": "Thought patterns characteristic of stillness",
+      "emotional_state": "Emotional states related to stillness"
+    }
+  },
+  "circuit": "Individual",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "stress",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "STRESS Pattern"
+      },
+      "script": "This is Gate 52 shadow frequency. The stress you're experiencing is a distortion of your natural restraint. Through awareness and experimentation, you can shift from stress to restraint.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of stress.",
+      "experiment": {
+        "id": "gate_52_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 52 consciously for 7 days, the stress pattern will shift toward restraint.",
+        "action": "Daily practice working with Gate 52 energy.",
+        "success_criteria": {
+          "metric": "stress_reduction",
+          "target": "Noticeable shift from stress toward restraint",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

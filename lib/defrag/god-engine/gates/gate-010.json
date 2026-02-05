@@ -1,0 +1,60 @@
+{
+  "id": 10,
+  "label": "Treading",
+  "i_ching_name": "Lu / Treading",
+  "frequencies": {
+    "shadow": {
+      "name": "SELF-OBSESSION",
+      "description": "The shadow frequency of Treading, expressing through self-obsession",
+      "behavioral_signature": "Behavioral patterns associated with self-obsession",
+      "somatic_signature": "Somatic manifestation of self-obsession",
+      "thought_pattern": "Thought patterns characteristic of self-obsession",
+      "emotional_state": "Emotional states related to self-obsession"
+    },
+    "gift": {
+      "name": "NATURALNESS",
+      "description": "The gift frequency of Treading, expressing through naturalness",
+      "behavioral_signature": "Behavioral patterns associated with naturalness",
+      "somatic_signature": "Somatic manifestation of naturalness",
+      "thought_pattern": "Thought patterns characteristic of naturalness",
+      "emotional_state": "Emotional states related to naturalness"
+    },
+    "siddhi": {
+      "name": "BEING",
+      "description": "The siddhi frequency of Treading, expressing through being",
+      "behavioral_signature": "Behavioral patterns associated with being",
+      "somatic_signature": "Somatic manifestation of being",
+      "thought_pattern": "Thought patterns characteristic of being",
+      "emotional_state": "Emotional states related to being"
+    }
+  },
+  "circuit": "Individual",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "self-obsession",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "G_CENTER Dysfunction",
+        "distortion": "SELF-OBSESSION Pattern"
+      },
+      "script": "This is Gate 10 shadow frequency. The self-obsession you're experiencing is a distortion of your natural naturalness. Through awareness and experimentation, you can shift from self-obsession to naturalness.",
+      "somatic_anchor": "Feel into your g center. Notice the sensation of self-obsession.",
+      "experiment": {
+        "id": "gate_10_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 10 consciously for 7 days, the self-obsession pattern will shift toward naturalness.",
+        "action": "Daily practice working with Gate 10 energy.",
+        "success_criteria": {
+          "metric": "self-obsession_reduction",
+          "target": "Noticeable shift from self-obsession toward naturalness",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

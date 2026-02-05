@@ -1,0 +1,56 @@
+{
+  "id": 59,
+  "label": "Dispersion",
+  "i_ching_name": "Huan / Dispersion",
+  "frequencies": {
+    "shadow": {
+      "name": "DISHONESTY",
+      "description": "Sexual manipulation, strategic intimacy, using closeness as currency",
+      "behavioral_signature": "Seduction without authentic desire, transactional relating",
+      "somatic_signature": "Disconnection from genuine arousal, performing sexuality",
+      "thought_pattern": "Intimacy is a tool. I'll use it to get what I want.",
+      "emotional_state": "Shame, disconnection from authentic desire"
+    },
+    "gift": {
+      "name": "INTIMACY",
+      "description": "Authentic vulnerability that creates deep bonds",
+      "behavioral_signature": "Honest sharing, transparent relating",
+      "somatic_signature": "Open sacral, genuine arousal and connection",
+      "thought_pattern": "I show myself fully. True intimacy requires truth.",
+      "emotional_state": "Safe vulnerability, authentic connection"
+    },
+    "siddhi": {
+      "name": "TRANSPARENCY",
+      "description": "Complete openness, no hiding, total availability",
+      "behavioral_signature": "Radical honesty, nothing withheld",
+      "somatic_signature": "No boundaries between inner and outer",
+      "thought_pattern": "I am completely seen. There is nothing to protect.",
+      "emotional_state": "Fearless openness, sacred nakedness"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["using sexuality", "manipulating intimacy", "feeling dishonest", "performing connection"],
+      "diagnosis": {
+        "mechanism": "Strategic Intimacy",
+        "distortion": "Confusing Connection with Transaction"
+      },
+      "script": "You are using intimacy as a strategy because you don't trust that your authentic self is enough. Gate 59 is about breaking down barriers through vulnerability, not seduction. When you perform connection, you prevent real intimacy. The sacral knows the difference between genuine desire and strategic arousal.",
+      "somatic_anchor": "Notice when you're performing vs when you're genuinely open. Feel the difference in your body.",
+      "experiment": {
+        "id": "gate_59_radical_honesty",
+        "duration_days": 5,
+        "hypothesis": "If I practice radical honesty in one relationship for 5 days, deeper intimacy will emerge.",
+        "action": "Choose one safe relationship. Practice saying exactly what's true, even when vulnerable.",
+        "success_criteria": {
+          "metric": "intimacy_depth",
+          "target": "Feeling more genuinely seen and connected",
+          "duration": "5_days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "solar-plexus",
+  "display_name": "Solar Plexus (Emotional Center)",
+  "function": "Emotional awareness and feeling",
+  "neural_correlate": "Solar plexus nerve bundle, emotional processing",
+  "location": "Between navel and sternum",
+  "pressure_type": "Emotional waves and feelings",
+  "gates": [
+    6,
+    37,
+    22,
+    36,
+    30,
+    49,
+    55
+  ],
+  "defined_mechanics": {
+    "description": "Consistent emotional waves, emotional authority",
+    "traits": [
+      "Emotional wave patterns",
+      "No truth in the now emotionally",
+      "Wait through wave for clarity"
+    ],
+    "challenges": [
+      "Acting from emotional peaks/troughs",
+      "Impatience with emotional timing",
+      "Projecting emotions onto others"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Samples and amplifies others' emotions",
+    "traits": [
+      "Emotional flexibility",
+      "Can feel others' emotions",
+      "Wisdom about emotional patterns"
+    ],
+    "challenges": [
+      "Taking on others' emotions",
+      "Avoiding conflict to stay comfortable",
+      "Addiction to emotional intensity or avoidance"
+    ],
+    "conditioning": "Pressure to have consistent emotions or avoid emotional discomfort"
+  },
+  "somatic_scan_instructions": "Feel your solar plexus. Notice emotional waves, stillness, or amplified feelings.",
+  "regulation_techniques": [
+    "Ask: 'Is this emotion mine?'",
+    "Leave emotionally charged environments to clear",
+    "Honor emotional neutrality as wisdom"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

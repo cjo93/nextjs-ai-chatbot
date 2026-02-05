@@ -1,0 +1,60 @@
+{
+  "id": 41,
+  "label": "Decrease",
+  "i_ching_name": "Sun / Decrease",
+  "frequencies": {
+    "shadow": {
+      "name": "FANTASY",
+      "description": "The shadow frequency of Decrease, expressing through fantasy",
+      "behavioral_signature": "Behavioral patterns associated with fantasy",
+      "somatic_signature": "Somatic manifestation of fantasy",
+      "thought_pattern": "Thought patterns characteristic of fantasy",
+      "emotional_state": "Emotional states related to fantasy"
+    },
+    "gift": {
+      "name": "ANTICIPATION",
+      "description": "The gift frequency of Decrease, expressing through anticipation",
+      "behavioral_signature": "Behavioral patterns associated with anticipation",
+      "somatic_signature": "Somatic manifestation of anticipation",
+      "thought_pattern": "Thought patterns characteristic of anticipation",
+      "emotional_state": "Emotional states related to anticipation"
+    },
+    "siddhi": {
+      "name": "EMANATION",
+      "description": "The siddhi frequency of Decrease, expressing through emanation",
+      "behavioral_signature": "Behavioral patterns associated with emanation",
+      "somatic_signature": "Somatic manifestation of emanation",
+      "thought_pattern": "Thought patterns characteristic of emanation",
+      "emotional_state": "Emotional states related to emanation"
+    }
+  },
+  "circuit": "Collective",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "fantasy",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "FANTASY Pattern"
+      },
+      "script": "This is Gate 41 shadow frequency. The fantasy you're experiencing is a distortion of your natural anticipation. Through awareness and experimentation, you can shift from fantasy to anticipation.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of fantasy.",
+      "experiment": {
+        "id": "gate_41_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 41 consciously for 7 days, the fantasy pattern will shift toward anticipation.",
+        "action": "Daily practice working with Gate 41 energy.",
+        "success_criteria": {
+          "metric": "fantasy_reduction",
+          "target": "Noticeable shift from fantasy toward anticipation",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

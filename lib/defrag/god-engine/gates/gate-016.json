@@ -1,0 +1,60 @@
+{
+  "id": 16,
+  "label": "Enthusiasm",
+  "i_ching_name": "Yu / Enthusiasm",
+  "frequencies": {
+    "shadow": {
+      "name": "INDIFFERENCE",
+      "description": "The shadow frequency of Enthusiasm, expressing through indifference",
+      "behavioral_signature": "Behavioral patterns associated with indifference",
+      "somatic_signature": "Somatic manifestation of indifference",
+      "thought_pattern": "Thought patterns characteristic of indifference",
+      "emotional_state": "Emotional states related to indifference"
+    },
+    "gift": {
+      "name": "VERSATILITY",
+      "description": "The gift frequency of Enthusiasm, expressing through versatility",
+      "behavioral_signature": "Behavioral patterns associated with versatility",
+      "somatic_signature": "Somatic manifestation of versatility",
+      "thought_pattern": "Thought patterns characteristic of versatility",
+      "emotional_state": "Emotional states related to versatility"
+    },
+    "siddhi": {
+      "name": "MASTERY",
+      "description": "The siddhi frequency of Enthusiasm, expressing through mastery",
+      "behavioral_signature": "Behavioral patterns associated with mastery",
+      "somatic_signature": "Somatic manifestation of mastery",
+      "thought_pattern": "Thought patterns characteristic of mastery",
+      "emotional_state": "Emotional states related to mastery"
+    }
+  },
+  "circuit": "Collective",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "indifference",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "THROAT Dysfunction",
+        "distortion": "INDIFFERENCE Pattern"
+      },
+      "script": "This is Gate 16 shadow frequency. The indifference you're experiencing is a distortion of your natural versatility. Through awareness and experimentation, you can shift from indifference to versatility.",
+      "somatic_anchor": "Feel into your throat. Notice the sensation of indifference.",
+      "experiment": {
+        "id": "gate_16_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 16 consciously for 7 days, the indifference pattern will shift toward versatility.",
+        "action": "Daily practice working with Gate 16 energy.",
+        "success_criteria": {
+          "metric": "indifference_reduction",
+          "target": "Noticeable shift from indifference toward versatility",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

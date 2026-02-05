@@ -1,0 +1,60 @@
+{
+  "id": 9,
+  "label": "The Taming Power of the Small",
+  "i_ching_name": "Xiao Chu / The Taming Power of the Small",
+  "frequencies": {
+    "shadow": {
+      "name": "INERTIA",
+      "description": "The shadow frequency of The Taming Power of the Small, expressing through inertia",
+      "behavioral_signature": "Behavioral patterns associated with inertia",
+      "somatic_signature": "Somatic manifestation of inertia",
+      "thought_pattern": "Thought patterns characteristic of inertia",
+      "emotional_state": "Emotional states related to inertia"
+    },
+    "gift": {
+      "name": "FOCUS",
+      "description": "The gift frequency of The Taming Power of the Small, expressing through focus",
+      "behavioral_signature": "Behavioral patterns associated with focus",
+      "somatic_signature": "Somatic manifestation of focus",
+      "thought_pattern": "Thought patterns characteristic of focus",
+      "emotional_state": "Emotional states related to focus"
+    },
+    "siddhi": {
+      "name": "INVINCIBILITY",
+      "description": "The siddhi frequency of The Taming Power of the Small, expressing through invincibility",
+      "behavioral_signature": "Behavioral patterns associated with invincibility",
+      "somatic_signature": "Somatic manifestation of invincibility",
+      "thought_pattern": "Thought patterns characteristic of invincibility",
+      "emotional_state": "Emotional states related to invincibility"
+    }
+  },
+  "circuit": "Collective",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "inertia",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SACRAL Dysfunction",
+        "distortion": "INERTIA Pattern"
+      },
+      "script": "This is Gate 9 shadow frequency. The inertia you're experiencing is a distortion of your natural focus. Through awareness and experimentation, you can shift from inertia to focus.",
+      "somatic_anchor": "Feel into your sacral. Notice the sensation of inertia.",
+      "experiment": {
+        "id": "gate_9_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 9 consciously for 7 days, the inertia pattern will shift toward focus.",
+        "action": "Daily practice working with Gate 9 energy.",
+        "success_criteria": {
+          "metric": "inertia_reduction",
+          "target": "Noticeable shift from inertia toward focus",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

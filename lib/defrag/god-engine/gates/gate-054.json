@@ -1,0 +1,60 @@
+{
+  "id": 54,
+  "label": "The Marrying Maiden",
+  "i_ching_name": "Gui Mei / The Marrying Maiden",
+  "frequencies": {
+    "shadow": {
+      "name": "GREED",
+      "description": "The shadow frequency of The Marrying Maiden, expressing through greed",
+      "behavioral_signature": "Behavioral patterns associated with greed",
+      "somatic_signature": "Somatic manifestation of greed",
+      "thought_pattern": "Thought patterns characteristic of greed",
+      "emotional_state": "Emotional states related to greed"
+    },
+    "gift": {
+      "name": "ASPIRATION",
+      "description": "The gift frequency of The Marrying Maiden, expressing through aspiration",
+      "behavioral_signature": "Behavioral patterns associated with aspiration",
+      "somatic_signature": "Somatic manifestation of aspiration",
+      "thought_pattern": "Thought patterns characteristic of aspiration",
+      "emotional_state": "Emotional states related to aspiration"
+    },
+    "siddhi": {
+      "name": "ASCENSION",
+      "description": "The siddhi frequency of The Marrying Maiden, expressing through ascension",
+      "behavioral_signature": "Behavioral patterns associated with ascension",
+      "somatic_signature": "Somatic manifestation of ascension",
+      "thought_pattern": "Thought patterns characteristic of ascension",
+      "emotional_state": "Emotional states related to ascension"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "greed",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "GREED Pattern"
+      },
+      "script": "This is Gate 54 shadow frequency. The greed you're experiencing is a distortion of your natural aspiration. Through awareness and experimentation, you can shift from greed to aspiration.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of greed.",
+      "experiment": {
+        "id": "gate_54_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 54 consciously for 7 days, the greed pattern will shift toward aspiration.",
+        "action": "Daily practice working with Gate 54 energy.",
+        "success_criteria": {
+          "metric": "greed_reduction",
+          "target": "Noticeable shift from greed toward aspiration",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

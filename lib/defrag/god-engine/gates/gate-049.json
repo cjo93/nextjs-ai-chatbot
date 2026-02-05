@@ -1,0 +1,56 @@
+{
+  "id": 49,
+  "label": "Revolution",
+  "i_ching_name": "Ge / Revolution",
+  "frequencies": {
+    "shadow": {
+      "name": "REACTION",
+      "description": "Emotional rejection without discernment, burning bridges",
+      "behavioral_signature": "Impulsive rejection, cutting people off reactively",
+      "somatic_signature": "Hot solar plexus, explosive rejection energy",
+      "thought_pattern": "This is wrong. I need to reject this immediately.",
+      "emotional_state": "Reactive anger, impulsive rejection"
+    },
+    "gift": {
+      "name": "REVOLUTION",
+      "description": "Sacred 'no' that honors principles and timing",
+      "behavioral_signature": "Clear boundaries, discerning rejection",
+      "somatic_signature": "Grounded rejection, empowered no",
+      "thought_pattern": "This is not for me. My no is sacred.",
+      "emotional_state": "Empowered boundaries, clear rejection"
+    },
+    "siddhi": {
+      "name": "REBIRTH",
+      "description": "Transformation through release, death enabling new life",
+      "behavioral_signature": "Graceful endings, composting the old into new",
+      "somatic_signature": "Phoenix energy, death as doorway",
+      "thought_pattern": "Every ending is a beginning. I release with reverence.",
+      "emotional_state": "Sacred grief, transformational release"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SOLAR_PLEXUS",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["reactive rejection", "burning bridges", "impulsive no", "regret about cutting off"],
+      "diagnosis": {
+        "mechanism": "Reactive Rejection",
+        "distortion": "Acting from Emotional Wave Peak"
+      },
+      "script": "You are rejecting from an emotional wave, not from clarity. Gate 49 is the divorce gate—it knows when something needs to end. But true rejection requires emotional clarity, which comes after the wave completes. Wait 72 hours before making any rejection permanent. Many rejections will soften with time.",
+      "somatic_anchor": "Feel the rejection impulse. Notice it's hot and reactive. Wait. Let the wave pass. Then decide.",
+      "experiment": {
+        "id": "gate_49_rejection_clarity",
+        "duration_days": 7,
+        "hypothesis": "If I wait 72 hours before making rejection permanent, I'll make better decisions.",
+        "action": "When feeling rejection, write it down. Wait 72 hours. Reassess. Notice how many rejections soften.",
+        "success_criteria": {
+          "metric": "rejection_clarity",
+          "target": "Fewer impulsive rejections, more sustainable boundaries",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

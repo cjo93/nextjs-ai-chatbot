@@ -1,0 +1,56 @@
+{
+  "id": 31,
+  "label": "Influence",
+  "i_ching_name": "Xian / Influence",
+  "frequencies": {
+    "shadow": {
+      "name": "ARROGANCE",
+      "description": "Forcing leadership, dominating through voice",
+      "behavioral_signature": "Loud opinions, aggressive communication",
+      "somatic_signature": "Throat tension, pushing energy",
+      "thought_pattern": "I know what's right. Everyone needs to listen to me.",
+      "emotional_state": "Insecure authority, compensatory volume"
+    },
+    "gift": {
+      "name": "LEADERSHIP",
+      "description": "Natural authority that emerges through embodiment",
+      "behavioral_signature": "Calm direction, influential presence",
+      "somatic_signature": "Relaxed throat, grounded voice",
+      "thought_pattern": "I lead by being. My presence is my influence.",
+      "emotional_state": "Authentic authority, quiet power"
+    },
+    "siddhi": {
+      "name": "INFLUENCE",
+      "description": "Divine will expressed through human form",
+      "behavioral_signature": "Effortless leadership, others naturally follow",
+      "somatic_signature": "Transparent authority, no ego",
+      "thought_pattern": "I am moved. Others are moved through me.",
+      "emotional_state": "Surrender to greater purpose"
+    }
+  },
+  "circuit": "Collective",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["dominating conversations", "forcing opinions", "arrogant", "need to be heard"],
+      "diagnosis": {
+        "mechanism": "False Authority",
+        "distortion": "Believing Leadership Requires Volume"
+      },
+      "script": "You are shouting because you don't trust your natural authority. Gate 31 is democratic leadership—it emerges through demonstration, not declaration. True leaders don't need to announce themselves. When you force your voice, you reveal your insecurity. Lead by embodying what you speak.",
+      "somatic_anchor": "Notice when you're pushing to be heard. Drop the volume. Feel the authority beneath the force.",
+      "experiment": {
+        "id": "gate_31_embodied_leadership",
+        "duration_days": 7,
+        "hypothesis": "If I stop forcing my voice and embody my message, my influence will increase.",
+        "action": "For 7 days, speak only when invited. Demonstrate first. Notice who asks for your input.",
+        "success_criteria": {
+          "metric": "natural_authority",
+          "target": "Others seek your guidance without you pushing",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

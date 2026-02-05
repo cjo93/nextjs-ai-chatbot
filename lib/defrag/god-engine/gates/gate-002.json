@@ -1,0 +1,56 @@
+{
+  "id": 2,
+  "label": "The Receptive",
+  "i_ching_name": "Kun / The Receptive",
+  "frequencies": {
+    "shadow": {
+      "name": "DISLOCATION",
+      "description": "Lost sense of direction, disconnection from life's flow",
+      "behavioral_signature": "Aimless wandering, seeking external guidance constantly",
+      "somatic_signature": "Vertigo, feeling ungrounded, spatial disorientation",
+      "thought_pattern": "I don't know where I'm going. Someone needs to show me.",
+      "emotional_state": "Anxiety, confusion, dependency"
+    },
+    "gift": {
+      "name": "ORIENTATION",
+      "description": "Natural ability to find the right direction through surrender",
+      "behavioral_signature": "Magnetic attraction to correct paths, effortless navigation",
+      "somatic_signature": "Centered in G center, stable internal compass",
+      "thought_pattern": "My direction finds me. I trust the pull.",
+      "emotional_state": "Calm certainty, peaceful trust"
+    },
+    "siddhi": {
+      "name": "UNITY",
+      "description": "Complete dissolution of separation, all paths lead home",
+      "behavioral_signature": "Omnidirectional presence, every step is the Way",
+      "somatic_signature": "Boundless awareness, no center or periphery",
+      "thought_pattern": "There is nowhere to go. I am already there.",
+      "emotional_state": "Infinite peace, dissolution of seeking"
+    }
+  },
+  "circuit": "Individual",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["lost", "directionless", "need guidance", "what should I do"],
+      "diagnosis": {
+        "mechanism": "Direction Seeking Override",
+        "distortion": "Outsourcing Internal Compass"
+      },
+      "script": "You are not lost. You are recalibrating. The G center is updating your coordinates. When you ask others 'what should I do?' you override your own magnetic guidance system. Direction is not found through thinking—it is revealed through sensation.",
+      "somatic_anchor": "Stand barefoot. Close your eyes. Feel which direction your body wants to turn toward. Do not think. Feel the pull.",
+      "experiment": {
+        "id": "gate_2_magnetic_pull",
+        "duration_days": 2,
+        "hypothesis": "If I stop asking for advice and follow the physical pull, clarity will emerge.",
+        "action": "Ban all directional questions to others. Use only body sensation to make choices.",
+        "success_criteria": {
+          "metric": "directional_clarity",
+          "target": "Decisions made from body pull, not mental analysis",
+          "duration": "2_days"
+        }
+      }
+    }
+  ]
+}

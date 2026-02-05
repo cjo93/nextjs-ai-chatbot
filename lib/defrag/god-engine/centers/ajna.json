@@ -1,0 +1,53 @@
+{
+  "name": "ajna",
+  "display_name": "Ajna Center",
+  "function": "Mental awareness and conceptualization",
+  "neural_correlate": "Pituitary gland, frontal cortex, conceptual processing",
+  "location": "Forehead, third eye area",
+  "pressure_type": "Mental certainty and conceptual processing",
+  "gates": [
+    47,
+    24,
+    4,
+    17,
+    43,
+    11
+  ],
+  "defined_mechanics": {
+    "description": "Fixed mental processing and consistent way of thinking",
+    "traits": [
+      "Reliable mental certainty",
+      "Fixed conceptual lens",
+      "Specific way of making sense of things"
+    ],
+    "challenges": [
+      "Mental rigidity",
+      "Convinced your way of thinking is correct",
+      "Difficulty seeing other perspectives"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Samples many perspectives and ways of thinking",
+    "traits": [
+      "Mental flexibility",
+      "Can see multiple viewpoints",
+      "Wisdom about different thinking styles"
+    ],
+    "challenges": [
+      "Pretending to be certain when not",
+      "Adopting others' mental certainties",
+      "Confusion about what you actually think"
+    ],
+    "conditioning": "Pressure to be mentally certain and have fixed opinions"
+  },
+  "somatic_scan_instructions": "Feel your forehead and behind your eyes. Notice tension, spaciousness, or pressure.",
+  "regulation_techniques": [
+    "Practice saying 'I don't know'",
+    "Notice whose certainties you've adopted",
+    "Honor mental flexibility as wisdom"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 20,
+  "label": "Contemplation",
+  "i_ching_name": "Guan / Contemplation",
+  "frequencies": {
+    "shadow": {
+      "name": "SUPERFICIALITY",
+      "description": "Living on the surface, avoiding depth",
+      "behavioral_signature": "Shallow engagement, constant distraction",
+      "somatic_signature": "Disconnected from body wisdom",
+      "thought_pattern": "I don't have time to pause. I need to keep moving.",
+      "emotional_state": "Restless avoidance, surface-level living"
+    },
+    "gift": {
+      "name": "SELF-ASSURANCE",
+      "description": "Grounded presence from deep self-knowing",
+      "behavioral_signature": "Thoughtful speech, contemplative presence",
+      "somatic_signature": "Rooted in body awareness, present",
+      "thought_pattern": "I know myself. I speak from depth, not reactivity.",
+      "emotional_state": "Quiet confidence, embodied certainty"
+    },
+    "siddhi": {
+      "name": "PRESENCE",
+      "description": "Pure witnessing consciousness, the eternal now",
+      "behavioral_signature": "Radiating awareness, awakening others",
+      "somatic_signature": "Complete here-ness, no elsewhere",
+      "thought_pattern": "I am here. Fully. Nothing else exists.",
+      "emotional_state": "Infinite presence, timeless awareness"
+    }
+  },
+  "circuit": "Individual",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["scattered", "superficial", "can't be present", "avoiding depth"],
+      "diagnosis": {
+        "mechanism": "Presence Avoidance",
+        "distortion": "Filling Time to Avoid Self"
+      },
+      "script": "You are living on the surface because depth feels threatening. Gate 20 is the gate of the now—it manifests presence through contemplation. When you avoid stillness, you avoid yourself. True self-assurance comes from deep self-knowing, which requires pausing. Stop running.",
+      "somatic_anchor": "Stop all activity. Sit. Feel your body. Be here for 10 minutes without doing anything. Notice the discomfort.",
+      "experiment": {
+        "id": "gate_20_contemplation_practice",
+        "duration_days": 14,
+        "hypothesis": "If I practice daily contemplation for 14 days, self-assurance will increase.",
+        "action": "Daily: 20 minutes of contemplative stillness. No phone, no input. Just be. Journal insights.",
+        "success_criteria": {
+          "metric": "presence_capacity",
+          "target": "Increased comfort with stillness, greater self-knowledge",
+          "duration": "14_days"
+        }
+      }
+    }
+  ]
+}
