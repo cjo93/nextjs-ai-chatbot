@@ -1,0 +1,147 @@
+{
+  "type": "Manifesting Generator",
+  "percentage_of_population": 33,
+  "physics": {
+    "aura_type": "Open and enveloping (like Generator)",
+    "aura_range": "Close contact",
+    "defined_centers": ["SACRAL + Throat connection"],
+    "motor": "Sacral motor connected to Throat - can respond AND manifest quickly",
+    "energy_mechanics": "Hybrid of Generator and Manifestor. Must respond like Generator, but then can move very quickly like Manifestor. Can skip steps."
+  },
+  "strategy": {
+    "name": "To Respond, then Inform",
+    "description": "Wait to respond with Sacral, then inform before taking action",
+    "mechanics": "MGs have both Generator's response mechanism AND Manifestor's manifesting speed. They must respond first (Generator), but then they move so fast they need to inform (Manifestor) to avoid resistance.",
+    "two_step_process": [
+      "Step 1: Respond to something external (Generator)",
+      "Step 2: Inform those impacted before acting (Manifestor)"
+    ],
+    "examples": [
+      "See job posting (respond with Sacral yes) → Apply and inform family of career shift",
+      "Friend suggests trip (Sacral responds yes) → Book it and inform anyone affected",
+      "Get project idea (respond to internal or external stimulus) → Start and inform team"
+    ]
+  },
+  "signature": {
+    "name": "Satisfaction + Peace",
+    "description": "When living correctly, MGs experience both Generator satisfaction AND Manifestor peace"
+  },
+  "not_self_theme": {
+    "name": "Frustration + Anger",
+    "description": "When not following Strategy, MGs experience both Generator frustration AND Manifestor anger",
+    "causes": [
+      "Initiating without responding first (Manifestor mistake)",
+      "Not informing after responding (Generator mistake)",
+      "Trying to be pure Generator (too slow)",
+      "Trying to be pure Manifestor (missing response step)"
+    ]
+  },
+  "failure_states": [
+    {
+      "pattern": "Chronic Frustration",
+      "diagnosis": "Initiating like Manifestor without responding first",
+      "correction": "Wait for something to respond to. Don't initiate from mind. Respond from Sacral first.",
+      "experiment": "For 7 days, initiate nothing. Only respond. Then move quickly after response. Track frustration."
+    },
+    {
+      "pattern": "Anger/Resistance from Others",
+      "diagnosis": "Not informing after responding, moving too fast without communication",
+      "correction": "After Sacral response, inform anyone who'll be impacted before you act.",
+      "experiment": "For 7 days, inform everyone impacted by your quick actions. Notice resistance decrease."
+    },
+    {
+      "pattern": "Feeling Stuck/Too Slow",
+      "diagnosis": "Trying to work like pure Generator, not honoring MG speed",
+      "correction": "After responding, move at your natural speed. Skip steps. Multi-task. This is correct.",
+      "experiment": "Give yourself permission to skip steps and multi-task for 7 days. Notice energy increase."
+    },
+    {
+      "pattern": "Quitting/Starting Cycle",
+      "diagnosis": "Responding to wrong things, or not fully committing after response",
+      "correction": "Check Sacral response is genuine yes. If genuine, commit fully and move fast.",
+      "experiment": "Before starting anything new, verify solid Sacral yes. If yes, go all in. Track completion rate."
+    }
+  },
+  "authority_types": [
+    "Sacral Authority (gut response)",
+    "Emotional Authority (wait through wave then respond)"
+  ],
+  "relationships": {
+    "with_generator": {
+      "dynamics": "Similar but different speeds. Pure Generator provides steady, MG provides multi-tasking inspiration.",
+      "friction_points": "MG's speed frustrates pure Generator. Generator's single-focus pace bores MG.",
+      "harmony_keys": "Respect different paces. MG can skip steps, Generator needs full process. Both honor Sacral."
+    },
+    "with_manifestor": {
+      "dynamics": "Both move fast, but MG needs to respond first. Manifestor pure initiation.",
+      "friction_points": "MG trying to initiate like Manifestor. Manifestor frustrated by MG's response needs.",
+      "harmony_keys": "MG: respond first, then inform. Manifestor: recognize MG's hybrid nature."
+    },
+    "with_projector": {
+      "dynamics": "MG's multi-tasking benefits from Projector's optimization guidance. Projector helps MG focus.",
+      "friction_points": "MG's speed too fast for Projector's guidance. Projector overwhelmed by MG's multi-tasking.",
+      "harmony_keys": "MG: invite Projector to optimize. Projector: let MG skip steps and multi-task."
+    },
+    "with_reflector": {
+      "dynamics": "MG provides energy, Reflector mirrors MG's impact and helps MG see effects.",
+      "friction_points": "MG's speed overwhelming Reflector. Reflector's need for time frustrating MG.",
+      "harmony_keys": "MG: give Reflector space. Reflector: appreciate MG's multi-dimensional energy."
+    },
+    "with_manifesting_generator": {
+      "dynamics": "Two fast-moving multi-taskers. Can create incredible momentum together.",
+      "friction_points": "Both moving fast in different directions. Skipping steps and losing each other.",
+      "harmony_keys": "Inform each other of quick pivots. Appreciate each other's speed. Coordinate multi-tasking."
+    }
+  },
+  "career_alignment": {
+    "ideal_work": "Multi-tasking roles, project management, entrepreneurship, multiple revenue streams",
+    "signs_of_right_work": [
+      "Can do multiple things at once",
+      "Speed is honored, not slowed down",
+      "Satisfaction from variety and quick movement",
+      "Freedom to skip unnecessary steps"
+    ],
+    "signs_of_wrong_work": [
+      "Forced into single-focus work",
+      "Pace slowed down to match others",
+      "Can't skip steps or find shortcuts",
+      "Chronic frustration with slowness"
+    ]
+  },
+  "rest_requirements": {
+    "sleep": "Like Generator, need to discharge Sacral energy before sleep. But less than pure Generator due to efficiency.",
+    "work_rhythm": "Bursts of intense multi-tasking, then quick recovery. Can work longer than Manifestor but needs breaks.",
+    "restoration": "Quick recovery. Move fast, rest fast, move again."
+  },
+  "communication_style": {
+    "speaking": "Fast, multi-threaded, skips around. Can be hard for linear types to follow.",
+    "listening": "Absorbs multiple inputs simultaneously. Natural multi-processor.",
+    "decision_making": "Quick Sacral response, then rapid informed action. Faster than pure Generator."
+  },
+  "conflict_resolution": {
+    "pattern": "MG frustration when slowed down, anger when meeting resistance from not informing",
+    "healthy_approach": "Honor Sacral response. Move at natural speed. Inform to prevent resistance. Express frustration quickly.",
+    "unhealthy_pattern": "Force speed, skip response step, don't inform, create resistance, accumulate frustration and anger"
+  },
+  "core_wound": {
+    "description": "Being told to slow down, finish one thing before starting another, not skip steps",
+    "conditioning": "Society wants linear focus. Shames multi-tasking and speed as scattered or incomplete.",
+    "healing": "Recognize that your multi-tasking and speed is correct. You're designed to skip steps and do multiple things. This is efficiency, not chaos."
+  },
+  "healing_modality": {
+    "primary": "Honoring both response AND manifesting speed, multi-tasking freely",
+    "practices": [
+      "Respond with Sacral first, always",
+      "After response, move at natural speed",
+      "Inform people impacted by your speed",
+      "Multi-task freely without guilt",
+      "Skip steps that aren't necessary",
+      "Quick bursts of work, quick recovery"
+    ]
+  },
+  "spiritual_pathway": {
+    "essence": "Satisfaction and Peace through efficient response. MGs are here to do many things efficiently.",
+    "evolution": "From frustration/anger (wrong strategy) → Satisfaction/Peace (respond then inform) → Mastery (efficient multi-dimensional creation)",
+    "transcendence": "When MG honors response then moves fast with informing, they become efficient creator. Multiple projects flowing simultaneously in perfect timing."
+  }
+}

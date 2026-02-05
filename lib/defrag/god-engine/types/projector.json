@@ -1,0 +1,145 @@
+{
+  "type": "Projector",
+  "percentage_of_population": 20,
+  "physics": {
+    "aura_type": "Focused and penetrating",
+    "aura_range": "Laser-like into others' auras",
+    "defined_centers": ["Variable - no Sacral"],
+    "motor": "No sustainable motor. Uses others' energy through aura penetration",
+    "energy_mechanics": "Designed to guide and direct others' energy, not generate their own. Absorb and amplify others' energy."
+  },
+  "strategy": {
+    "name": "Wait for Invitation",
+    "description": "Wait to be recognized and invited before offering guidance, especially in major life areas",
+    "mechanics": "Projectors have penetrating auras that see deeply into others. But this gift is only received when invited. Without invitation, guidance is rejected or resented.",
+    "major_invitations": [
+      "Career/work",
+      "Relationships/love",
+      "Living situation",
+      "Major collaborations"
+    ],
+    "examples": [
+      "Wait to be invited for job, don't apply cold",
+      "Wait to be asked on date, don't pursue aggressively",
+      "Wait for recognition of your expertise before offering deep guidance"
+    ]
+  },
+  "signature": {
+    "name": "Success",
+    "description": "When living correctly and recognized, Projectors experience success and feel seen"
+  },
+  "not_self_theme": {
+    "name": "Bitterness",
+    "description": "When not following Strategy, Projectors become bitter",
+    "causes": [
+      "Offering guidance without invitation",
+      "Not being recognized for their gifts",
+      "Trying to keep up with Generator pace",
+      "Forcing themselves into opportunities"
+    ]
+  },
+  "failure_states": [
+    {
+      "pattern": "Chronic Bitterness",
+      "diagnosis": "Offering unsolicited guidance, not being seen",
+      "correction": "Stop giving advice unless asked. Focus on self-mastery and study.",
+      "experiment": "For 14 days, give zero unsolicited advice. Only respond to direct questions. Track bitterness."
+    },
+    {
+      "pattern": "Exhaustion/Burnout",
+      "diagnosis": "Trying to work like a Generator (8+ hour days)",
+      "correction": "Work 3-4 focused hours. Rest deeply. Release Generator pace expectations.",
+      "experiment": "Work only 4 hours per day for 1 week. Notice energy levels."
+    },
+    {
+      "pattern": "Invisibility/Not Being Seen",
+      "diagnosis": "Not studying deeply enough, not mastering a system",
+      "correction": "Become expert in one system. Master it. Recognition comes from mastery.",
+      "experiment": "Choose one system. Study 1 hour daily for 30 days. Notice who starts asking questions."
+    }
+  ],
+  "authority_types": [
+    "Splenic Authority (in the moment intuition)",
+    "Emotional Authority (wait through wave)",
+    "Ego Authority (heart/willpower)",
+    "Self-Projected Authority (voice in conversation)",
+    "Environment/No Inner Authority (test in different spaces)"
+  ],
+  "relationships": {
+    "with_generator": {
+      "dynamics": "Projector guides Generator's energy. Powerful when Generator invites guidance.",
+      "friction_points": "Projector tries to guide without invitation. Generator feels controlled.",
+      "harmony_keys": "Generator: invite Projector's perspective. Projector: wait for invitation."
+    },
+    "with_manifestor": {
+      "dynamics": "Two non-energy types. Can deeply understand each other's need for rest.",
+      "friction_points": "Both waiting for the other to initiate invitation/inform.",
+      "harmony_keys": "Manifestor: inform Projector of plans. Projector: recognize Manifestor without trying to guide."
+    },
+    "with_projector": {
+      "dynamics": "Two guides. Deep recognition possible but no energy to sustain.",
+      "friction_points": "Both exhausted, both waiting for invitation, neither generating momentum.",
+      "harmony_keys": "Recognize each other's gifts. Don't expect other to energize. Bring in Generator energy for work."
+    },
+    "with_reflector": {
+      "dynamics": "Projector sees deeply, Reflector mirrors completely. Beautiful witnessing.",
+      "friction_points": "No sustainable energy. Can get lost in reflection without action.",
+      "harmony_keys": "Appreciate mirroring gifts. Bring in energy types for manifestation."
+    },
+    "with_manifesting_generator": {
+      "dynamics": "MG's speed needs Projector's guidance. Projector helps MG optimize.",
+      "friction_points": "MG moves too fast for Projector's guidance. Projector tries to slow MG down.",
+      "harmony_keys": "MG: invite Projector's optimization. Projector: let MG skip steps."
+    }
+  },
+  "career_alignment": {
+    "ideal_work": "Guiding, managing, directing, teaching, consulting - work with people's energy",
+    "signs_of_right_work": [
+      "Feel recognized for expertise",
+      "Experience success without exhaustion",
+      "3-4 hours of focused work feels complete",
+      "Others naturally ask for guidance"
+    ],
+    "signs_of_wrong_work": [
+      "Chronic exhaustion from 8+ hour days",
+      "Bitterness about not being recognized",
+      "Giving guidance that's ignored",
+      "Trying to keep up with Generator pace"
+    ]
+  },
+  "rest_requirements": {
+    "sleep": "Projectors need more rest than energy types. 8-9 hours minimum. Release Generator guilt.",
+    "work_rhythm": "3-4 hours of focused work, then rest. Not designed for 8 hour workdays.",
+    "restoration": "Deep rest required to process absorbed energy. Alone time essential."
+  },
+  "communication_style": {
+    "speaking": "Incisive, penetrating, seeing into systems and people",
+    "listening": "Natural mastery of reading between lines, seeing what others miss",
+    "decision_making": "Depends on Authority type. Often needs time and external sounding board."
+  },
+  "conflict_resolution": {
+    "pattern": "Projector bitterness when guidance isn't received or recognized",
+    "healthy_approach": "Express when feeling unseen. Request recognition. Wait for invitation to guide.",
+    "unhealthy_pattern": "Suppress bitterness, give more unsolicited advice, become increasingly bitter"
+  },
+  "core_wound": {
+    "description": "Being ignored, guidance rejected, not being seen for gifts",
+    "conditioning": "Told to work harder, be more productive. Shamed for needing rest.",
+    "healing": "Recognize that recognition comes from mastery, not effort. Rest is power."
+  },
+  "healing_modality": {
+    "primary": "Study, mastery, self-knowledge, deep rest",
+    "practices": [
+      "Master a system (Human Design, astrology, business, etc.)",
+      "Honor 3-4 hour work days",
+      "Deep rest without guilt",
+      "Practice waiting for invitation",
+      "Self-recognition first, then external follows"
+    ]
+  },
+  "spiritual_pathway": {
+    "essence": "Success through recognition. Projectors are here to guide others efficiently.",
+    "evolution": "From bitterness (forcing) → Success (recognition) → Wisdom (seeing clearly)",
+    "transcendence": "When Projector is recognized and guides from clarity, they become pure seeing. No personal agenda."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "type": "Generator",
+  "percentage_of_population": 37,
+  "physics": {
+    "aura_type": "Open and enveloping",
+    "aura_range": "Close contact",
+    "defined_centers": ["SACRAL"],
+    "motor": "Sacral motor (consistent life force energy)",
+    "energy_mechanics": "Designed to respond, not initiate. Sacral responds with 'uh-huh' (yes) or 'uhn-uhn' (no)"
+  },
+  "strategy": {
+    "name": "To Respond",
+    "description": "Wait for something external to respond to before taking action",
+    "mechanics": "The Sacral makes sounds in response to yes/no questions or external stimuli. Pure Generators should not initiate - they should wait for life to come to them and then respond from the Sacral.",
+    "examples": [
+      "Someone asks if you want coffee - respond from gut, not mind",
+      "See job posting - notice Sacral response before applying",
+      "Friend suggests activity - check Sacral before agreeing"
+    ]
+  },
+  "signature": {
+    "name": "Satisfaction",
+    "description": "When living correctly, Generators experience deep satisfaction in their work and life"
+  },
+  "not_self_theme": {
+    "name": "Frustration",
+    "description": "When not following Strategy, Generators become frustrated",
+    "causes": [
+      "Initiating instead of responding",
+      "Saying yes with the mind instead of the Sacral",
+      "Ignoring Sacral's no",
+      "Taking on work that isn't theirs to do"
+    ]
+  },
+  "failure_states": [
+    {
+      "pattern": "Chronic Frustration",
+      "diagnosis": "Initiating instead of responding",
+      "correction": "Stop initiating. Practice responding to yes/no questions. Notice Sacral sounds.",
+      "experiment": "For 7 days, don't initiate anything. Only respond. Journal frustration levels."
+    },
+    {
+      "pattern": "Burnout/Exhaustion",
+      "diagnosis": "Overriding Sacral no, taking on too much",
+      "correction": "Honor every Sacral no. Release commitments that drain life force.",
+      "experiment": "Quit one thing that generates Sacral 'no'. Notice energy return."
+    },
+    {
+      "pattern": "Resentment",
+      "diagnosis": "Saying yes when Sacral says no (people-pleasing)",
+      "correction": "Practice saying no when Sacral indicates no. Release guilt.",
+      "experiment": "Say no to 3 things this week that Sacral indicates no to. Track resentment."
+    }
+  ],
+  "authority_types": [
+    "Sacral Authority (pure gut response)",
+    "Emotional Authority (wait through emotional wave)"
+  ],
+  "relationships": {
+    "with_generator": {
+      "dynamics": "Two responsive beings. Both need to wait to respond. Can create powerful work together.",
+      "friction_points": "Both waiting for the other to initiate. Stagnation if neither responds.",
+      "harmony_keys": "Take turns initiating questions for each other. Create response opportunities."
+    },
+    "with_manifestor": {
+      "dynamics": "Manifestor initiates, Generator responds. Natural complementary dance.",
+      "friction_points": "Generator frustrated by Manifestor's independence. Manifestor controlled by Generator's response needs.",
+      "harmony_keys": "Manifestor: inform before acting. Generator: give clear yes/no responses."
+    },
+    "with_projector": {
+      "dynamics": "Generator does the work, Projector guides. Powerful when Generator invites Projector's guidance.",
+      "friction_points": "Projector giving unsolicited advice. Generator not recognizing Projector's wisdom.",
+      "harmony_keys": "Generator: invite Projector's input. Projector: wait for invitation before guiding."
+    },
+    "with_reflector": {
+      "dynamics": "Generator provides consistency, Reflector mirrors environment. Reflector helps Generator see blind spots.",
+      "friction_points": "Generator impatient with Reflector's need for time. Reflector overwhelmed by Generator's intensity.",
+      "harmony_keys": "Generator: give Reflector space and time. Reflector: appreciate Generator's consistent energy."
+    },
+    "with_manifesting_generator": {
+      "dynamics": "Similar but MG moves faster. Pure Generator provides steady pace, MG provides multi-tasking inspiration.",
+      "friction_points": "MG's speed frustrates pure Generator. Generator's pace bores MG.",
+      "harmony_keys": "Respect different paces. MG can skip steps, Generator needs process."
+    }
+  },
+  "career_alignment": {
+    "ideal_work": "Work that generates genuine Sacral response, sustainable over time",
+    "signs_of_right_work": [
+      "Time flies when working",
+      "Feel satisfied at end of day",
+      "Sustainable energy, not depleting",
+      "Natural 'uh-huh' response when asked if you love the work"
+    ],
+    "signs_of_wrong_work": [
+      "Chronic frustration",
+      "Watching clock all day",
+      "Exhausted at end of day",
+      "Sacral says 'no' but mind keeps you there"
+    ]
+  },
+  "rest_requirements": {
+    "sleep": "Generators need to discharge Sacral energy before sleep. Physical activity, sex, or energetic release before bed.",
+    "burnout_prevention": "Honor Sacral no. Don't take on work that doesn't generate genuine response.",
+    "restoration": "Sacral energy renews through proper use and discharge, not through rest alone."
+  },
+  "communication_style": {
+    "speaking": "Respond to questions. Use yes/no questions to clarify decisions.",
+    "listening": "Listen to own Sacral sounds. 'Uh-huh' = yes, 'uhn-uhn' = no",
+    "decision_making": "Ask yes/no questions, respond with Sacral. Not mental. Gut knows immediately."
+  },
+  "conflict_resolution": {
+    "pattern": "Generator frustration escalates into anger if suppressed",
+    "healthy_approach": "Express frustration early. Use physical activity to discharge. Return to responding.",
+    "unhealthy_pattern": "Suppress frustration, become resentful, explode eventually"
+  },
+  "core_wound": {
+    "description": "Being told to initiate, to 'make things happen', to not wait",
+    "conditioning": "Modern culture tells Generators they're passive if they wait. Shames responding as weak.",
+    "healing": "Recognize that responding is power. The entire world needs Generator energy. Waiting magnetizes correct opportunities."
+  },
+  "healing_modality": {
+    "primary": "Physical movement and work that generates Sacral response",
+    "practices": [
+      "Exercise until Sacral discharge",
+      "Work on projects that light up Sacral",
+      "Practice responding to yes/no questions",
+      "Release commitments that drain"
+    ]
+  },
+  "spiritual_pathway": {
+    "essence": "Mastery through right work. Generators are here to master their craft through response.",
+    "evolution": "From frustration (initiating) → Satisfaction (responding) → Mastery (Sacral wisdom)",
+    "transcendence": "When Generator does right work, they become the work itself. No separation."
+  }
+}

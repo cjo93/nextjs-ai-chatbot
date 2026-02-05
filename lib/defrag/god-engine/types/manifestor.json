@@ -1,0 +1,142 @@
+{
+  "type": "Manifestor",
+  "percentage_of_population": 9,
+  "physics": {
+    "aura_type": "Closed and repelling",
+    "aura_range": "Pushes others away, creates space",
+    "defined_centers": ["Variable - often Throat to motor"],
+    "motor": "Motor connected to Throat - can initiate action directly",
+    "energy_mechanics": "Designed to initiate. Creates new directions. Aura pushes others away to create space for initiating."
+  },
+  "strategy": {
+    "name": "To Inform",
+    "description": "Inform those who will be impacted before you take action",
+    "mechanics": "Manifestors are designed to initiate without permission, but their closed aura creates resistance. By informing, they reduce resistance and allow their initiations to land smoothly.",
+    "who_to_inform": [
+      "People directly impacted by your action",
+      "Not asking permission, just informing",
+      "Brief notification, not explanation"
+    ],
+    "examples": [
+      "'I'm going to the store' (not asking, informing)",
+      "'I'm starting a new project next week' (heads up to team)",
+      "'I'm taking Friday off' (inform, don't ask if not required)"
+    ]
+  },
+  "signature": {
+    "name": "Peace",
+    "description": "When living correctly and informing, Manifestors experience peace and freedom to initiate"
+  },
+  "not_self_theme": {
+    "name": "Anger",
+    "description": "When not following Strategy, Manifestors become angry",
+    "causes": [
+      "Being controlled or stopped",
+      "Having to ask permission",
+      "Not informing and facing resistance",
+      "Others trying to make them respond or wait"
+    ]
+  },
+  "failure_states": [
+    {
+      "pattern": "Chronic Anger",
+      "diagnosis": "Not informing, facing constant resistance and control",
+      "correction": "Practice informing before acting. Notice how resistance decreases.",
+      "experiment": "For 7 days, inform everyone impacted before acting. Track anger and resistance levels."
+    },
+    {
+      "pattern": "Isolation/Loneliness",
+      "diagnosis": "Closed aura pushing everyone away, not building bridges through informing",
+      "correction": "Use informing as bridge-building. Creates connection without control.",
+      "experiment": "Inform 3 people per day about your actions. Notice relationship quality improve."
+    },
+    {
+      "pattern": "Impact Paralysis",
+      "diagnosis": "Afraid of own impact, suppressing initiation impulse",
+      "correction": "Small initiations with informing. Build trust in own impact.",
+      "experiment": "Initiate one small thing daily with proper informing. Build confidence."
+    }
+  ],
+  "authority_types": [
+    "Emotional Authority (most common for Manifestors)",
+    "Splenic Authority (rare)",
+    "Ego Authority (Heart/Will)"
+  ],
+  "relationships": {
+    "with_generator": {
+      "dynamics": "Manifestor initiates, Generator responds. Natural complementary, but Generator may feel controlled.",
+      "friction_points": "Generator wants Manifestor to wait/respond. Manifestor feels controlled by Generator's need for response.",
+      "harmony_keys": "Manifestor: inform Generator of plans. Generator: let Manifestor initiate without control."
+    },
+    "with_manifestor": {
+      "dynamics": "Two initiators. Can create powerful movement together if informing each other.",
+      "friction_points": "Both initiating in different directions. Collisions without communication.",
+      "harmony_keys": "Inform each other. Give space for independent initiation."
+    },
+    "with_projector": {
+      "dynamics": "Two non-energy types understanding each other's needs. Projector can guide Manifestor's impact.",
+      "friction_points": "Projector trying to guide without invitation. Manifestor resisting guidance as control.",
+      "harmony_keys": "Manifestor: invite Projector's perspective when needed. Projector: don't try to control Manifestor."
+    },
+    "with_reflector": {
+      "dynamics": "Manifestor initiates, Reflector mirrors impact. Reflector helps Manifestor see effects of initiation.",
+      "friction_points": "Manifestor's intensity overwhelming Reflector. Reflector's need for time frustrating Manifestor.",
+      "harmony_keys": "Manifestor: give Reflector space and time. Reflector: appreciate Manifestor's initiating power."
+    },
+    "with_manifesting_generator": {
+      "dynamics": "Both can initiate. MG faster but needs to respond. Manifestor pure initiation.",
+      "friction_points": "MG trying to initiate like Manifestor. Manifestor frustrated by MG's response needs.",
+      "harmony_keys": "Respect different mechanics. Manifestor informs, MG responds then acts."
+    }
+  },
+  "career_alignment": {
+    "ideal_work": "Starting things, initiating projects, entrepreneurship, independent work",
+    "signs_of_right_work": [
+      "Freedom to initiate",
+      "Don't need permission",
+      "Can inform rather than ask",
+      "Feel at peace with impact"
+    ],
+    "signs_of_wrong_work": [
+      "Constant need to ask permission",
+      "Being controlled or micromanaged",
+      "Can't initiate new directions",
+      "Chronic anger about restrictions"
+    ]
+  },
+  "rest_requirements": {
+    "sleep": "Manifestors need alone time before sleep to decompress from impact. 7-8 hours minimum.",
+    "work_rhythm": "Bursts of initiation followed by rest periods. Not sustainable 8 hour grind.",
+    "restoration": "Alone time essential. Closed aura needs space without others' energy."
+  },
+  "communication_style": {
+    "speaking": "Direct, initiating, declarative. Not asking permission, informing of intentions.",
+    "listening": "Can be challenging - naturally initiating rather than receiving",
+    "decision_making": "Depends on Authority. Often quick once clarity comes."
+  },
+  "conflict_resolution": {
+    "pattern": "Manifestor anger when controlled, stopped, or resistance is met",
+    "healthy_approach": "Express anger clearly and quickly. Return to peace. Inform more.",
+    "unhealthy_pattern": "Suppress anger, explode eventually, alienate others, increase isolation"
+  },
+  "core_wound": {
+    "description": "Being controlled, punished for initiating, told to wait or ask permission",
+    "conditioning": "Parents/society trying to control Manifestor child. Shaming initiating impulse.",
+    "healing": "Recognize that informing isn't asking permission. You're free to initiate. Informing creates peace."
+  },
+  "healing_modality": {
+    "primary": "Informing practice, honoring initiation impulses, alone time",
+    "practices": [
+      "Practice informing everyone impacted",
+      "Take alone time daily",
+      "Small initiations to build confidence",
+      "Express anger quickly and cleanly",
+      "Create environments with freedom to initiate"
+    ]
+  },
+  "spiritual_pathway": {
+    "essence": "Peace through proper use of power. Manifestors are here to initiate new directions.",
+    "evolution": "From anger (being controlled) → Peace (informing) → Power (initiating freely)",
+    "transcendence": "When Manifestor informs and initiates from clarity, they become pure creative force. Channel for new possibilities."
+  }
+}

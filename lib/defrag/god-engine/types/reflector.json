@@ -1,0 +1,143 @@
+{
+  "type": "Reflector",
+  "percentage_of_population": 1,
+  "physics": {
+    "aura_type": "Sampling and reflecting",
+    "aura_range": "Takes in and amplifies environment",
+    "defined_centers": ["None - all centers open"],
+    "motor": "No motors. Completely open to environmental energy",
+    "energy_mechanics": "Designed to sample and reflect the health of community. No consistent identity - becomes the environment."
+  },
+  "strategy": {
+    "name": "Wait a Lunar Cycle",
+    "description": "For major decisions, wait 28-29 days (full lunar cycle) to gain clarity",
+    "mechanics": "Reflectors are so open they need time to sample all perspectives. The Moon's cycle through all 64 gates gives Reflectors access to complete perspective.",
+    "major_decisions": [
+      "Career changes",
+      "Relationship commitments",
+      "Moving locations",
+      "Major purchases"
+    ],
+    "examples": [
+      "Job offer received? Wait full moon cycle before accepting",
+      "Relationship decision? Sample over 28 days",
+      "Moving cities? Experience all moon phases in both locations"
+    ]
+  },
+  "signature": {
+    "name": "Surprise",
+    "description": "When living correctly, Reflectors experience constant surprise and delight at life's unfolding"
+  },
+  "not_self_theme": {
+    "name": "Disappointment",
+    "description": "When not following Strategy, Reflectors become disappointed",
+    "causes": [
+      "Making quick decisions",
+      "Not waiting through lunar cycle",
+      "Being in wrong environment",
+      "Trying to have consistent identity"
+    ]
+  },
+  "failure_states": [
+    {
+      "pattern": "Chronic Disappointment",
+      "diagnosis": "Making decisions too quickly, not honoring lunar cycle",
+      "correction": "Wait 28 days for major decisions. Journal daily through moon cycle.",
+      "experiment": "Next big decision: wait full lunar cycle. Journal daily. Notice clarity emergence."
+    },
+    {
+      "pattern": "Identity Crisis",
+      "diagnosis": "Trying to have consistent personality, resisting fluidity",
+      "correction": "Accept that you're different every day based on environment. This is wisdom, not instability.",
+      "experiment": "Track how you feel in different environments for 28 days. Notice patterns."
+    },
+    {
+      "pattern": "Environmental Toxicity",
+      "diagnosis": "Being in wrong environment, absorbing unhealthy energy",
+      "correction": "Ruthlessly curate environment. Leave toxic spaces immediately.",
+      "experiment": "Assess all environments (home, work, relationships). Remove/change what feels consistently wrong."
+    }
+  ],
+  "authority_types": [
+    "Lunar Authority (waiting through moon cycle)",
+    "Environmental Authority (testing in different spaces)"
+  ],
+  "relationships": {
+    "with_generator": {
+      "dynamics": "Reflector mirrors Generator's energy back. Can show Generator their blind spots.",
+      "friction_points": "Generator's intensity overwhelming Reflector. Reflector's need for time frustrating Generator.",
+      "harmony_keys": "Generator: give Reflector space and time. Reflector: appreciate Generator's consistency."
+    },
+    "with_manifestor": {
+      "dynamics": "Reflector mirrors Manifestor's impact. Shows Manifestor their effect on others.",
+      "friction_points": "Manifestor's force overwhelming Reflector. Reflector's fluidity confusing to Manifestor.",
+      "harmony_keys": "Manifestor: soften around Reflector. Reflector: help Manifestor see their impact."
+    },
+    "with_projector": {
+      "dynamics": "Two highly sensitive types. Beautiful mutual witnessing possible.",
+      "friction_points": "No sustainable energy together. Both need others' recognition/space.",
+      "harmony_keys": "Recognize each other's sensitivity. Don't expect energy from each other."
+    },
+    "with_reflector": {
+      "dynamics": "Rare. Two mirrors. Complete environment sampling together.",
+      "friction_points": "No consistent energy or identity. Can feel like nothing solid.",
+      "harmony_keys": "Appreciate shared fluid nature. Create stability through ritual, not identity."
+    },
+    "with_manifesting_generator": {
+      "dynamics": "Reflector samples MG's multi-tasking energy. MG benefits from Reflector's environmental wisdom.",
+      "friction_points": "MG's speed overwhelming. Reflector's need for time frustrating to MG.",
+      "harmony_keys": "MG: slow down for Reflector. Reflector: appreciate MG's energy without trying to match it."
+    }
+  },
+  "career_alignment": {
+    "ideal_work": "Roles that sample community health: evaluator, assessor, community barometer, researcher",
+    "signs_of_right_work": [
+      "Environment feels consistently good",
+      "Feel surprised and delighted by work",
+      "Flexibility to change with moon cycle",
+      "Role values your sampling/reflecting"
+    ],
+    "signs_of_wrong_work": [
+      "Environment feels toxic consistently",
+      "Chronic disappointment",
+      "Forced to have consistent identity/performance",
+      "No flexibility for your fluid nature"
+    ]
+  },
+  "rest_requirements": {
+    "sleep": "Reflectors need to completely discharge absorbed energy before sleep. Alone time essential. 8-9 hours minimum.",
+    "work_rhythm": "Completely dependent on moon cycle and environment. Some days high energy, some days need deep rest.",
+    "restoration": "Must have alone time to release absorbed energy. Discriminate environments ruthlessly."
+  },
+  "communication_style": {
+    "speaking": "Reflects back what they've absorbed. Often surprising and insightful observations.",
+    "listening": "Absorbs everything. Natural samplers of emotional and energetic fields.",
+    "decision_making": "Requires lunar cycle for major choices. Talk through with trusted council."
+  },
+  "conflict_resolution": {
+    "pattern": "Reflector disappointment when not honoring need for time and right environment",
+    "healthy_approach": "Express disappointment. Leave wrong environments. Wait for clarity.",
+    "unhealthy_pattern": "Stay in toxic environments, make quick decisions, accumulate disappointment"
+  },
+  "core_wound": {
+    "description": "Being rushed to decide, told they're unstable, not given time to sample",
+    "conditioning": "Society demands consistency. Shames Reflector's fluid nature as weakness.",
+    "healing": "Recognize that fluidity is wisdom. You're designed to be different each day. This is your power."
+  },
+  "healing_modality": {
+    "primary": "Right environment, lunar cycle honoring, alone time",
+    "practices": [
+      "Track moon cycle daily",
+      "Curate environment ruthlessly",
+      "Alone time for discharge",
+      "Build council of advisors",
+      "Honor 28 day process for major decisions",
+      "Environmental testing before commitment"
+    ]
+  },
+  "spiritual_pathway": {
+    "essence": "Surprise through lunar wisdom. Reflectors are here to reflect community health.",
+    "evolution": "From disappointment (rushing) → Surprise (waiting) → Wisdom (community barometer)",
+    "transcendence": "When Reflector honors lunar cycle and right environment, they become pure mirror. No fixed self, just clear reflection."
+  }
+}
