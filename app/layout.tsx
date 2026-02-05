@@ -52,7 +52,8 @@ export const metadata: Metadata = {
     canonical: "https://defrag.app",
   },
   verification: {
-    google: "google-site-verification-code",
+    // Add your Google site verification code here after claiming the domain in Google Search Console
+    // google: 'your-verification-code',
   },
   icons: {
     icon: [

@@ -11,6 +11,22 @@ if (redis) {
   redis.connect().catch(console.error);
 }
 
+// Rate limit configuration constants
+const RATE_LIMITS = {
+  API: {
+    LIMIT: 10,
+    WINDOW_SECONDS: 10,
+  },
+  CHECKOUT: {
+    LIMIT: 3,
+    WINDOW_SECONDS: 3600, // 1 hour
+  },
+  EVENTS: {
+    LIMIT: 20,
+    WINDOW_SECONDS: 60, // 1 minute
+  },
+};
+
 export async function checkRateLimit(
   key: string,
   limit: number,
@@ -41,12 +57,24 @@ export async function checkRateLimit(
 
 export const ratelimit = {
   api: (identifier: string) => {
-    return checkRateLimit(`ratelimit:api:${identifier}`, 10, 10);
+    return checkRateLimit(
+      `ratelimit:api:${identifier}`,
+      RATE_LIMITS.API.LIMIT,
+      RATE_LIMITS.API.WINDOW_SECONDS
+    );
   },
   checkout: (identifier: string) => {
-    return checkRateLimit(`ratelimit:checkout:${identifier}`, 3, 3600);
+    return checkRateLimit(
+      `ratelimit:checkout:${identifier}`,
+      RATE_LIMITS.CHECKOUT.LIMIT,
+      RATE_LIMITS.CHECKOUT.WINDOW_SECONDS
+    );
   },
   events: (identifier: string) => {
-    return checkRateLimit(`ratelimit:events:${identifier}`, 20, 60);
+    return checkRateLimit(
+      `ratelimit:events:${identifier}`,
+      RATE_LIMITS.EVENTS.LIMIT,
+      RATE_LIMITS.EVENTS.WINDOW_SECONDS
+    );
   },
 };

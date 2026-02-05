@@ -43,6 +43,8 @@ export async function invalidateCache(pattern: string): Promise<void> {
   }
 
   try {
+    // Note: redis.keys() blocks Redis, but is simpler for small datasets
+    // For production with large key spaces, consider using SCAN with pagination
     const keys = await redis.keys(pattern);
     if (keys.length > 0) {
       await redis.del(keys);

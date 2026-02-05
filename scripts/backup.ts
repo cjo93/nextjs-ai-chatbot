@@ -21,9 +21,21 @@ async function backup() {
 
   try {
     console.log("🔄 Creating database backup...");
-    await execAsync(
-      `pg_dump ${process.env.POSTGRES_URL} > ${backupDir}/${filename}`
-    );
+
+    // Parse the connection string to extract credentials
+    const url = new URL(process.env.POSTGRES_URL);
+
+    // Use environment variables for pg_dump to avoid exposing credentials in process list
+    const env = {
+      ...process.env,
+      PGHOST: url.hostname,
+      PGPORT: url.port || "5432",
+      PGUSER: url.username,
+      PGPASSWORD: url.password,
+      PGDATABASE: url.pathname.slice(1), // Remove leading slash
+    };
+
+    await execAsync(`pg_dump > ${backupDir}/${filename}`, { env });
     console.log(`✅ Backup created: ${backupDir}/${filename}`);
   } catch (error) {
     console.error("❌ Backup failed");
