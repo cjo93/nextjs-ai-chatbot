@@ -1,0 +1,49 @@
+{
+  "gateNumber": 8,
+  "name": "Contribution",
+  "hexagram": "Holding Together",
+  "description": "The Gate of Contribution - The power of individual contribution through creative expression",
+  "keywords": ["contribution", "authenticity", "uniqueness", "creative expression"],
+  "center": "Throat",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "1-8",
+    "name": "Inspiration",
+    "description": "The Channel of Inspiration - A Design of a Creative Role Model"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Mediocrity",
+    "giftFrequency": "Style",
+    "siddhiFrequency": "Exquisiteness"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Feeling your contribution doesn't matter",
+      "script": "Your unique contribution is needed precisely as you are. What would you express if you knew it mattered?",
+      "experiments": [
+        "Share your authentic perspective publicly",
+        "Create something that reflects your true style",
+        "Contribute without needing validation"
+      ]
+    },
+    "friction": {
+      "trigger": "Compromising authenticity for acceptance",
+      "script": "You're diluting your gift to fit in. Your power lives in your distinctiveness. Where have you made yourself smaller?",
+      "experiments": [
+        "Express something you've been holding back",
+        "Say no to opportunities that require you to perform",
+        "Double down on what makes you different"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Identity crisis around value and contribution",
+      "script": "You're not losing your voice—you're finding a truer one. This silence before expression is sacred.",
+      "experiments": [
+        "Stop producing and focus on being for a period",
+        "Explore new forms of creative expression",
+        "Study artists who transformed their style"
+      ]
+    }
+  }
+}

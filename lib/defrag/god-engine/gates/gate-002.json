@@ -1,0 +1,49 @@
+{
+  "gateNumber": 2,
+  "name": "The Receptive",
+  "hexagram": "Receptive",
+  "description": "The Gate of the Direction of the Self - The power of allowing and receiving direction",
+  "keywords": ["receptivity", "direction", "surrender", "intuition"],
+  "center": "G",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "2-14",
+    "name": "The Beat",
+    "description": "The Channel of the Beat - A Design of Being a Keeper of Keys"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Dislocation",
+    "giftFrequency": "Orientation",
+    "siddhiFrequency": "Unity"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Feeling directionless or ungrounded",
+      "script": "You're being called to receive rather than push. What wants to come through you when you stop forcing?",
+      "experiments": [
+        "Spend 20 minutes in stillness, noticing what arises",
+        "Follow the path of least resistance today",
+        "Ask for guidance and stay open to unexpected answers"
+      ]
+    },
+    "friction": {
+      "trigger": "Resistance to receiving help or direction",
+      "script": "Your strength includes knowing when to receive. What support have you been refusing?",
+      "experiments": [
+        "Accept help that's been offered to you",
+        "Practice saying yes to guidance",
+        "Notice where control is costing you flow"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Loss of inner compass",
+      "script": "You're recalibrating your sense of direction. This uncertainty is temporary—your inner knowing is reorganizing at a deeper level.",
+      "experiments": [
+        "Return to your body through somatic practices",
+        "Journal: 'What do I know to be true right now?'",
+        "Simplify decisions to yes/no body responses"
+      ]
+    }
+  }
+}

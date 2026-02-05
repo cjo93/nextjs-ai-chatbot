@@ -1,0 +1,49 @@
+{
+  "gateNumber": 6,
+  "name": "Conflict",
+  "hexagram": "Conflict",
+  "description": "The Gate of Friction - The power of emotional and physical intimacy through friction",
+  "keywords": ["intimacy", "friction", "emotion", "connection"],
+  "center": "Solar Plexus",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "6-59",
+    "name": "Mating",
+    "description": "The Channel of Mating - A Design Focused on Reproduction"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Conflict",
+    "giftFrequency": "Diplomacy",
+    "siddhiFrequency": "Peace"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Emotional friction in relationships",
+      "script": "Friction creates intimacy when navigated consciously. What needs to be spoken that hasn't been?",
+      "experiments": [
+        "Have the difficult conversation with compassion",
+        "Express your emotional truth without blame",
+        "Ask: 'What is this conflict trying to create?'"
+      ]
+    },
+    "friction": {
+      "trigger": "Avoiding conflict at cost of intimacy",
+      "script": "Your peace-keeping is creating distance. Real intimacy includes navigating discord together. Where have you sacrificed truth for harmony?",
+      "experiments": [
+        "Practice small acts of healthy disagreement",
+        "Share something that feels vulnerable",
+        "Repair after conflict—don't avoid it"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Relationship crisis or deep emotional pain",
+      "script": "This intensity is transformation in motion. You're not breaking—you're breaking through to a new level of relating.",
+      "experiments": [
+        "Seek support from a therapist or trusted guide",
+        "Write unsent letters to process emotion",
+        "Practice self-compassion rituals daily"
+      ]
+    }
+  }
+}

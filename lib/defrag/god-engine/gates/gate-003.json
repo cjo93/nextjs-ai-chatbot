@@ -1,0 +1,49 @@
+{
+  "gateNumber": 3,
+  "name": "Ordering",
+  "hexagram": "Difficulty at the Beginning",
+  "description": "The Gate of Ordering - The power to bring order out of chaos through innovation",
+  "keywords": ["innovation", "ordering", "mutation", "new beginnings"],
+  "center": "Sacral",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "3-60",
+    "name": "Mutation",
+    "description": "The Channel of Mutation - A Design of Energy which Initiates and Fluctuates - Pulse"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Chaos",
+    "giftFrequency": "Innovation",
+    "siddhiFrequency": "Innocence"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Overwhelm from too many beginnings",
+      "script": "You're in the fertile chaos before order emerges. What single thread can you follow right now?",
+      "experiments": [
+        "Choose one thing and commit to it for today only",
+        "Create a simple structure to contain the chaos",
+        "Map the confusion visually to see patterns"
+      ]
+    },
+    "friction": {
+      "trigger": "Stuck in perpetual starting phase",
+      "script": "You have the gift of new beginnings, but completion also serves innovation. What needs to reach the next stage?",
+      "experiments": [
+        "Complete one small thing fully before starting another",
+        "Document your innovations to track progress",
+        "Partner with someone who excels at follow-through"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Loss of faith in innovation capacity",
+      "script": "Your innovative spirit is not broken—it's composting. New forms emerge from apparent disorder. Trust the mutation.",
+      "experiments": [
+        "Study biomimicry: how nature orders chaos",
+        "Allow yourself to not know for a defined period",
+        "Return to beginner's mind in your domain"
+      ]
+    }
+  }
+}
