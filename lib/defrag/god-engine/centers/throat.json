@@ -1,0 +1,58 @@
+{
+  "name": "throat",
+  "display_name": "Throat Center",
+  "function": "Communication and manifestation",
+  "neural_correlate": "Thyroid, vocal cords, manifestation center",
+  "location": "Throat area",
+  "pressure_type": "Pressure to communicate and manifest into action",
+  "gates": [
+    62,
+    23,
+    56,
+    35,
+    12,
+    45,
+    33,
+    8,
+    31,
+    20,
+    16
+  ],
+  "defined_mechanics": {
+    "description": "Consistent way of communicating and manifesting",
+    "traits": [
+      "Reliable voice",
+      "Fixed communication style",
+      "Consistent way of expressing"
+    ],
+    "challenges": [
+      "May talk too much",
+      "Communication style may not adapt",
+      "Manifestation can be compulsive"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Samples many ways of communicating",
+    "traits": [
+      "Versatile communication",
+      "Can speak in many styles",
+      "Wisdom about when to speak/be silent"
+    ],
+    "challenges": [
+      "Talking to relieve pressure",
+      "Speaking to get attention",
+      "Trying to communicate like others"
+    ],
+    "conditioning": "Pressure to speak, be heard, get attention"
+  },
+  "somatic_scan_instructions": "Feel your throat. Notice if it's open, constricted, or neutral.",
+  "regulation_techniques": [
+    "Practice strategic silence",
+    "Ask: 'Does this need to be said?'",
+    "Release pressure to talk when there's nothing to say"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "g-center",
+  "display_name": "G Center (Identity/Direction)",
+  "function": "Love, identity, and direction in life",
+  "neural_correlate": "Heart consciousness, identity formation, magnetic direction",
+  "location": "Sternum, heart area",
+  "pressure_type": "Existential questions about who I am and where I'm going",
+  "gates": [
+    1,
+    2,
+    7,
+    13,
+    15,
+    10,
+    25,
+    46
+  ],
+  "defined_mechanics": {
+    "description": "Fixed sense of identity and consistent direction",
+    "traits": [
+      "Know who you are",
+      "Consistent identity",
+      "Fixed life direction"
+    ],
+    "challenges": [
+      "Identity rigidity",
+      "Difficulty adapting direction",
+      "May not understand identity fluidity in others"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Fluid identity and direction, samples many possibilities",
+    "traits": [
+      "Flexible identity",
+      "Can try on many directions",
+      "Wisdom about identity and purpose"
+    ],
+    "challenges": [
+      "Identity crisis",
+      "Seeking fixed identity",
+      "Following others' directions"
+    ],
+    "conditioning": "Pressure to know who you are and where you're going"
+  },
+  "somatic_scan_instructions": "Feel your sternum and heart area. Notice sense of self or emptiness.",
+  "regulation_techniques": [
+    "Accept identity fluidity as wisdom",
+    "Try on different identities without attachment",
+    "Be different people in different environments"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

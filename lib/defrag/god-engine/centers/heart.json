@@ -1,0 +1,51 @@
+{
+  "name": "heart",
+  "display_name": "Heart/Ego/Will Center",
+  "function": "Willpower, self-worth, and material world navigation",
+  "neural_correlate": "Thymus, ego structure, willpower",
+  "location": "Right side of chest, sternum to shoulder",
+  "pressure_type": "Proving self-worth through achievement",
+  "gates": [
+    21,
+    40,
+    26,
+    51
+  ],
+  "defined_mechanics": {
+    "description": "Consistent willpower and fixed sense of self-worth",
+    "traits": [
+      "Reliable willpower",
+      "Can make and keep promises",
+      "Natural authority"
+    ],
+    "challenges": [
+      "Overcommitting",
+      "Taking on too much",
+      "Pride issues"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Samples others' willpower and self-worth",
+    "traits": [
+      "Flexible ego",
+      "Can feel others' worth",
+      "Wisdom about value and promises"
+    ],
+    "challenges": [
+      "Trying to prove worth",
+      "Making promises can't keep",
+      "Taking on too much to be valued"
+    ],
+    "conditioning": "Pressure to prove worth through achievement and keeping promises"
+  },
+  "somatic_scan_instructions": "Feel right side of chest. Notice sense of worth or emptiness.",
+  "regulation_techniques": [
+    "Don't make promises to prove worth",
+    "Know your worth isn't performance-based",
+    "Only commit what you can actually do"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}

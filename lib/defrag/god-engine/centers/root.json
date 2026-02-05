@@ -1,0 +1,56 @@
+{
+  "name": "root",
+  "display_name": "Root Center",
+  "function": "Adrenaline pressure and stress to get things done",
+  "neural_correlate": "Adrenal glands, stress response, pressure to act",
+  "location": "Base of spine, pelvic floor",
+  "pressure_type": "Adrenaline pressure to act now",
+  "gates": [
+    19,
+    39,
+    41,
+    38,
+    54,
+    53,
+    60,
+    52,
+    58
+  ],
+  "defined_mechanics": {
+    "description": "Consistent adrenaline pressure to act",
+    "traits": [
+      "Reliable pressure to get things done",
+      "Fixed stress patterns",
+      "Consistent urgency"
+    ],
+    "challenges": [
+      "Living in constant stress",
+      "Can't relax even when done",
+      "Pressure to always be doing"
+    ]
+  },
+  "open_mechanics": {
+    "description": "Samples and amplifies others' stress and urgency",
+    "traits": [
+      "Flexible pressure",
+      "Can feel others' urgency",
+      "Wisdom about what's actually urgent"
+    ],
+    "challenges": [
+      "Feeling rushed by others' pressure",
+      "Hurrying unnecessarily",
+      "Can't relax in stressful environments"
+    ],
+    "conditioning": "Pressure to always be busy and stressed"
+  },
+  "somatic_scan_instructions": "Feel base of spine and pelvic floor. Notice stress, pressure, or stillness.",
+  "regulation_techniques": [
+    "Ask: 'Is this urgency mine?'",
+    "Remove yourself from stressful environments",
+    "Honor that not everything is urgent"
+  ],
+  "neuroception": {
+    "safety_signals": "Center operating in its correct frequency, no over-identification or conditioning",
+    "threat_signals": "Conditioning patterns active, attempting to be what you're not"
+  }
+}
