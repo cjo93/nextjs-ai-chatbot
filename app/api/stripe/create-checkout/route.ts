@@ -1,4 +1,4 @@
-import { auth } from "@/(auth)/auth";
+import { auth } from "@/app/(auth)/auth";
 import { db } from "@/lib/db/utils";
 import { subscription as subscriptionTable, user } from "@/lib/db/schema";
 import { stripe, STRIPE_CONFIG } from "@/lib/stripe/client";
