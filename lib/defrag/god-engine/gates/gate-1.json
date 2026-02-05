@@ -1,0 +1,24 @@
+{
+  "gateNumber": 1,
+  "name": "Gate of Self-Expression",
+  "center": "G",
+  "keynote": "Creative Self-Expression",
+  "description": "The gate of creative role and creative identity, finding one's purpose through self-expression.",
+  "protocol": {
+    "when_activated": {
+      "strength": "Strong creative identity and self-expression",
+      "guidance": "Trust your unique creative voice and express yourself authentically",
+      "warning": "Avoid forcing creative expression when it doesn't flow naturally"
+    },
+    "when_undefined": {
+      "challenge": "Uncertainty about creative identity",
+      "guidance": "Explore different forms of expression to discover what resonates",
+      "opportunity": "Flexibility to adapt creative expression to different contexts"
+    }
+  },
+  "stress_response": {
+    "type": "identity_crisis",
+    "severity_multiplier": 1.2,
+    "recommended_action": "Reconnect with authentic self through creative practices"
+  }
+}

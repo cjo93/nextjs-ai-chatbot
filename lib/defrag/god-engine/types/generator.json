@@ -1,0 +1,26 @@
+{
+  "type": "Generator",
+  "description": "Generators are the life force of the planet, designed to respond to life and find satisfaction through work.",
+  "strategy": "To Respond",
+  "signature": "Satisfaction",
+  "not_self_theme": "Frustration",
+  "protocol": {
+    "decision_making": "Wait to respond to external cues before initiating",
+    "energy_management": "Sustainable work capacity when following correct response",
+    "stress_indicators": [
+      "Frustration from initiating without response",
+      "Exhaustion from wrong work",
+      "Feeling stuck or unfulfilled"
+    ],
+    "optimal_approach": {
+      "work": "Engage in work that lights you up and generates satisfaction",
+      "relationships": "Respond to invitations rather than pursuing",
+      "decisions": "Trust gut response - yes/no feeling in the sacral"
+    }
+  },
+  "stress_mapping": {
+    "frustration_threshold": 0.7,
+    "exhaustion_multiplier": 1.5,
+    "recovery_protocol": "Rest and wait for new responses to emerge"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "center": "Ajna",
+  "name": "Ajna Center",
+  "function": "Conceptualization and Mental Processing",
+  "description": "The Ajna Center processes and conceptualizes information from the Head Center, turning inspiration into concepts and opinions.",
+  "when_defined": {
+    "characteristic": "Fixed way of processing and conceptualizing",
+    "strength": "Reliable mental processing and consistent perspective",
+    "challenge": "Can be mentally rigid, attached to opinions",
+    "guidance": "Honor your unique perspective while staying open"
+  },
+  "when_undefined": {
+    "characteristic": "Flexible mental processing, takes in others' opinions",
+    "strength": "Wisdom through experiencing many perspectives",
+    "challenge": "Mental uncertainty, difficulty making decisions",
+    "not_self": "Trying to be certain, pretending to know",
+    "guidance": "Embrace the wisdom of 'I don't know' and stay open"
+  },
+  "stress_protocol": {
+    "defined": "Trust your mental authority and don't force certainty",
+    "undefined": "Release need for mental certainty, allow flexibility"
+  }
+}

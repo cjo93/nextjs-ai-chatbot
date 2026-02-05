@@ -1,0 +1,24 @@
+{
+  "gateNumber": 7,
+  "name": "Gate of the Role of the Self",
+  "center": "G",
+  "keynote": "Interaction",
+  "description": "The gate of leadership through interaction, influencing through authentic engagement.",
+  "protocol": {
+    "when_activated": {
+      "strength": "Natural leadership through authentic interaction",
+      "guidance": "Lead by example and authentic engagement with others",
+      "warning": "Avoid manipulating or forcing influence"
+    },
+    "when_undefined": {
+      "challenge": "Uncertainty about leadership role",
+      "guidance": "Observe how you naturally influence others without forcing it",
+      "opportunity": "Flexibility in how you show up in different situations"
+    }
+  },
+  "stress_response": {
+    "type": "role_confusion",
+    "severity_multiplier": 1.1,
+    "recommended_action": "Focus on being rather than doing - let leadership emerge naturally"
+  }
+}

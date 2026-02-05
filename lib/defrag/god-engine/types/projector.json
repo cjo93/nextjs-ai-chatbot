@@ -1,0 +1,26 @@
+{
+  "type": "Projector",
+  "description": "Projectors are guides and managers, designed to see into others and direct energy efficiently.",
+  "strategy": "Wait for the Invitation",
+  "signature": "Success",
+  "not_self_theme": "Bitterness",
+  "protocol": {
+    "decision_making": "Wait for recognition and invitation before offering guidance",
+    "energy_management": "Non-sacral being - needs rest and selective energy use",
+    "stress_indicators": [
+      "Bitterness from lack of recognition",
+      "Exhaustion from trying to keep up with Generators",
+      "Feeling invisible or unappreciated"
+    ],
+    "optimal_approach": {
+      "work": "Focus on mastery and wait for invitations to share your gifts",
+      "relationships": "Wait for recognition before going deep",
+      "decisions": "Trust your authority - test invitations against your strategy"
+    }
+  },
+  "stress_mapping": {
+    "bitterness_threshold": 0.6,
+    "exhaustion_multiplier": 2.0,
+    "recovery_protocol": "Rest deeply and focus on self-study and mastery"
+  }
+}
