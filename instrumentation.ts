@@ -1,5 +1,9 @@
-import { registerOTel } from "@vercel/otel";
+export async function register() {
+  if (process.env.NEXT_RUNTIME === 'nodejs') {
+    await import('./sentry.server.config')
+  }
 
-export function register() {
-  registerOTel({ serviceName: "ai-chatbot" });
+  if (process.env.NEXT_RUNTIME === 'edge') {
+    await import('./sentry.edge.config')
+  }
 }
