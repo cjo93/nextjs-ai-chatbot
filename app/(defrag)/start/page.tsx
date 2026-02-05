@@ -19,13 +19,14 @@ export default function StartPage() {
     const name = formData.get("name") as string;
     const birthDate = new Date(formData.get("birthDate") as string);
     const birthLocation = formData.get("birthLocation") as string;
-    const birthTime = formData.get("birthTime") as string;
+    const birthTime = (formData.get("birthTime") as string) || "unknown";
 
     // Calculate simple chart data
     const chartData = calculateSimpleChart(birthDate);
 
     // Create blueprint with simplified data structure
-    // Using placeholder coordinates (0,0) for MVP since we're not doing real ephemeris
+    // MVP: Using placeholder coordinates (0,0) since we're not doing geocoding yet
+    // Production TODO: Replace with actual geocoding API to convert birthLocation to lat/long
     const [newBlueprint] = await db
       .insert(blueprint)
       .values({
@@ -35,7 +36,7 @@ export default function StartPage() {
         birthLatitude: 0.0,
         birthLongitude: 0.0,
         birthTimezone: "UTC",
-        birthLocation: { location: birthLocation },
+        birthLocation: { location: birthLocation, time: birthTime },
         humanDesign: chartData,
         ephemeris: { simplified: true },
       })

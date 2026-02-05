@@ -4,6 +4,7 @@ import { blueprint } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
+import type { SimpleChartData } from "@/lib/defrag/simple-calculator";
 
 export default async function ChartPage({
   params,
@@ -29,7 +30,7 @@ export default async function ChartPage({
     );
   }
 
-  const data = chart.humanDesign as any;
+  const data = chart.humanDesign as SimpleChartData;
 
   return (
     <div className="min-h-screen bg-background">

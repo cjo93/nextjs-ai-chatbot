@@ -40,6 +40,8 @@ export function calculateSimpleChart(birthDate: Date): SimpleChartData {
   const selectedAuthority = authorityList[(day + month) % 7];
   
   // Calculate profile lines
+  // Note: In actual Human Design, only certain profile combinations are valid (1/3, 1/4, 2/4, 2/5, 3/5, 3/6, 4/6, 5/1, 5/2, 6/2, 6/3)
+  // This MVP calculator may generate invalid combinations for simplicity
   const firstLine = ((birthHash % 6) + 1);
   const secondLine = ((Math.floor(birthHash / 10) % 6) + 1);
   const profileNumbers = `${firstLine}/${secondLine}`;
