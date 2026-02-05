@@ -28,6 +28,8 @@ const pricingTiers = [
       "Event Tracking",
       "Relationships",
     ],
+    // Note: This is a tier identifier, not a Stripe price ID
+    // The backend API resolves "pro" → process.env.STRIPE_PRO_PRICE_ID
     priceId: "pro",
     popular: true,
   },

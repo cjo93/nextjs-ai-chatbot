@@ -12,12 +12,28 @@ export default async function ChartPage({
   params: { id: string };
 }) {
   const session = await auth();
+
+  // Require authentication before querying the database
+  if (!session?.user?.id) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold mb-4">Please log in</h1>
+          <Link href="/login" className="text-primary hover:underline">
+            Go to login
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   const [chart] = await db
     .select()
     .from(blueprint)
     .where(eq(blueprint.id, params.id));
 
-  if (!chart || chart.userId !== session?.user?.id) {
+  // Verify chart exists and belongs to the authenticated user
+  if (!chart || chart.userId !== session.user.id) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">

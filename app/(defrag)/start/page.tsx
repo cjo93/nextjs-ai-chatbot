@@ -25,16 +25,17 @@ export default function StartPage() {
     const chartData = calculateSimpleChart(birthDate);
 
     // Create blueprint with simplified data structure
-    // MVP: Using placeholder coordinates (0,0) since we're not doing geocoding yet
+    // MVP: Using sentinel value (-999) for coordinates to clearly indicate they're invalid
     // Production TODO: Replace with actual geocoding API to convert birthLocation to lat/long
+    // Using -999 will cause obvious failures if accidentally used in calculations
     const [newBlueprint] = await db
       .insert(blueprint)
       .values({
         userId: session.user.id,
         name,
         birthDate,
-        birthLatitude: 0.0,
-        birthLongitude: 0.0,
+        birthLatitude: -999.0,
+        birthLongitude: -999.0,
         birthTimezone: "UTC",
         birthLocation: { location: birthLocation, time: birthTime },
         humanDesign: chartData,
