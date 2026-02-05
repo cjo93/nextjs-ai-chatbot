@@ -1,12 +1,12 @@
 /**
  * Subscription Utilities
- * 
+ *
  * Functions for managing DEFRAG subscription tiers and feature access.
  */
 
+import { and, eq, gte } from "drizzle-orm";
 import { db } from "@/lib/db";
-import { subscription, blueprint, event } from "@/lib/db/schema";
-import { eq, and, gte } from "drizzle-orm";
+import { blueprint, subscription } from "@/lib/db/schema";
 
 type SubscriptionTier = "free" | "pro" | "lineage";
 
@@ -22,15 +22,15 @@ const TIER_LIMITS = {
     hasApiAccess: false,
   },
   pro: {
-    blueprints: Infinity,
-    eventsPerMonth: Infinity,
+    blueprints: Number.POSITIVE_INFINITY,
+    eventsPerMonth: Number.POSITIVE_INFINITY,
     severityLevels: [1, 2, 3, 4, 5], // All severity levels
     hasRelationships: true,
     hasApiAccess: false,
   },
   lineage: {
-    blueprints: Infinity,
-    eventsPerMonth: Infinity,
+    blueprints: Number.POSITIVE_INFINITY,
+    eventsPerMonth: Number.POSITIVE_INFINITY,
     severityLevels: [1, 2, 3, 4, 5], // All severity levels
     hasRelationships: true,
     hasApiAccess: true,
@@ -78,11 +78,11 @@ export function checkFeatureAccess(
 ): boolean {
   const limits = TIER_LIMITS[tier];
   const value = limits[feature];
-  
+
   if (typeof value === "boolean") {
     return value;
   }
-  
+
   return true;
 }
 
@@ -108,13 +108,15 @@ export async function canLogEvent(
   }
 
   // Check event limit for free tier
-  if (userSubscription.tier === "free") {
-    if (userSubscription.eventsThisPeriod >= limits.eventsPerMonth) {
-      return {
-        canLog: false,
-        reason: "You've reached your monthly event limit. Upgrade to Pro for unlimited events.",
-      };
-    }
+  if (
+    userSubscription.tier === "free" &&
+    userSubscription.eventsThisPeriod >= limits.eventsPerMonth
+  ) {
+    return {
+      canLog: false,
+      reason:
+        "You've reached your monthly event limit. Upgrade to Pro for unlimited events.",
+    };
   }
 
   return { canLog: true };
@@ -131,7 +133,7 @@ export async function canCreateBlueprint(
   const userSubscription = await getUserSubscription(userId);
   const limits = TIER_LIMITS[userSubscription.tier];
 
-  if (limits.blueprints === Infinity) {
+  if (limits.blueprints === Number.POSITIVE_INFINITY) {
     return { canCreate: true };
   }
 
@@ -144,7 +146,8 @@ export async function canCreateBlueprint(
   if (blueprints.length >= limits.blueprints) {
     return {
       canCreate: false,
-      reason: "You've reached your blueprint limit. Upgrade to Pro for unlimited blueprints.",
+      reason:
+        "You've reached your blueprint limit. Upgrade to Pro for unlimited blueprints.",
     };
   }
 
@@ -175,7 +178,7 @@ export async function incrementEventCount(userId: string): Promise<void> {
  */
 export async function resetMonthlyLimits(): Promise<void> {
   const now = new Date();
-  
+
   // Reset for subscriptions where current period has ended
   await db
     .update(subscription)

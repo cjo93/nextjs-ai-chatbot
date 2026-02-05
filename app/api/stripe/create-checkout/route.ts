@@ -1,25 +1,22 @@
 /**
  * Stripe Checkout Session API Route
- * 
+ *
  * Creates a Stripe checkout session for DEFRAG subscription purchases.
  */
 
-import { auth } from "@/app/(auth)/auth";
-import { stripe } from "@/lib/stripe/client";
-import { db } from "@/lib/db";
-import { subscription } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
+import { auth } from "@/app/(auth)/auth";
+import { db } from "@/lib/db";
+import { subscription } from "@/lib/db/schema";
+import { stripe } from "@/lib/stripe/client";
 
 export async function POST(request: Request) {
   try {
     const session = await auth();
-    
+
     if (!session?.user?.id) {
-      return NextResponse.json(
-        { error: "Unauthorized" },
-        { status: 401 }
-      );
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
     const { priceId, tier } = await request.json();
@@ -98,9 +95,9 @@ export async function POST(request: Request) {
       },
     });
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       url: checkoutSession.url,
-      sessionId: checkoutSession.id 
+      sessionId: checkoutSession.id,
     });
   } catch (error) {
     console.error("Error creating checkout session:", error);

@@ -1,25 +1,22 @@
 /**
  * Stripe Billing Portal API Route
- * 
+ *
  * Creates a Stripe billing portal session for subscription management.
  */
 
-import { auth } from "@/app/(auth)/auth";
-import { stripe } from "@/lib/stripe/client";
-import { db } from "@/lib/db";
-import { subscription } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
+import { auth } from "@/app/(auth)/auth";
+import { db } from "@/lib/db";
+import { subscription } from "@/lib/db/schema";
+import { stripe } from "@/lib/stripe/client";
 
-export async function POST(request: Request) {
+export async function POST(_request: Request) {
   try {
     const session = await auth();
-    
+
     if (!session?.user?.id) {
-      return NextResponse.json(
-        { error: "Unauthorized" },
-        { status: 401 }
-      );
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
     // Get user's subscription
@@ -29,7 +26,10 @@ export async function POST(request: Request) {
       .where(eq(subscription.userId, session.user.id))
       .limit(1);
 
-    if (userSubscription.length === 0 || !userSubscription[0].stripeCustomerId) {
+    if (
+      userSubscription.length === 0 ||
+      !userSubscription[0].stripeCustomerId
+    ) {
       return NextResponse.json(
         { error: "No subscription found" },
         { status: 404 }

@@ -1,6 +1,6 @@
 /**
  * Stripe Client-Side Loader
- * 
+ *
  * This module provides a function to load Stripe.js on the client side.
  * Uses the publishable key which is safe to expose in client-side code.
  */
@@ -16,14 +16,16 @@ let stripePromise: Promise<Stripe | null>;
 export const getStripe = (): Promise<Stripe | null> => {
   if (!stripePromise) {
     const publishableKey = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
-    
+
     if (!publishableKey) {
-      console.error("Missing NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY environment variable");
+      console.error(
+        "Missing NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY environment variable"
+      );
       return Promise.resolve(null);
     }
-    
+
     stripePromise = loadStripe(publishableKey);
   }
-  
+
   return stripePromise;
 };

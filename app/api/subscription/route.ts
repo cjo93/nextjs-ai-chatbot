@@ -1,22 +1,19 @@
 /**
  * Subscription API Route
- * 
+ *
  * Returns the current user's subscription information.
  */
 
+import { NextResponse } from "next/server";
 import { auth } from "@/app/(auth)/auth";
 import { getUserSubscription } from "@/lib/defrag/subscription";
-import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
     const session = await auth();
-    
+
     if (!session?.user?.id) {
-      return NextResponse.json(
-        { error: "Unauthorized" },
-        { status: 401 }
-      );
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
     const subscription = await getUserSubscription(session.user.id);

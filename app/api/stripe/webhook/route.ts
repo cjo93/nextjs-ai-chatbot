@@ -1,15 +1,15 @@
 /**
  * Stripe Webhook Handler
- * 
+ *
  * Handles Stripe webhook events for subscription lifecycle management.
  */
 
-import { stripe } from "@/lib/stripe/client";
-import { db } from "@/lib/db";
-import { subscription } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
 import type Stripe from "stripe";
+import { db } from "@/lib/db";
+import { subscription } from "@/lib/db/schema";
+import { stripe } from "@/lib/stripe/client";
 
 export async function POST(request: Request) {
   const body = await request.text();
@@ -23,7 +23,7 @@ export async function POST(request: Request) {
   }
 
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
-  
+
   if (!webhookSecret) {
     console.error("STRIPE_WEBHOOK_SECRET is not set");
     return NextResponse.json(
@@ -38,10 +38,7 @@ export async function POST(request: Request) {
     event = stripe.webhooks.constructEvent(body, signature, webhookSecret);
   } catch (err) {
     console.error("Webhook signature verification failed:", err);
-    return NextResponse.json(
-      { error: "Invalid signature" },
-      { status: 400 }
-    );
+    return NextResponse.json({ error: "Invalid signature" }, { status: 400 });
   }
 
   try {
@@ -100,7 +97,8 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
   }
 
   const stripeSubscription = await stripe.subscriptions.retrieve(
-    session.subscription as string
+    session.subscription as string,
+    { expand: ["items.data.price"] }
   );
 
   // Update or create subscription record
@@ -114,11 +112,20 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
     tier,
     stripeCustomerId: session.customer as string,
     stripeSubscriptionId: session.subscription as string,
-    stripePriceId: stripeSubscription.items.data[0].price.id,
-    status: stripeSubscription.status as "active" | "canceled" | "past_due" | "trialing" | "incomplete",
-    currentPeriodStart: new Date(stripeSubscription.current_period_start * 1000),
-    currentPeriodEnd: new Date(stripeSubscription.current_period_end * 1000),
-    cancelAtPeriodEnd: stripeSubscription.cancel_at_period_end,
+    stripePriceId: stripeSubscription.items.data[0]?.price.id || "",
+    status: stripeSubscription.status as
+      | "active"
+      | "canceled"
+      | "past_due"
+      | "trialing"
+      | "incomplete",
+    currentPeriodStart: new Date(
+      (stripeSubscription.current_period_start || 0) * 1000
+    ),
+    currentPeriodEnd: new Date(
+      (stripeSubscription.current_period_end || 0) * 1000
+    ),
+    cancelAtPeriodEnd: stripeSubscription.cancel_at_period_end || false,
     updatedAt: new Date(),
   };
 
@@ -137,10 +144,32 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
   }
 }
 
-async function handleSubscriptionUpdated(stripeSubscription: Stripe.Subscription) {
+async function handleSubscriptionUpdated(
+  stripeSubscription: Stripe.Subscription
+) {
   const userId = stripeSubscription.metadata?.userId;
 
-  if (!userId) {
+  if (userId) {
+    await db
+      .update(subscription)
+      .set({
+        status: stripeSubscription.status as
+          | "active"
+          | "canceled"
+          | "past_due"
+          | "trialing"
+          | "incomplete",
+        currentPeriodStart: new Date(
+          (stripeSubscription.current_period_start || 0) * 1000
+        ),
+        currentPeriodEnd: new Date(
+          (stripeSubscription.current_period_end || 0) * 1000
+        ),
+        cancelAtPeriodEnd: stripeSubscription.cancel_at_period_end || false,
+        updatedAt: new Date(),
+      })
+      .where(eq(subscription.userId, userId));
+  } else {
     // Find user by stripeSubscriptionId
     const existingSubscriptions = await db
       .select()
@@ -149,35 +178,38 @@ async function handleSubscriptionUpdated(stripeSubscription: Stripe.Subscription
       .limit(1);
 
     if (existingSubscriptions.length === 0) {
-      console.error("Could not find subscription for Stripe subscription ID:", stripeSubscription.id);
+      console.error(
+        "Could not find subscription for Stripe subscription ID:",
+        stripeSubscription.id
+      );
       return;
     }
 
     await db
       .update(subscription)
       .set({
-        status: stripeSubscription.status as "active" | "canceled" | "past_due" | "trialing" | "incomplete",
-        currentPeriodStart: new Date(stripeSubscription.current_period_start * 1000),
-        currentPeriodEnd: new Date(stripeSubscription.current_period_end * 1000),
-        cancelAtPeriodEnd: stripeSubscription.cancel_at_period_end,
+        status: stripeSubscription.status as
+          | "active"
+          | "canceled"
+          | "past_due"
+          | "trialing"
+          | "incomplete",
+        currentPeriodStart: new Date(
+          (stripeSubscription.current_period_start || 0) * 1000
+        ),
+        currentPeriodEnd: new Date(
+          (stripeSubscription.current_period_end || 0) * 1000
+        ),
+        cancelAtPeriodEnd: stripeSubscription.cancel_at_period_end || false,
         updatedAt: new Date(),
       })
       .where(eq(subscription.stripeSubscriptionId, stripeSubscription.id));
-  } else {
-    await db
-      .update(subscription)
-      .set({
-        status: stripeSubscription.status as "active" | "canceled" | "past_due" | "trialing" | "incomplete",
-        currentPeriodStart: new Date(stripeSubscription.current_period_start * 1000),
-        currentPeriodEnd: new Date(stripeSubscription.current_period_end * 1000),
-        cancelAtPeriodEnd: stripeSubscription.cancel_at_period_end,
-        updatedAt: new Date(),
-      })
-      .where(eq(subscription.userId, userId));
   }
 }
 
-async function handleSubscriptionDeleted(stripeSubscription: Stripe.Subscription) {
+async function handleSubscriptionDeleted(
+  stripeSubscription: Stripe.Subscription
+) {
   // Downgrade to free tier
   const existingSubscriptions = await db
     .select()
@@ -186,7 +218,10 @@ async function handleSubscriptionDeleted(stripeSubscription: Stripe.Subscription
     .limit(1);
 
   if (existingSubscriptions.length === 0) {
-    console.error("Could not find subscription for Stripe subscription ID:", stripeSubscription.id);
+    console.error(
+      "Could not find subscription for Stripe subscription ID:",
+      stripeSubscription.id
+    );
     return;
   }
 
@@ -210,7 +245,9 @@ async function handlePaymentSucceeded(invoice: Stripe.Invoice) {
   const existingSubscriptions = await db
     .select()
     .from(subscription)
-    .where(eq(subscription.stripeSubscriptionId, invoice.subscription as string))
+    .where(
+      eq(subscription.stripeSubscriptionId, invoice.subscription as string)
+    )
     .limit(1);
 
   if (existingSubscriptions.length === 0) {
@@ -224,7 +261,9 @@ async function handlePaymentSucceeded(invoice: Stripe.Invoice) {
       status: "active",
       updatedAt: new Date(),
     })
-    .where(eq(subscription.stripeSubscriptionId, invoice.subscription as string));
+    .where(
+      eq(subscription.stripeSubscriptionId, invoice.subscription as string)
+    );
 }
 
 async function handlePaymentFailed(invoice: Stripe.Invoice) {
@@ -236,7 +275,9 @@ async function handlePaymentFailed(invoice: Stripe.Invoice) {
   const existingSubscriptions = await db
     .select()
     .from(subscription)
-    .where(eq(subscription.stripeSubscriptionId, invoice.subscription as string))
+    .where(
+      eq(subscription.stripeSubscriptionId, invoice.subscription as string)
+    )
     .limit(1);
 
   if (existingSubscriptions.length === 0) {
@@ -249,5 +290,7 @@ async function handlePaymentFailed(invoice: Stripe.Invoice) {
       status: "past_due",
       updatedAt: new Date(),
     })
-    .where(eq(subscription.stripeSubscriptionId, invoice.subscription as string));
+    .where(
+      eq(subscription.stripeSubscriptionId, invoice.subscription as string)
+    );
 }

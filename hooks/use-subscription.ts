@@ -1,6 +1,6 @@
 /**
  * useSubscription Hook
- * 
+ *
  * React hook for accessing subscription state and feature access.
  */
 
@@ -31,13 +31,13 @@ export function useSubscription(): SubscriptionState {
     try {
       setIsLoading(true);
       setError(null);
-      
+
       const response = await fetch("/api/subscription");
-      
+
       if (!response.ok) {
         throw new Error("Failed to fetch subscription");
       }
-      
+
       const data = await response.json();
       setSubscription(data.subscription);
     } catch (err) {
@@ -49,7 +49,7 @@ export function useSubscription(): SubscriptionState {
 
   useEffect(() => {
     fetchSubscription();
-  }, []);
+  }, [fetchSubscription]);
 
   const canAccessFeature = (feature: string): boolean => {
     if (!subscription) {

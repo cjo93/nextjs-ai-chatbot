@@ -1,6 +1,6 @@
 /**
  * Stripe Server-Side Client
- * 
+ *
  * This module initializes and exports a Stripe instance for server-side operations.
  * Uses the secret key for authenticated API calls.
  */
