@@ -24,7 +24,7 @@ export function ScriptDisplay({
         <div className="flex items-center justify-between">
           <CardTitle className="text-lg">Inversion Script</CardTitle>
           <div className="flex gap-2">
-            {scriptSource === "seda" && (
+            {scriptSource === "ai-generated" && (
               <Badge variant="secondary" className="bg-purple-500/10 text-purple-700">
                 AI-Generated
               </Badge>

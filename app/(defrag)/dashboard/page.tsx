@@ -80,7 +80,7 @@ async function DashboardContent() {
                 Log Event
               </Button>
             </Link>
-            <Link href="/settings">
+            <Link href="/defrag/settings">
               <Button variant="ghost" size="sm">
                 <Settings className="h-4 w-4" />
               </Button>
@@ -127,7 +127,7 @@ async function DashboardContent() {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-bold">Your Blueprints</h2>
-            <Link href="/onboarding">
+            <Link href="/defrag/onboarding">
               <Button>
                 <Plus className="mr-2 h-4 w-4" />
                 New Blueprint
@@ -145,7 +145,7 @@ async function DashboardContent() {
                 <p className="text-muted-foreground mb-4">
                   Create your first blueprint to get started
                 </p>
-                <Link href="/onboarding">
+                <Link href="/defrag/onboarding">
                   <Button>Create Blueprint</Button>
                 </Link>
               </CardContent>
@@ -224,7 +224,7 @@ async function DashboardContent() {
           </Card>
 
           <Card className="cursor-pointer hover:bg-muted/50 transition-colors">
-            <Link href="/settings">
+            <Link href="/defrag/settings">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Settings className="h-5 w-5" />

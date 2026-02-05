@@ -61,10 +61,10 @@ export default function PricingPage() {
   const handleSubscribe = async (priceId: string) => {
     setIsLoading(true);
     try {
-      const response = await fetch("/api/stripe/checkout", {
+      const response = await fetch("/api/stripe/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ priceId }),
+        body: JSON.stringify({ tier: priceId === "pro_price_id" ? "pro" : "lineage" }),
       });
 
       const data = await response.json();

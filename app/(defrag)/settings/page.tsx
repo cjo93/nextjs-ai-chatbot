@@ -150,13 +150,21 @@ async function SettingsContent() {
                     </div>
                   </div>
 
-                  <form action="/api/stripe/portal" method="POST">
-                    <Button type="submit" variant="outline" className="w-full">
-                      <CreditCard className="mr-2 h-4 w-4" />
-                      Manage Billing
-                      <ExternalLink className="ml-2 h-3 w-3" />
-                    </Button>
-                  </form>
+                  <Button
+                    variant="outline"
+                    className="w-full"
+                    onClick={async () => {
+                      const res = await fetch("/api/stripe/create-portal", {
+                        method: "POST",
+                      });
+                      const data = await res.json();
+                      if (data.url) window.location.href = data.url;
+                    }}
+                  >
+                    <CreditCard className="mr-2 h-4 w-4" />
+                    Manage Billing
+                    <ExternalLink className="ml-2 h-3 w-3" />
+                  </Button>
                 </>
               )}
             </CardContent>

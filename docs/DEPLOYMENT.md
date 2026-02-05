@@ -2,6 +2,18 @@
 
 This guide covers deploying the DEFRAG platform to production.
 
+## ⚠️ Important Limitations
+
+### Ephemeris Calculation
+The current implementation uses **simplified astronomical calculations** for birth chart generation. While sufficient for demonstrating the platform's capabilities, production use should integrate a proper ephemeris library like Swiss Ephemeris for accurate planetary positions.
+
+**Impact**: Chart accuracy is approximate. For production deployment with paying customers, consider:
+1. Integrating Swiss Ephemeris (swisseph) library
+2. Using an external API service (astro-seek.com, etc.)
+3. Clearly disclaiming calculation accuracy to users
+
+See `lib/defrag/resolver.ts` lines 114-116 for implementation details.
+
 ## Prerequisites
 
 - Node.js 18+ and npm/pnpm

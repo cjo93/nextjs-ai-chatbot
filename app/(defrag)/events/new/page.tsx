@@ -49,7 +49,7 @@ function NewEventContent() {
             <p className="text-muted-foreground mb-4">
               Please select a blueprint from your dashboard first.
             </p>
-            <Link href="/dashboard">
+            <Link href="/defrag/dashboard">
               <Button>Go to Dashboard</Button>
             </Link>
           </CardContent>
@@ -88,7 +88,7 @@ function NewEventContent() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-14 items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href="/dashboard">
+            <Link href="/defrag/dashboard">
               <Button variant="ghost" size="sm">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Dashboard
