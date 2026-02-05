@@ -1,0 +1,24 @@
+{
+  "gateNumber": 2,
+  "name": "Gate of the Direction of the Self",
+  "center": "G",
+  "keynote": "Higher Knowledge",
+  "description": "The gate of the direction, receiving and transmitting higher knowledge and wisdom.",
+  "protocol": {
+    "when_activated": {
+      "strength": "Natural ability to receive and share wisdom",
+      "guidance": "Trust your intuitive knowing and share insights when invited",
+      "warning": "Don't force your knowledge on others - wait for recognition"
+    },
+    "when_undefined": {
+      "challenge": "Seeking direction from external sources",
+      "guidance": "Learn to discern true wisdom from conditioning",
+      "opportunity": "Openness to multiple perspectives and teachings"
+    }
+  },
+  "stress_response": {
+    "type": "direction_confusion",
+    "severity_multiplier": 1.3,
+    "recommended_action": "Return to inner authority rather than seeking external validation"
+  }
+}

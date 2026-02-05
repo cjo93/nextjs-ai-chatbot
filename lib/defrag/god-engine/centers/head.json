@@ -1,0 +1,23 @@
+{
+  "center": "Head",
+  "name": "Head Center",
+  "function": "Inspiration and Mental Pressure",
+  "description": "The Head Center is the pressure center for mental inspiration and questions. It creates the pressure to answer questions and seek knowledge.",
+  "when_defined": {
+    "characteristic": "Consistent mental pressure and fixed way of being inspired",
+    "strength": "Reliable source of inspiration and questions",
+    "challenge": "Can be mentally pressured even when rest is needed",
+    "guidance": "Trust your unique way of processing inspiration"
+  },
+  "when_undefined": {
+    "characteristic": "Variable mental pressure, takes in questions from others",
+    "strength": "Flexible thinking, can see many perspectives",
+    "challenge": "Can feel overwhelmed by others' mental pressure",
+    "not_self": "Trying to answer everyone's questions, mental overwhelm",
+    "guidance": "Learn to let go of questions that aren't yours"
+  },
+  "stress_protocol": {
+    "defined": "Create boundaries around thinking time",
+    "undefined": "Release mental pressure through meditation or nature"
+  }
+}
