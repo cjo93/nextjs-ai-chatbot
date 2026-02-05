@@ -1,0 +1,56 @@
+{
+  "id": 45,
+  "label": "Gathering Together",
+  "i_ching_name": "Cui / Gathering Together",
+  "frequencies": {
+    "shadow": {
+      "name": "DOMINANCE",
+      "description": "Using resources to control, material manipulation",
+      "behavioral_signature": "Hoarding power, controlling through ownership",
+      "somatic_signature": "Tight grip, closed hands",
+      "thought_pattern": "If I control the resources, I control the people.",
+      "emotional_state": "Fear of loss, scarcity mindset"
+    },
+    "gift": {
+      "name": "GATHERING",
+      "description": "Attracting resources for the benefit of the collective",
+      "behavioral_signature": "Generous distribution, wise stewardship",
+      "somatic_signature": "Open hands, receiving and giving flow",
+      "thought_pattern": "Resources flow to me so they can flow through me.",
+      "emotional_state": "Abundance mindset, generous trust"
+    },
+    "siddhi": {
+      "name": "COMMUNION",
+      "description": "Recognition that all belongs to all, no separation",
+      "behavioral_signature": "Perfect distribution, divine economy",
+      "somatic_signature": "Open channel, infinite flow",
+      "thought_pattern": "There is no mine or yours. All is One.",
+      "emotional_state": "Universal generosity, sacred sharing"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["controlling through resources", "hoarding", "using money to manipulate", "fear of losing power"],
+      "diagnosis": {
+        "mechanism": "Resource Control Pattern",
+        "distortion": "Believing Power Requires Control"
+      },
+      "script": "You are controlling resources because you don't trust the flow. Gate 45 is about gathering for the collective good, not personal dominance. True leadership comes from distribution, not hoarding. When you hold tight, you block the very flow that sustains you. Open your hands.",
+      "somatic_anchor": "Notice where you're gripping (money, objects, power). Physically open your hands. Release the grip.",
+      "experiment": {
+        "id": "gate_45_generous_distribution",
+        "duration_days": 7,
+        "hypothesis": "If I practice generous distribution for 7 days, more resources will flow to me.",
+        "action": "Daily: Give away something of value (money, time, knowledge). Track what comes back.",
+        "success_criteria": {
+          "metric": "flow_increase",
+          "target": "Experience of increased flow and decreased fear",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

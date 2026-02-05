@@ -1,0 +1,56 @@
+{
+  "id": 33,
+  "label": "Retreat",
+  "i_ching_name": "Dun / Retreat",
+  "frequencies": {
+    "shadow": {
+      "name": "FORGETTING",
+      "description": "Repeating past mistakes, not learning from experience",
+      "behavioral_signature": "Cyclical patterns, same mistakes repeatedly",
+      "somatic_signature": "Disconnection from wisdom body",
+      "thought_pattern": "Why does this keep happening to me?",
+      "emotional_state": "Frustration with patterns, helpless repetition"
+    },
+    "gift": {
+      "name": "MINDFULNESS",
+      "description": "Learning from experience, integrating lessons",
+      "behavioral_signature": "Reflective practice, conscious evolution",
+      "somatic_signature": "Embodied learning, pattern recognition",
+      "thought_pattern": "I learn from this. I don't repeat what doesn't serve.",
+      "emotional_state": "Wise discernment, growth mindset"
+    },
+    "siddhi": {
+      "name": "REVELATION",
+      "description": "Direct knowing, instant integration of wisdom",
+      "behavioral_signature": "Prophetic insight, seeing the pattern in all things",
+      "somatic_signature": "Immediate somatic knowing, no learning curve",
+      "thought_pattern": "I know. The pattern reveals itself instantly.",
+      "emotional_state": "Omniscient awareness, timeless wisdom"
+    }
+  },
+  "circuit": "Collective",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["repeating patterns", "same mistake again", "not learning", "cyclical suffering"],
+      "diagnosis": {
+        "mechanism": "Pattern Blindness",
+        "distortion": "Not Integrating Experience"
+      },
+      "script": "You keep repeating this because you're not integrating the lesson. Gate 33 is about storytelling—taking experience and deriving meaning. When you don't reflect on what happened, you're doomed to repeat it. Stop rushing forward. Pause. What is this pattern teaching you?",
+      "somatic_anchor": "When you notice a repeating pattern, stop. Journal: 'What am I meant to learn from this?' Extract the wisdom.",
+      "experiment": {
+        "id": "gate_33_pattern_integration",
+        "duration_days": 14,
+        "hypothesis": "If I reflect on patterns and extract lessons for 14 days, repetition will decrease.",
+        "action": "Daily: Review day. Identify patterns. Write: 'Today I learned...' Integrate the lesson consciously.",
+        "success_criteria": {
+          "metric": "pattern_interruption",
+          "target": "Breaking at least one cyclical pattern",
+          "duration": "14_days"
+        }
+      }
+    }
+  ]
+}

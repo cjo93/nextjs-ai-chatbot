@@ -1,0 +1,56 @@
+{
+  "id": 35,
+  "label": "Progress",
+  "i_ching_name": "Jin / Progress",
+  "frequencies": {
+    "shadow": {
+      "name": "HUNGER",
+      "description": "Insatiable appetite for experience, never satisfied",
+      "behavioral_signature": "Constant seeking, collecting experiences",
+      "somatic_signature": "Restless body, always wanting more",
+      "thought_pattern": "What's next? This isn't enough. I need more.",
+      "emotional_state": "Perpetual dissatisfaction, hungry ghost"
+    },
+    "gift": {
+      "name": "ADVENTURE",
+      "description": "Embracing new experiences with presence and joy",
+      "behavioral_signature": "Enthusiastic explorer, present in each moment",
+      "somatic_signature": "Alert aliveness, engaged presence",
+      "thought_pattern": "This is amazing. I'm fully here for this experience.",
+      "emotional_state": "Wonder, grateful presence"
+    },
+    "siddhi": {
+      "name": "BOUNDLESSNESS",
+      "description": "All experience as one infinite unfolding",
+      "behavioral_signature": "Pure receptivity to what is",
+      "somatic_signature": "No separation between experiencer and experienced",
+      "thought_pattern": "I am the experience. There is no separation.",
+      "emotional_state": "Infinite satisfaction, complete fulfillment"
+    }
+  },
+  "circuit": "Collective",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["never satisfied", "always seeking", "what's next", "collecting experiences"],
+      "diagnosis": {
+        "mechanism": "Experience Addiction",
+        "distortion": "Seeking Future Instead of Being Present"
+      },
+      "script": "You are running from the present moment by always seeking the next experience. Gate 35 is about progress through new experiences, but you've made experience itself the addiction. True adventure requires presence. You cannot taste life when you're always reaching for the next thing. Be here first.",
+      "somatic_anchor": "When craving 'next,' stop. Feel your body. Say: 'I am here. This is enough. I am present now.'",
+      "experiment": {
+        "id": "gate_35_presence_in_experience",
+        "duration_days": 7,
+        "hypothesis": "If I practice presence in current experience for 7 days, satisfaction will increase.",
+        "action": "Daily: Pick one activity. Be fully present for it. No phone, no planning next. Just this.",
+        "success_criteria": {
+          "metric": "satisfaction_in_present",
+          "target": "Decreased seeking, increased contentment with now",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

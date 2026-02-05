@@ -1,0 +1,56 @@
+{
+  "id": 8,
+  "label": "Holding Together",
+  "i_ching_name": "Bi / Holding Together",
+  "frequencies": {
+    "shadow": {
+      "name": "MEDIOCRITY",
+      "description": "Fear of standing out, hiding unique expression",
+      "behavioral_signature": "Playing small, conforming to blend in",
+      "somatic_signature": "Constricted throat, unexpressed voice",
+      "thought_pattern": "I shouldn't draw attention. Better to fit in.",
+      "emotional_state": "Fear of visibility, self-suppression"
+    },
+    "gift": {
+      "name": "STYLE",
+      "description": "Unique self-expression that inspires others",
+      "behavioral_signature": "Authentic presence, original voice",
+      "somatic_signature": "Open throat, confident expression",
+      "thought_pattern": "My unique expression is my gift. I model authenticity.",
+      "emotional_state": "Creative confidence, inspired uniqueness"
+    },
+    "siddhi": {
+      "name": "EXQUISITENESS",
+      "description": "Pure creative expression as divine art",
+      "behavioral_signature": "Every action is creative offering",
+      "somatic_signature": "Channel for divine creativity",
+      "thought_pattern": "I am art itself. Expression flows through me.",
+      "emotional_state": "Ecstatic creativity, sacred expression"
+    }
+  },
+  "circuit": "Individual",
+  "center": "THROAT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["hiding", "playing small", "fear of standing out", "suppressing uniqueness"],
+      "diagnosis": {
+        "mechanism": "Self-Expression Suppression",
+        "distortion": "Believing Safety Requires Conformity"
+      },
+      "script": "You are not mediocre. You are suppressing your unique expression out of fear. Gate 8 is about modeling through creative uniqueness. When you hide yourself, you rob the world of your contribution. Your job is not to fit in—it's to stand out authentically.",
+      "somatic_anchor": "Feel where your expression is held back in your throat. Hum. Make sound. Release the constriction.",
+      "experiment": {
+        "id": "gate_8_authentic_expression",
+        "duration_days": 7,
+        "hypothesis": "If I express myself authentically for 7 days, I'll inspire others and feel more alive.",
+        "action": "Daily: Share one authentic expression (writing, art, conversation) that feels risky or unique.",
+        "success_criteria": {
+          "metric": "expression_confidence",
+          "target": "Increased comfort with authentic visibility",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}
