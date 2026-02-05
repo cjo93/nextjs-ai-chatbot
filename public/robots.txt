@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /defrag/admin/
+
+Sitemap: https://defrag.app/sitemap.xml

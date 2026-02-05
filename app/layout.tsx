@@ -7,9 +7,62 @@ import "./globals.css";
 import { SessionProvider } from "next-auth/react";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chat.vercel.ai"),
-  title: "Next.js Chatbot Template",
-  description: "Next.js chatbot template using the AI SDK.",
+  title: {
+    default: "DEFRAG - Mechanical Clarity for Relational Dynamics",
+    template: "%s | DEFRAG",
+  },
+  description:
+    "Transform relational friction into clarity using deterministic Human Design mechanics. Track events, understand patterns, evolve consciously.",
+  keywords: [
+    "human design",
+    "relationship compatibility",
+    "emotional intelligence",
+    "self-awareness",
+    "personal development",
+  ],
+  authors: [{ name: "DEFRAG" }],
+  creator: "DEFRAG",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://defrag.app",
+    title: "DEFRAG - Mechanical Clarity for Relational Dynamics",
+    description:
+      "Transform relational friction into clarity using deterministic Human Design mechanics.",
+    siteName: "DEFRAG",
+    images: [
+      {
+        url: "https://defrag.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "DEFRAG Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DEFRAG - Mechanical Clarity for Relational Dynamics",
+    description:
+      "Transform relational friction into clarity using deterministic Human Design mechanics.",
+    images: ["https://defrag.app/og-image.png"],
+    creator: "@defrag_app",
+  },
+  metadataBase: new URL("https://defrag.app"),
+  alternates: {
+    canonical: "https://defrag.app",
+  },
+  verification: {
+    // Add your Google site verification code here after claiming the domain in Google Search Console
+    // google: 'your-verification-code',
+  },
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/manifest.json",
 };
 
 export const viewport = {
