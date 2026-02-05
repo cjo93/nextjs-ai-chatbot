@@ -1,0 +1,24 @@
+{
+  "gateNumber": 13,
+  "name": "Fellowship",
+  "hexagram": "☰",
+  "keywords": ["listening", "secrets", "direction", "fellowship"],
+  "inversionProtocols": {
+    "low": [
+      "Listen more deeply today. Someone's story holds a pattern you need to recognize.",
+      "Notice where you're talking when you should be listening. Your direction comes through hearing others.",
+      "Share one story from your past. Your history contains wisdom for your present."
+    ],
+    "medium": [
+      "This situation is asking you to listen for the deeper pattern. What story keeps repeating?",
+      "Your struggle reveals where you're either not listening or not being heard. Which is it?",
+      "The direction you seek is hidden in the stories you've been hearing. Look for the common thread."
+    ],
+    "high": [
+      "This crisis is a master story—it contains the pattern you've been missing. Listen to it deeply.",
+      "You're experiencing the pain of secrets—either keeping them or not being trusted with them. Truth is calling.",
+      "Your deepest listening is required now. What is this situation trying to tell you about your direction?"
+    ]
+  },
+  "wisdomText": "Gate 13 is the gate of listening and fellowship. It holds the secrets of human patterns and the direction that comes from understanding those patterns. When stressed, it shows where you're either not listening deeply enough or where your voice/story isn't being heard. The inversion: listen for the pattern, share your truth, and trust that direction emerges from authentic fellowship."
+}
