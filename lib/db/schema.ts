@@ -2,7 +2,9 @@ import type { InferSelectModel } from "drizzle-orm";
 import {
   boolean,
   foreignKey,
+  integer,
   json,
+  numeric,
   pgTable,
   primaryKey,
   text,
@@ -168,3 +170,180 @@ export const stream = pgTable(
 );
 
 export type Stream = InferSelectModel<typeof stream>;
+
+// =============================================================================
+// DEFRAG SCHEMA - Human Design Personal Development Platform
+// =============================================================================
+
+/**
+ * DEFRAG Subscriptions - Manages user subscription tiers
+ * Tier 1: Free - Single blueprint, 5 events/month
+ * Tier 2: Basic - $9.99/mo - 10 events/month, basic analytics
+ * Tier 3: Pro - $29.99/mo - Unlimited events, relationships, experiments
+ */
+export const defragSubscription = pgTable("DefragSubscription", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  tier: varchar("tier", { enum: ["free", "basic", "pro"] })
+    .notNull()
+    .default("free"),
+  stripeCustomerId: varchar("stripeCustomerId", { length: 255 }),
+  stripeSubscriptionId: varchar("stripeSubscriptionId", { length: 255 }),
+  stripePriceId: varchar("stripePriceId", { length: 255 }),
+  status: varchar("status", {
+    enum: ["active", "canceled", "past_due", "incomplete"],
+  })
+    .notNull()
+    .default("active"),
+  currentPeriodStart: timestamp("currentPeriodStart"),
+  currentPeriodEnd: timestamp("currentPeriodEnd"),
+  cancelAtPeriodEnd: boolean("cancelAtPeriodEnd").notNull().default(false),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+});
+
+export type DefragSubscription = InferSelectModel<typeof defragSubscription>;
+
+/**
+ * DEFRAG Blueprints - User's Human Design birth charts
+ * Contains calculated bodygraph data (gates, centers, type, authority, etc.)
+ */
+export const defragBlueprint = pgTable("DefragBlueprint", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  name: varchar("name", { length: 255 }).notNull(),
+  birthDate: timestamp("birthDate").notNull(),
+  birthTime: varchar("birthTime", { length: 10 }).notNull(), // HH:MM format
+  birthLocation: varchar("birthLocation", { length: 255 }).notNull(),
+  birthLatitude: numeric("birthLatitude", { precision: 10, scale: 7 }).notNull(),
+  birthLongitude: numeric("birthLongitude", { precision: 10, scale: 7 }).notNull(),
+  // Calculated Human Design data (JSON structure)
+  chartData: json("chartData").notNull(), // { type, authority, profile, gates, centers, channels, etc. }
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+});
+
+export type DefragBlueprint = InferSelectModel<typeof defragBlueprint>;
+
+/**
+ * DEFRAG Events - User-logged life events for physics tracking
+ * Events are stress incidents that affect the user's vector state
+ */
+export const defragEvent = pgTable("DefragEvent", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  blueprintId: uuid("blueprintId")
+    .notNull()
+    .references(() => defragBlueprint.id, { onDelete: "cascade" }),
+  title: varchar("title", { length: 255 }).notNull(),
+  description: text("description").notNull(),
+  severity: integer("severity").notNull(), // 1-10 scale
+  category: varchar("category", { length: 100 }).notNull(), // work, relationships, health, etc.
+  timestamp: timestamp("timestamp").notNull(), // When the event occurred
+  // Calculated physics data
+  vectorState: json("vectorState"), // { magnitude, direction, affectedGates: [...] }
+  generatedScript: text("generatedScript"), // AI-generated interpretation
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+});
+
+export type DefragEvent = InferSelectModel<typeof defragEvent>;
+
+/**
+ * DEFRAG Feedback - User feedback on generated scripts
+ * Helps improve the inversion engine over time
+ */
+export const defragFeedback = pgTable("DefragFeedback", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  eventId: uuid("eventId")
+    .notNull()
+    .references(() => defragEvent.id, { onDelete: "cascade" }),
+  rating: integer("rating").notNull(), // 1-5 stars
+  comment: text("comment"),
+  helpful: boolean("helpful"),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+});
+
+export type DefragFeedback = InferSelectModel<typeof defragFeedback>;
+
+/**
+ * DEFRAG Experiments - Hypothesis testing for personal growth
+ * Pro-tier feature for tracking behavioral experiments
+ */
+export const defragExperiment = pgTable("DefragExperiment", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  blueprintId: uuid("blueprintId")
+    .notNull()
+    .references(() => defragBlueprint.id, { onDelete: "cascade" }),
+  title: varchar("title", { length: 255 }).notNull(),
+  hypothesis: text("hypothesis").notNull(),
+  method: text("method").notNull(),
+  duration: integer("duration"), // days
+  status: varchar("status", { enum: ["active", "completed", "abandoned"] })
+    .notNull()
+    .default("active"),
+  startDate: timestamp("startDate").notNull().defaultNow(),
+  endDate: timestamp("endDate"),
+  results: text("results"),
+  insights: text("insights"),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+});
+
+export type DefragExperiment = InferSelectModel<typeof defragExperiment>;
+
+/**
+ * DEFRAG Relationships - Synastry analysis between blueprints
+ * Pro-tier feature for relationship compatibility
+ */
+export const defragRelationship = pgTable("DefragRelationship", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  blueprint1Id: uuid("blueprint1Id")
+    .notNull()
+    .references(() => defragBlueprint.id, { onDelete: "cascade" }),
+  blueprint2Id: uuid("blueprint2Id")
+    .notNull()
+    .references(() => defragBlueprint.id, { onDelete: "cascade" }),
+  relationshipType: varchar("relationshipType", { length: 100 }).notNull(), // romantic, family, work, etc.
+  synastryData: json("synastryData"), // { compatibility, electromagnetic, dominance, compromise }
+  notes: text("notes"),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+});
+
+export type DefragRelationship = InferSelectModel<typeof defragRelationship>;
+
+/**
+ * DEFRAG Usage - Tracks feature usage for rate limiting
+ * Enforces tier-based limits (events per month, blueprints, etc.)
+ */
+export const defragUsage = pgTable("DefragUsage", {
+  id: uuid("id").primaryKey().notNull().defaultRandom(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  month: varchar("month", { length: 7 }).notNull(), // YYYY-MM format
+  eventsLogged: integer("eventsLogged").notNull().default(0),
+  blueprintsCreated: integer("blueprintsCreated").notNull().default(0),
+  experimentsStarted: integer("experimentsStarted").notNull().default(0),
+  relationshipsCreated: integer("relationshipsCreated").notNull().default(0),
+  createdAt: timestamp("createdAt").notNull().defaultNow(),
+  updatedAt: timestamp("updatedAt").notNull().defaultNow(),
+});
+
+export type DefragUsage = InferSelectModel<typeof defragUsage>;
