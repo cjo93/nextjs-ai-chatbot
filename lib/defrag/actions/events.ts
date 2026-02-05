@@ -9,8 +9,8 @@ import { db } from "@/lib/db";
 import { defragEvent, defragBlueprint, defragSubscription, defragUsage } from "@/lib/db/schema";
 import { calculateVectorState } from "../physics";
 import { invertEvent, validateEvent } from "../inversion";
-import type { EventInput, ChartData } from "../types";
-import { eq, and, desc } from "drizzle-orm";
+import type { EventInput, ChartData, SubscriptionTier } from "../types";
+import { eq, and, desc, sql } from "drizzle-orm";
 import { TIER_LIMITS } from "../types";
 
 /**
@@ -51,7 +51,7 @@ export async function logEvent(input: {
       .limit(1);
     
     const tier = subscription[0]?.tier || "free";
-    const limits = TIER_LIMITS[tier];
+    const limits = TIER_LIMITS[tier as SubscriptionTier];
     
     // Check monthly event limit
     const currentMonth = new Date().toISOString().slice(0, 7); // YYYY-MM
@@ -125,7 +125,7 @@ export async function logEvent(input: {
       .onConflictDoUpdate({
         target: [defragUsage.userId, defragUsage.month],
         set: {
-          eventsLogged: defragUsage.eventsLogged + 1,
+          eventsLogged: sql`${defragUsage.eventsLogged} + 1`,
           updatedAt: new Date(),
         },
       });
@@ -257,7 +257,7 @@ export async function getUsageStats() {
       .limit(1);
     
     const tier = subscription[0]?.tier || "free";
-    const limits = TIER_LIMITS[tier];
+    const limits = TIER_LIMITS[tier as SubscriptionTier];
     
     return {
       success: true,

@@ -5,6 +5,18 @@
 
 import type { GateProtocol, TypeProtocol, CenterProtocol, HumanDesignType, CenterName } from "../types";
 
+// Import available gate protocols
+import gate001 from "./gates/gate-001.json";
+import gate007 from "./gates/gate-007.json";
+import gate013 from "./gates/gate-013.json";
+
+// Gate protocol map
+const gateProtocols: Record<number, GateProtocol> = {
+  1: gate001,
+  7: gate007,
+  13: gate013,
+};
+
 // Simple in-memory cache
 const gateCache = new Map<number, GateProtocol>();
 const typeCache = new Map<HumanDesignType, TypeProtocol>();
@@ -25,29 +37,28 @@ export async function getGateProtocol(gateNumber: number): Promise<GateProtocol>
     return gateCache.get(gateNumber)!;
   }
   
-  // Load from file
-  try {
-    const protocol = await import(`./gates/gate-${String(gateNumber).padStart(3, "0")}.json`);
-    gateCache.set(gateNumber, protocol.default);
-    return protocol.default;
-  } catch (error) {
-    // If file doesn't exist, return a default protocol
-    console.warn(`Gate ${gateNumber} protocol not found, using default`);
-    const defaultProtocol: GateProtocol = {
-      gateNumber,
-      name: `Gate ${gateNumber}`,
-      hexagram: "☰",
-      keywords: ["transformation", "awareness", "growth"],
-      inversionProtocols: {
-        low: ["Observe this pattern with curiosity and gentleness."],
-        medium: ["This challenge invites deeper self-awareness and alignment."],
-        high: ["This is a powerful catalyst for transformation. Trust the process."],
-      },
-      wisdomText: "Every experience is an opportunity for growth and self-discovery.",
-    };
-    gateCache.set(gateNumber, defaultProtocol);
-    return defaultProtocol;
+  // Check if we have this gate protocol
+  if (gateProtocols[gateNumber]) {
+    gateCache.set(gateNumber, gateProtocols[gateNumber]);
+    return gateProtocols[gateNumber];
   }
+  
+  // Return default protocol if not found
+  console.warn(`Gate ${gateNumber} protocol not found, using default`);
+  const defaultProtocol: GateProtocol = {
+    gateNumber,
+    name: `Gate ${gateNumber}`,
+    hexagram: "☰",
+    keywords: ["transformation", "awareness", "growth"],
+    inversionProtocols: {
+      low: ["Observe this pattern with curiosity and gentleness."],
+      medium: ["This challenge invites deeper self-awareness and alignment."],
+      high: ["This is a powerful catalyst for transformation. Trust the process."],
+    },
+    wisdomText: "Every experience is an opportunity for growth and self-discovery.",
+  };
+  gateCache.set(gateNumber, defaultProtocol);
+  return defaultProtocol;
 }
 
 /**
@@ -61,25 +72,17 @@ export async function getTypeProtocol(type: HumanDesignType): Promise<TypeProtoc
     return typeCache.get(type)!;
   }
   
-  // Load from file
-  try {
-    const fileName = type.toLowerCase().replace(/ /g, "-");
-    const protocol = await import(`./types/${fileName}.json`);
-    typeCache.set(type, protocol.default);
-    return protocol.default;
-  } catch (error) {
-    // Return default protocol if file doesn't exist
-    console.warn(`Type ${type} protocol not found, using default`);
-    const defaultProtocol: TypeProtocol = {
-      type,
-      strategy: "Follow your strategy",
-      signature: "Success",
-      notSelfTheme: "Frustration",
-      wisdomText: "Honor your unique design and trust your process.",
-    };
-    typeCache.set(type, defaultProtocol);
-    return defaultProtocol;
-  }
+  // Return default protocol (type-specific files not yet implemented)
+  console.warn(`Type ${type} protocol not found, using default`);
+  const defaultProtocol: TypeProtocol = {
+    type,
+    strategy: "Follow your strategy",
+    signature: "Success",
+    notSelfTheme: "Frustration",
+    wisdomText: "Honor your unique design and trust your process.",
+  };
+  typeCache.set(type, defaultProtocol);
+  return defaultProtocol;
 }
 
 /**
@@ -93,31 +96,23 @@ export async function getCenterProtocol(centerName: CenterName): Promise<CenterP
     return centerCache.get(centerName)!;
   }
   
-  // Load from file
-  try {
-    const fileName = centerName.toLowerCase().replace(/ /g, "-");
-    const protocol = await import(`./centers/${fileName}.json`);
-    centerCache.set(centerName, protocol.default);
-    return protocol.default;
-  } catch (error) {
-    // Return default protocol if file doesn't exist
-    console.warn(`Center ${centerName} protocol not found, using default`);
-    const defaultProtocol: CenterProtocol = {
-      name: centerName,
-      defined: {
-        wisdom: "This center is consistent and reliable in you.",
-        strengths: ["Consistency", "Reliability"],
-        shadows: ["Rigidity", "Stubbornness"],
-      },
-      undefined: {
-        wisdom: "This center is open and receptive in you.",
-        openness: ["Flexibility", "Wisdom through experience"],
-        conditioning: ["Taking in others' energy", "Amplification"],
-      },
-    };
-    centerCache.set(centerName, defaultProtocol);
-    return defaultProtocol;
-  }
+  // Return default protocol (center-specific files not yet implemented)
+  console.warn(`Center ${centerName} protocol not found, using default`);
+  const defaultProtocol: CenterProtocol = {
+    name: centerName,
+    defined: {
+      wisdom: "This center is consistent and reliable in you.",
+      strengths: ["Consistency", "Reliability"],
+      shadows: ["Rigidity", "Stubbornness"],
+    },
+    undefined: {
+      wisdom: "This center is open and receptive in you.",
+      openness: ["Flexibility", "Wisdom through experience"],
+      conditioning: ["Taking in others' energy", "Amplification"],
+    },
+  };
+  centerCache.set(centerName, defaultProtocol);
+  return defaultProtocol;
 }
 
 /**

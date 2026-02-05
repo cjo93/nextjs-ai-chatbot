@@ -9,7 +9,7 @@ import { db } from "@/lib/db";
 import { defragBlueprint, defragSubscription, defragUsage } from "@/lib/db/schema";
 import { calculateChart, validateBirthInfo } from "../resolver";
 import type { BirthInfo } from "../types";
-import { eq, and } from "drizzle-orm";
+import { eq, and, sql } from "drizzle-orm";
 
 /**
  * Create a new blueprint (birth chart) for the user
@@ -94,7 +94,7 @@ export async function createBlueprint(input: {
       .onConflictDoUpdate({
         target: [defragUsage.userId, defragUsage.month],
         set: {
-          blueprintsCreated: defragUsage.blueprintsCreated + 1,
+          blueprintsCreated: sql`${defragUsage.blueprintsCreated} + 1`,
           updatedAt: new Date(),
         },
       });
