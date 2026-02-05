@@ -1,0 +1,56 @@
+{
+  "id": 27,
+  "label": "Nourishment",
+  "i_ching_name": "Yi / The Corners of the Mouth",
+  "frequencies": {
+    "shadow": {
+      "name": "SELFISHNESS",
+      "description": "Hoarding resources, taking without giving back",
+      "behavioral_signature": "Overprotection of resources, guilt about receiving",
+      "somatic_signature": "Tight jaw, clenched teeth, difficulty swallowing",
+      "thought_pattern": "There's not enough. I need to keep everything for myself.",
+      "emotional_state": "Scarcity anxiety, survival fear"
+    },
+    "gift": {
+      "name": "CARING",
+      "description": "Responsible stewardship, knowing who and what to nourish",
+      "behavioral_signature": "Selective generosity, sustainable giving",
+      "somatic_signature": "Relaxed jaw, clear boundaries around resources",
+      "thought_pattern": "I care for what's mine to care for. No more, no less.",
+      "emotional_state": "Grounded responsibility, healthy boundaries"
+    },
+    "siddhi": {
+      "name": "SELFLESSNESS",
+      "description": "Pure nourishment that serves the whole without depletion",
+      "behavioral_signature": "Effortless giving that regenerates the giver",
+      "somatic_signature": "Open channel, infinite resource",
+      "thought_pattern": "What I give away returns multiplied.",
+      "emotional_state": "Abundant generosity, divine providence"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["selfish", "guilty about saying no", "overgiving", "depleted"],
+      "diagnosis": {
+        "mechanism": "Sacral Boundary Erosion",
+        "distortion": "Confusing Care with Sacrifice"
+      },
+      "script": "You are not selfish for having limits. The Sacral's role is to respond with a clear yes or no. When you override your no to be 'nice,' you deplete your life force. True caring requires boundaries. You cannot nourish others from an empty well.",
+      "somatic_anchor": "Notice the quality of your 'yes.' Does it come from obligation or from genuine response? Feel the difference in your gut.",
+      "experiment": {
+        "id": "gate_27_boundary_practice",
+        "duration_days": 5,
+        "hypothesis": "If I honor every sacral no for 5 days, my energy will increase.",
+        "action": "Practice saying 'no' to anything that doesn't generate a clear sacral yes. Notice the response.",
+        "success_criteria": {
+          "metric": "energy_level_increase",
+          "target": "More energy at end of day, fewer resentments",
+          "duration": "5_days"
+        }
+      }
+    }
+  ]
+}

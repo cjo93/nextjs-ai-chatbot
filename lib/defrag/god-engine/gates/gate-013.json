@@ -1,0 +1,56 @@
+{
+  "id": 13,
+  "label": "Fellowship",
+  "i_ching_name": "Tong Ren / Fellowship with Men",
+  "frequencies": {
+    "shadow": {
+      "name": "DISCORD",
+      "description": "Fear of intimacy disguised as discernment, isolation",
+      "behavioral_signature": "Keeping everyone at arm's length, chronic skepticism",
+      "somatic_signature": "Chest constriction, shallow breathing",
+      "thought_pattern": "People will disappoint me. Better to stay alone.",
+      "emotional_state": "Loneliness masked as preference for solitude"
+    },
+    "gift": {
+      "name": "LISTENING",
+      "description": "Deep empathic listening that allows others to be fully seen",
+      "behavioral_signature": "Present attention, reflective mirroring",
+      "somatic_signature": "Open chest, receptive posture",
+      "thought_pattern": "I hear what's beneath the words. I witness without fixing.",
+      "emotional_state": "Compassionate presence, patient acceptance"
+    },
+    "siddhi": {
+      "name": "EMPATHY",
+      "description": "Feeling into the shared human experience, no separation",
+      "behavioral_signature": "Others feel completely understood in your presence",
+      "somatic_signature": "Merged field, boundary dissolution",
+      "thought_pattern": "Your pain is my pain. Your joy is my joy.",
+      "emotional_state": "Unconditional love, total acceptance"
+    }
+  },
+  "circuit": "Collective",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["lonely", "isolated", "people disappoint", "better alone"],
+      "diagnosis": {
+        "mechanism": "Intimacy Avoidance",
+        "distortion": "Protecting Heart Through Disconnection"
+      },
+      "script": "Your isolation is not wisdom—it is a defense against potential pain. The G center's role is to magnetize the right people. You cannot discern who is right without allowing people close enough to be witnessed. Listening is not agreeing. Empathy is not merging. You can be with someone fully and remain yourself.",
+      "somatic_anchor": "Place hand on heart. Feel the tightness. Breathe into it. Ask: 'What am I protecting?'",
+      "experiment": {
+        "id": "gate_13_listening_practice",
+        "duration_days": 5,
+        "hypothesis": "If I listen deeply to 3 people without offering advice or judgment, connection will emerge.",
+        "action": "Have 3 conversations where you only listen. Reflect back what you hear. Do not fix or advise.",
+        "success_criteria": {
+          "metric": "felt_connection",
+          "target": "At least one person says 'I feel really heard by you'",
+          "duration": "5_days"
+        }
+      }
+    }
+  ]
+}

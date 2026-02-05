@@ -1,0 +1,56 @@
+{
+  "id": 36,
+  "label": "Darkening of the Light",
+  "i_ching_name": "Ming Yi / Darkening of the Light",
+  "frequencies": {
+    "shadow": {
+      "name": "TURBULENCE",
+      "description": "Emotional chaos, crisis addiction, manufacturing emergencies",
+      "behavioral_signature": "Dramatic reactions, emotional volatility",
+      "somatic_signature": "Solar plexus instability, emotional rollercoaster",
+      "thought_pattern": "Everything is falling apart. Crisis mode activated.",
+      "emotional_state": "Panic, dramatic overwhelm"
+    },
+    "gift": {
+      "name": "HUMANITY",
+      "description": "Deep feeling capacity that embraces the full spectrum of experience",
+      "behavioral_signature": "Emotional depth, authentic vulnerability",
+      "somatic_signature": "Capacity to feel deeply without being destroyed",
+      "thought_pattern": "I can feel this. It won't destroy me.",
+      "emotional_state": "Emotional resilience, authentic feeling"
+    },
+    "siddhi": {
+      "name": "COMPASSION",
+      "description": "Feeling into all human suffering without being consumed by it",
+      "behavioral_signature": "Universal empathy, holding space for all pain",
+      "somatic_signature": "Open heart that contains all emotion",
+      "thought_pattern": "All suffering is mine. All joy is mine. I am vast enough to hold it all.",
+      "emotional_state": "Boundless compassion, sacred witness"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SOLAR_PLEXUS",
+  "inversion_protocols": [
+    {
+      "severity_level": 4,
+      "trigger_context": ["crisis mode", "emotional chaos", "everything falling apart", "overwhelm"],
+      "diagnosis": {
+        "mechanism": "Emotional Crisis Addiction",
+        "distortion": "Believing Depth Requires Drama"
+      },
+      "script": "You are addicted to emotional crisis because it makes you feel alive and important. Gate 36 is the crisis gate—it experiences life as intense and uncertain. But crisis is not required for depth. You can feel deeply without manufacturing emergencies. Your nervous system needs regulation, not more intensity.",
+      "somatic_anchor": "When you feel crisis rising, place hands on solar plexus. Breathe slowly. Ground. Ask: 'Is this actually an emergency?'",
+      "experiment": {
+        "id": "gate_36_crisis_regulation",
+        "duration_days": 7,
+        "hypothesis": "If I regulate my nervous system daily for 7 days, the frequency of perceived crises will decrease.",
+        "action": "3x daily: 5 minutes of slow breathing, grounding, nervous system regulation. Journal actual emergencies vs perceived.",
+        "success_criteria": {
+          "metric": "crisis_frequency_reduction",
+          "target": "Fewer perceived emergencies, more emotional stability",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

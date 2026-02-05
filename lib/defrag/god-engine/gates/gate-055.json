@@ -1,0 +1,56 @@
+{
+  "id": 55,
+  "label": "Abundance",
+  "i_ching_name": "Feng / Abundance",
+  "frequencies": {
+    "shadow": {
+      "name": "VICTIMIZATION",
+      "description": "Emotional suffering as identity, perpetual victim stance",
+      "behavioral_signature": "Recounting wounds, identifying with pain",
+      "somatic_signature": "Collapsed solar plexus, victim posture",
+      "thought_pattern": "Life has been so hard for me. Look at all I've suffered.",
+      "emotional_state": "Self-pity, martyr complex"
+    },
+    "gift": {
+      "name": "FREEDOM",
+      "description": "Liberation from past emotional patterns, sovereign moodiness",
+      "behavioral_signature": "Owning emotional authority, not victimized by moods",
+      "somatic_signature": "Empowered emotional presence, riding waves",
+      "thought_pattern": "My moods are not me. I am the space in which moods arise.",
+      "emotional_state": "Emotional sovereignty, mood mastery"
+    },
+    "siddhi": {
+      "name": "FREEDOM",
+      "description": "Complete liberation, no attachment to any emotional state",
+      "behavioral_signature": "Absolute emotional freedom, no identification with feeling",
+      "somatic_signature": "Transparent emotional body, no residue",
+      "thought_pattern": "All emotions pass through me. Nothing sticks.",
+      "emotional_state": "Total liberation, pure witness consciousness"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SOLAR_PLEXUS",
+  "inversion_protocols": [
+    {
+      "severity_level": 4,
+      "trigger_context": ["victim mentality", "poor me", "life is unfair", "identifying with suffering"],
+      "diagnosis": {
+        "mechanism": "Emotional Identity Attachment",
+        "distortion": "Using Suffering as Identity"
+      },
+      "script": "You are not your suffering. You have made your pain into identity because it gives you significance. Gate 55 is emotional abundance—it experiences the full spectrum of moods. But you are not the mood. You are the one witnessing the mood. Release the story. Feel the feeling without the narrative.",
+      "somatic_anchor": "When feeling victimized, separate the sensation from the story. Feel the actual emotion without the narrative overlay.",
+      "experiment": {
+        "id": "gate_55_mood_witnessing",
+        "duration_days": 14,
+        "hypothesis": "If I witness moods without identifying with them for 14 days, emotional freedom will emerge.",
+        "action": "Daily: Journal moods. Notice them as weather, not identity. Practice: 'I am feeling sad' not 'I am sad.'",
+        "success_criteria": {
+          "metric": "emotional_disidentification",
+          "target": "Ability to witness moods without becoming them",
+          "duration": "14_days"
+        }
+      }
+    }
+  ]
+}

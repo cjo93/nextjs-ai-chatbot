@@ -1,0 +1,56 @@
+{
+  "id": 22,
+  "label": "Grace",
+  "i_ching_name": "Bi / Grace",
+  "frequencies": {
+    "shadow": {
+      "name": "DISHONOR",
+      "description": "Performing emotions, social manipulation through mood",
+      "behavioral_signature": "Emotional displays for effect, strategic vulnerability",
+      "somatic_signature": "Performed emotion, disconnected from genuine feeling",
+      "thought_pattern": "If I show this emotion, they'll respond how I want.",
+      "emotional_state": "Shame about authentic feelings, emotional dishonesty"
+    },
+    "gift": {
+      "name": "GRACIOUSNESS",
+      "description": "Authentic emotional expression that invites others in",
+      "behavioral_signature": "Genuine sharing, hospitable vulnerability",
+      "somatic_signature": "Real emotional resonance, embodied feeling",
+      "thought_pattern": "I'll share what's true. How they respond is not my business.",
+      "emotional_state": "Emotional honesty, graceful sharing"
+    },
+    "siddhi": {
+      "name": "GRACE",
+      "description": "Emotions as divine poetry, beauty in all feeling",
+      "behavioral_signature": "Emotional artistry, transforming pain into beauty",
+      "somatic_signature": "Fluid emotional expression, no resistance to any feeling",
+      "thought_pattern": "Every emotion is sacred. All feeling is grace.",
+      "emotional_state": "Emotional mastery, beauty in all states"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SOLAR_PLEXUS",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["performing emotions", "manipulating moods", "social masking"],
+      "diagnosis": {
+        "mechanism": "Emotional Performance",
+        "distortion": "Using Emotions as Social Currency"
+      },
+      "script": "You are performing your emotions because you don't trust your authentic feelings are acceptable. Gate 22 is about genuine emotional expression that creates openness. When you perform, you prevent real connection. Others feel the performance. Share what's actually true.",
+      "somatic_anchor": "Ask yourself: 'What am I really feeling beneath the performance?' Feel the genuine emotion.",
+      "experiment": {
+        "id": "gate_22_emotional_honesty",
+        "duration_days": 5,
+        "hypothesis": "If I share genuine emotions without performing, deeper connections will form.",
+        "action": "For 5 days, share only genuine emotions. Stop curating your mood for effect.",
+        "success_criteria": {
+          "metric": "authentic_connection",
+          "target": "Feeling more genuinely met by others",
+          "duration": "5_days"
+        }
+      }
+    }
+  ]
+}

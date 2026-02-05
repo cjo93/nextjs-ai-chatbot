@@ -1,0 +1,56 @@
+{
+  "id": 7,
+  "label": "The Army",
+  "i_ching_name": "Shi / The Army",
+  "frequencies": {
+    "shadow": {
+      "name": "DIVISION",
+      "description": "Perpetual conflict, seeing others as threats or competitors",
+      "behavioral_signature": "Defensive positioning, us vs them mentality",
+      "somatic_signature": "Chronic muscle tension, combat-ready posture",
+      "thought_pattern": "I must defend my position. They're against me.",
+      "emotional_state": "Suspicion, territorial defensiveness"
+    },
+    "gift": {
+      "name": "GUIDANCE",
+      "description": "Natural capacity to lead through demonstrated competence",
+      "behavioral_signature": "Others seek your direction, servant leadership",
+      "somatic_signature": "Relaxed authority, grounded presence",
+      "thought_pattern": "I guide by example. Leadership is service.",
+      "emotional_state": "Calm confidence, protective care"
+    },
+    "siddhi": {
+      "name": "VIRTUE",
+      "description": "Leadership that serves the highest good of all",
+      "behavioral_signature": "Selfless action, embodied integrity",
+      "somatic_signature": "Transparent power, no separation between leader and led",
+      "thought_pattern": "There is no leader, only the flow serving itself.",
+      "emotional_state": "Universal love, no self-interest"
+    }
+  },
+  "circuit": "Collective",
+  "center": "G_CENTER",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": ["conflict", "us vs them", "defensive", "competition"],
+      "diagnosis": {
+        "mechanism": "Threat Perception Loop",
+        "distortion": "Seeing Leadership as Dominance"
+      },
+      "script": "You are not under attack. The G center's role is to guide, not to defend territory. True leadership requires no force. When you feel defensive, you are confusing guidance with control. Guidance emerges when invited, not imposed.",
+      "somatic_anchor": "Notice where your body is braced. Soften your shoulders. Drop your jaw. Release the guard.",
+      "experiment": {
+        "id": "gate_7_servant_leader",
+        "duration_days": 3,
+        "hypothesis": "If I stop defending my position and simply model the behavior, others will naturally follow.",
+        "action": "For 3 days, give zero unsolicited advice. Demonstrate only. Wait for requests.",
+        "success_criteria": {
+          "metric": "invitation_to_lead",
+          "target": "Others ask for guidance without being told",
+          "duration": "3_days"
+        }
+      }
+    }
+  ]
+}

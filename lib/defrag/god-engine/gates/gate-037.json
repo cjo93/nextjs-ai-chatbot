@@ -1,0 +1,56 @@
+{
+  "id": 37,
+  "label": "The Family",
+  "i_ching_name": "Jia Ren / The Family",
+  "frequencies": {
+    "shadow": {
+      "name": "WEAKNESS",
+      "description": "Emotional neediness, seeking completion through others",
+      "behavioral_signature": "Codependency, unable to function without emotional support",
+      "somatic_signature": "Collapsed solar plexus, dependent posture",
+      "thought_pattern": "I can't do this alone. I need someone to make me whole.",
+      "emotional_state": "Neediness, emotional dependency"
+    },
+    "gift": {
+      "name": "EQUALITY",
+      "description": "Emotional sovereignty that enables genuine partnership",
+      "behavioral_signature": "Interdependence without codependency, clear boundaries",
+      "somatic_signature": "Self-contained emotional center, grounded presence",
+      "thought_pattern": "I am complete. I choose partnership, not neediness.",
+      "emotional_state": "Emotional maturity, sovereign relating"
+    },
+    "siddhi": {
+      "name": "TENDERNESS",
+      "description": "Soft strength that holds space for others without losing self",
+      "behavioral_signature": "Gentle power, protective care without control",
+      "somatic_signature": "Strong and soft simultaneously, fierce tenderness",
+      "thought_pattern": "I am strong enough to be gentle. Softness is not weakness.",
+      "emotional_state": "Unconditional love with boundaries"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SOLAR_PLEXUS",
+  "inversion_protocols": [
+    {
+      "severity_level": 3,
+      "trigger_context": ["needy", "codependent", "can't be alone", "need someone"],
+      "diagnosis": {
+        "mechanism": "Emotional Codependency",
+        "distortion": "Believing Wholeness Comes from Others"
+      },
+      "script": "You are not incomplete. You are seeking external validation because you haven't established emotional sovereignty. Gate 37 is about family and partnership, but true partnership requires two whole people. Your neediness repels the very connection you seek. Build your emotional center first.",
+      "somatic_anchor": "Sit alone. Place hands on solar plexus. Feel your own emotional presence. You are enough.",
+      "experiment": {
+        "id": "gate_37_emotional_sovereignty",
+        "duration_days": 7,
+        "hypothesis": "If I spend time alone building emotional self-sufficiency, my relationships will improve.",
+        "action": "Daily: 30 minutes alone with no external validation. Practice self-soothing. Journal emotional self-sufficiency.",
+        "success_criteria": {
+          "metric": "reduced_neediness",
+          "target": "Able to be emotionally okay alone, less needing others to regulate you",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}
