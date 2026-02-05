@@ -1,0 +1,60 @@
+{
+  "id": 17,
+  "label": "Following",
+  "i_ching_name": "Sui / Following",
+  "frequencies": {
+    "shadow": {
+      "name": "OPINION",
+      "description": "The shadow frequency of Following, expressing through opinion",
+      "behavioral_signature": "Behavioral patterns associated with opinion",
+      "somatic_signature": "Somatic manifestation of opinion",
+      "thought_pattern": "Thought patterns characteristic of opinion",
+      "emotional_state": "Emotional states related to opinion"
+    },
+    "gift": {
+      "name": "FAR-SIGHTEDNESS",
+      "description": "The gift frequency of Following, expressing through far-sightedness",
+      "behavioral_signature": "Behavioral patterns associated with far-sightedness",
+      "somatic_signature": "Somatic manifestation of far-sightedness",
+      "thought_pattern": "Thought patterns characteristic of far-sightedness",
+      "emotional_state": "Emotional states related to far-sightedness"
+    },
+    "siddhi": {
+      "name": "OMNISCIENCE",
+      "description": "The siddhi frequency of Following, expressing through omniscience",
+      "behavioral_signature": "Behavioral patterns associated with omniscience",
+      "somatic_signature": "Somatic manifestation of omniscience",
+      "thought_pattern": "Thought patterns characteristic of omniscience",
+      "emotional_state": "Emotional states related to omniscience"
+    }
+  },
+  "circuit": "Collective",
+  "center": "AJNA",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "opinion",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "AJNA Dysfunction",
+        "distortion": "OPINION Pattern"
+      },
+      "script": "This is Gate 17 shadow frequency. The opinion you're experiencing is a distortion of your natural far-sightedness. Through awareness and experimentation, you can shift from opinion to far-sightedness.",
+      "somatic_anchor": "Feel into your ajna. Notice the sensation of opinion.",
+      "experiment": {
+        "id": "gate_17_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 17 consciously for 7 days, the opinion pattern will shift toward far-sightedness.",
+        "action": "Daily practice working with Gate 17 energy.",
+        "success_criteria": {
+          "metric": "opinion_reduction",
+          "target": "Noticeable shift from opinion toward far-sightedness",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

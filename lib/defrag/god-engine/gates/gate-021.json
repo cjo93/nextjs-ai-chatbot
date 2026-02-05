@@ -1,0 +1,60 @@
+{
+  "id": 21,
+  "label": "Biting Through",
+  "i_ching_name": "Shi He / Biting Through",
+  "frequencies": {
+    "shadow": {
+      "name": "CONTROL",
+      "description": "The shadow frequency of Biting Through, expressing through control",
+      "behavioral_signature": "Behavioral patterns associated with control",
+      "somatic_signature": "Somatic manifestation of control",
+      "thought_pattern": "Thought patterns characteristic of control",
+      "emotional_state": "Emotional states related to control"
+    },
+    "gift": {
+      "name": "AUTHORITY",
+      "description": "The gift frequency of Biting Through, expressing through authority",
+      "behavioral_signature": "Behavioral patterns associated with authority",
+      "somatic_signature": "Somatic manifestation of authority",
+      "thought_pattern": "Thought patterns characteristic of authority",
+      "emotional_state": "Emotional states related to authority"
+    },
+    "siddhi": {
+      "name": "VALOR",
+      "description": "The siddhi frequency of Biting Through, expressing through valor",
+      "behavioral_signature": "Behavioral patterns associated with valor",
+      "somatic_signature": "Somatic manifestation of valor",
+      "thought_pattern": "Thought patterns characteristic of valor",
+      "emotional_state": "Emotional states related to valor"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "HEART",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "control",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "HEART Dysfunction",
+        "distortion": "CONTROL Pattern"
+      },
+      "script": "This is Gate 21 shadow frequency. The control you're experiencing is a distortion of your natural authority. Through awareness and experimentation, you can shift from control to authority.",
+      "somatic_anchor": "Feel into your heart. Notice the sensation of control.",
+      "experiment": {
+        "id": "gate_21_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 21 consciously for 7 days, the control pattern will shift toward authority.",
+        "action": "Daily practice working with Gate 21 energy.",
+        "success_criteria": {
+          "metric": "control_reduction",
+          "target": "Noticeable shift from control toward authority",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

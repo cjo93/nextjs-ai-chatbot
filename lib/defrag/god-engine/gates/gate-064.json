@@ -1,0 +1,60 @@
+{
+  "id": 64,
+  "label": "Before Completion",
+  "i_ching_name": "Wei Ji / Before Completion",
+  "frequencies": {
+    "shadow": {
+      "name": "CONFUSION",
+      "description": "The shadow frequency of Before Completion, expressing through confusion",
+      "behavioral_signature": "Behavioral patterns associated with confusion",
+      "somatic_signature": "Somatic manifestation of confusion",
+      "thought_pattern": "Thought patterns characteristic of confusion",
+      "emotional_state": "Emotional states related to confusion"
+    },
+    "gift": {
+      "name": "IMAGINATION",
+      "description": "The gift frequency of Before Completion, expressing through imagination",
+      "behavioral_signature": "Behavioral patterns associated with imagination",
+      "somatic_signature": "Somatic manifestation of imagination",
+      "thought_pattern": "Thought patterns characteristic of imagination",
+      "emotional_state": "Emotional states related to imagination"
+    },
+    "siddhi": {
+      "name": "ILLUMINATION",
+      "description": "The siddhi frequency of Before Completion, expressing through illumination",
+      "behavioral_signature": "Behavioral patterns associated with illumination",
+      "somatic_signature": "Somatic manifestation of illumination",
+      "thought_pattern": "Thought patterns characteristic of illumination",
+      "emotional_state": "Emotional states related to illumination"
+    }
+  },
+  "circuit": "Individual",
+  "center": "HEAD",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "confusion",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "HEAD Dysfunction",
+        "distortion": "CONFUSION Pattern"
+      },
+      "script": "This is Gate 64 shadow frequency. The confusion you're experiencing is a distortion of your natural imagination. Through awareness and experimentation, you can shift from confusion to imagination.",
+      "somatic_anchor": "Feel into your head. Notice the sensation of confusion.",
+      "experiment": {
+        "id": "gate_64_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 64 consciously for 7 days, the confusion pattern will shift toward imagination.",
+        "action": "Daily practice working with Gate 64 energy.",
+        "success_criteria": {
+          "metric": "confusion_reduction",
+          "target": "Noticeable shift from confusion toward imagination",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

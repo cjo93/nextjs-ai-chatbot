@@ -1,0 +1,60 @@
+{
+  "id": 24,
+  "label": "Return",
+  "i_ching_name": "Fu / Return",
+  "frequencies": {
+    "shadow": {
+      "name": "ADDICTION",
+      "description": "The shadow frequency of Return, expressing through addiction",
+      "behavioral_signature": "Behavioral patterns associated with addiction",
+      "somatic_signature": "Somatic manifestation of addiction",
+      "thought_pattern": "Thought patterns characteristic of addiction",
+      "emotional_state": "Emotional states related to addiction"
+    },
+    "gift": {
+      "name": "RATIONALIZATION",
+      "description": "The gift frequency of Return, expressing through rationalization",
+      "behavioral_signature": "Behavioral patterns associated with rationalization",
+      "somatic_signature": "Somatic manifestation of rationalization",
+      "thought_pattern": "Thought patterns characteristic of rationalization",
+      "emotional_state": "Emotional states related to rationalization"
+    },
+    "siddhi": {
+      "name": "SILENCE",
+      "description": "The siddhi frequency of Return, expressing through silence",
+      "behavioral_signature": "Behavioral patterns associated with silence",
+      "somatic_signature": "Somatic manifestation of silence",
+      "thought_pattern": "Thought patterns characteristic of silence",
+      "emotional_state": "Emotional states related to silence"
+    }
+  },
+  "circuit": "Individual",
+  "center": "AJNA",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "addiction",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "AJNA Dysfunction",
+        "distortion": "ADDICTION Pattern"
+      },
+      "script": "This is Gate 24 shadow frequency. The addiction you're experiencing is a distortion of your natural rationalization. Through awareness and experimentation, you can shift from addiction to rationalization.",
+      "somatic_anchor": "Feel into your ajna. Notice the sensation of addiction.",
+      "experiment": {
+        "id": "gate_24_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 24 consciously for 7 days, the addiction pattern will shift toward rationalization.",
+        "action": "Daily practice working with Gate 24 energy.",
+        "success_criteria": {
+          "metric": "addiction_reduction",
+          "target": "Noticeable shift from addiction toward rationalization",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

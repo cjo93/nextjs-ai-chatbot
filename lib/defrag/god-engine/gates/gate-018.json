@@ -1,0 +1,60 @@
+{
+  "id": 18,
+  "label": "Work on the Decayed",
+  "i_ching_name": "Gu / Work on the Decayed",
+  "frequencies": {
+    "shadow": {
+      "name": "JUDGMENT",
+      "description": "The shadow frequency of Work on the Decayed, expressing through judgment",
+      "behavioral_signature": "Behavioral patterns associated with judgment",
+      "somatic_signature": "Somatic manifestation of judgment",
+      "thought_pattern": "Thought patterns characteristic of judgment",
+      "emotional_state": "Emotional states related to judgment"
+    },
+    "gift": {
+      "name": "INTEGRITY",
+      "description": "The gift frequency of Work on the Decayed, expressing through integrity",
+      "behavioral_signature": "Behavioral patterns associated with integrity",
+      "somatic_signature": "Somatic manifestation of integrity",
+      "thought_pattern": "Thought patterns characteristic of integrity",
+      "emotional_state": "Emotional states related to integrity"
+    },
+    "siddhi": {
+      "name": "PERFECTION",
+      "description": "The siddhi frequency of Work on the Decayed, expressing through perfection",
+      "behavioral_signature": "Behavioral patterns associated with perfection",
+      "somatic_signature": "Somatic manifestation of perfection",
+      "thought_pattern": "Thought patterns characteristic of perfection",
+      "emotional_state": "Emotional states related to perfection"
+    }
+  },
+  "circuit": "Collective",
+  "center": "SPLEEN",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "judgment",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SPLEEN Dysfunction",
+        "distortion": "JUDGMENT Pattern"
+      },
+      "script": "This is Gate 18 shadow frequency. The judgment you're experiencing is a distortion of your natural integrity. Through awareness and experimentation, you can shift from judgment to integrity.",
+      "somatic_anchor": "Feel into your spleen. Notice the sensation of judgment.",
+      "experiment": {
+        "id": "gate_18_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 18 consciously for 7 days, the judgment pattern will shift toward integrity.",
+        "action": "Daily practice working with Gate 18 energy.",
+        "success_criteria": {
+          "metric": "judgment_reduction",
+          "target": "Noticeable shift from judgment toward integrity",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

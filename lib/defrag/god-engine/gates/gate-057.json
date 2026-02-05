@@ -1,0 +1,60 @@
+{
+  "id": 57,
+  "label": "The Gentle",
+  "i_ching_name": "Xun / The Gentle",
+  "frequencies": {
+    "shadow": {
+      "name": "UNEASE",
+      "description": "The shadow frequency of The Gentle, expressing through unease",
+      "behavioral_signature": "Behavioral patterns associated with unease",
+      "somatic_signature": "Somatic manifestation of unease",
+      "thought_pattern": "Thought patterns characteristic of unease",
+      "emotional_state": "Emotional states related to unease"
+    },
+    "gift": {
+      "name": "INTUITION",
+      "description": "The gift frequency of The Gentle, expressing through intuition",
+      "behavioral_signature": "Behavioral patterns associated with intuition",
+      "somatic_signature": "Somatic manifestation of intuition",
+      "thought_pattern": "Thought patterns characteristic of intuition",
+      "emotional_state": "Emotional states related to intuition"
+    },
+    "siddhi": {
+      "name": "CLARITY",
+      "description": "The siddhi frequency of The Gentle, expressing through clarity",
+      "behavioral_signature": "Behavioral patterns associated with clarity",
+      "somatic_signature": "Somatic manifestation of clarity",
+      "thought_pattern": "Thought patterns characteristic of clarity",
+      "emotional_state": "Emotional states related to clarity"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SPLEEN",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "unease",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SPLEEN Dysfunction",
+        "distortion": "UNEASE Pattern"
+      },
+      "script": "This is Gate 57 shadow frequency. The unease you're experiencing is a distortion of your natural intuition. Through awareness and experimentation, you can shift from unease to intuition.",
+      "somatic_anchor": "Feel into your spleen. Notice the sensation of unease.",
+      "experiment": {
+        "id": "gate_57_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 57 consciously for 7 days, the unease pattern will shift toward intuition.",
+        "action": "Daily practice working with Gate 57 energy.",
+        "success_criteria": {
+          "metric": "unease_reduction",
+          "target": "Noticeable shift from unease toward intuition",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

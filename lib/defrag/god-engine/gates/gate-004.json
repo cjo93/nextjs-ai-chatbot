@@ -1,0 +1,60 @@
+{
+  "id": 4,
+  "label": "Youthful Folly",
+  "i_ching_name": "Meng / Youthful Folly",
+  "frequencies": {
+    "shadow": {
+      "name": "INTOLERANCE",
+      "description": "The shadow frequency of Youthful Folly, expressing through intolerance",
+      "behavioral_signature": "Behavioral patterns associated with intolerance",
+      "somatic_signature": "Somatic manifestation of intolerance",
+      "thought_pattern": "Thought patterns characteristic of intolerance",
+      "emotional_state": "Emotional states related to intolerance"
+    },
+    "gift": {
+      "name": "UNDERSTANDING",
+      "description": "The gift frequency of Youthful Folly, expressing through understanding",
+      "behavioral_signature": "Behavioral patterns associated with understanding",
+      "somatic_signature": "Somatic manifestation of understanding",
+      "thought_pattern": "Thought patterns characteristic of understanding",
+      "emotional_state": "Emotional states related to understanding"
+    },
+    "siddhi": {
+      "name": "FORGIVENESS",
+      "description": "The siddhi frequency of Youthful Folly, expressing through forgiveness",
+      "behavioral_signature": "Behavioral patterns associated with forgiveness",
+      "somatic_signature": "Somatic manifestation of forgiveness",
+      "thought_pattern": "Thought patterns characteristic of forgiveness",
+      "emotional_state": "Emotional states related to forgiveness"
+    }
+  },
+  "circuit": "Collective",
+  "center": "AJNA",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "intolerance",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "AJNA Dysfunction",
+        "distortion": "INTOLERANCE Pattern"
+      },
+      "script": "This is Gate 4 shadow frequency. The intolerance you're experiencing is a distortion of your natural understanding. Through awareness and experimentation, you can shift from intolerance to understanding.",
+      "somatic_anchor": "Feel into your ajna. Notice the sensation of intolerance.",
+      "experiment": {
+        "id": "gate_4_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 4 consciously for 7 days, the intolerance pattern will shift toward understanding.",
+        "action": "Daily practice working with Gate 4 energy.",
+        "success_criteria": {
+          "metric": "intolerance_reduction",
+          "target": "Noticeable shift from intolerance toward understanding",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 3,
+  "label": "Difficulty at the Beginning",
+  "i_ching_name": "Tun / Difficulty at the Beginning",
+  "frequencies": {
+    "shadow": {
+      "name": "CHAOS",
+      "description": "The shadow frequency of Difficulty at the Beginning, expressing through chaos",
+      "behavioral_signature": "Behavioral patterns associated with chaos",
+      "somatic_signature": "Somatic manifestation of chaos",
+      "thought_pattern": "Thought patterns characteristic of chaos",
+      "emotional_state": "Emotional states related to chaos"
+    },
+    "gift": {
+      "name": "INNOVATION",
+      "description": "The gift frequency of Difficulty at the Beginning, expressing through innovation",
+      "behavioral_signature": "Behavioral patterns associated with innovation",
+      "somatic_signature": "Somatic manifestation of innovation",
+      "thought_pattern": "Thought patterns characteristic of innovation",
+      "emotional_state": "Emotional states related to innovation"
+    },
+    "siddhi": {
+      "name": "INNOCENCE",
+      "description": "The siddhi frequency of Difficulty at the Beginning, expressing through innocence",
+      "behavioral_signature": "Behavioral patterns associated with innocence",
+      "somatic_signature": "Somatic manifestation of innocence",
+      "thought_pattern": "Thought patterns characteristic of innocence",
+      "emotional_state": "Emotional states related to innocence"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "chaos",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SACRAL Dysfunction",
+        "distortion": "CHAOS Pattern"
+      },
+      "script": "This is Gate 3 shadow frequency. The chaos you're experiencing is a distortion of your natural innovation. Through awareness and experimentation, you can shift from chaos to innovation.",
+      "somatic_anchor": "Feel into your sacral. Notice the sensation of chaos.",
+      "experiment": {
+        "id": "gate_3_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 3 consciously for 7 days, the chaos pattern will shift toward innovation.",
+        "action": "Daily practice working with Gate 3 energy.",
+        "success_criteria": {
+          "metric": "chaos_reduction",
+          "target": "Noticeable shift from chaos toward innovation",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

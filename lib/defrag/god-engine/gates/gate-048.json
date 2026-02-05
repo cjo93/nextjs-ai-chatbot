@@ -1,0 +1,60 @@
+{
+  "id": 48,
+  "label": "The Well",
+  "i_ching_name": "Jing / The Well",
+  "frequencies": {
+    "shadow": {
+      "name": "INADEQUACY",
+      "description": "The shadow frequency of The Well, expressing through inadequacy",
+      "behavioral_signature": "Behavioral patterns associated with inadequacy",
+      "somatic_signature": "Somatic manifestation of inadequacy",
+      "thought_pattern": "Thought patterns characteristic of inadequacy",
+      "emotional_state": "Emotional states related to inadequacy"
+    },
+    "gift": {
+      "name": "RESOURCEFULNESS",
+      "description": "The gift frequency of The Well, expressing through resourcefulness",
+      "behavioral_signature": "Behavioral patterns associated with resourcefulness",
+      "somatic_signature": "Somatic manifestation of resourcefulness",
+      "thought_pattern": "Thought patterns characteristic of resourcefulness",
+      "emotional_state": "Emotional states related to resourcefulness"
+    },
+    "siddhi": {
+      "name": "WISDOM",
+      "description": "The siddhi frequency of The Well, expressing through wisdom",
+      "behavioral_signature": "Behavioral patterns associated with wisdom",
+      "somatic_signature": "Somatic manifestation of wisdom",
+      "thought_pattern": "Thought patterns characteristic of wisdom",
+      "emotional_state": "Emotional states related to wisdom"
+    }
+  },
+  "circuit": "Collective",
+  "center": "SPLEEN",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "inadequacy",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SPLEEN Dysfunction",
+        "distortion": "INADEQUACY Pattern"
+      },
+      "script": "This is Gate 48 shadow frequency. The inadequacy you're experiencing is a distortion of your natural resourcefulness. Through awareness and experimentation, you can shift from inadequacy to resourcefulness.",
+      "somatic_anchor": "Feel into your spleen. Notice the sensation of inadequacy.",
+      "experiment": {
+        "id": "gate_48_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 48 consciously for 7 days, the inadequacy pattern will shift toward resourcefulness.",
+        "action": "Daily practice working with Gate 48 energy.",
+        "success_criteria": {
+          "metric": "inadequacy_reduction",
+          "target": "Noticeable shift from inadequacy toward resourcefulness",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

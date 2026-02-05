@@ -1,0 +1,60 @@
+{
+  "id": 5,
+  "label": "Waiting",
+  "i_ching_name": "Xu / Waiting",
+  "frequencies": {
+    "shadow": {
+      "name": "IMPATIENCE",
+      "description": "The shadow frequency of Waiting, expressing through impatience",
+      "behavioral_signature": "Behavioral patterns associated with impatience",
+      "somatic_signature": "Somatic manifestation of impatience",
+      "thought_pattern": "Thought patterns characteristic of impatience",
+      "emotional_state": "Emotional states related to impatience"
+    },
+    "gift": {
+      "name": "PATIENCE",
+      "description": "The gift frequency of Waiting, expressing through patience",
+      "behavioral_signature": "Behavioral patterns associated with patience",
+      "somatic_signature": "Somatic manifestation of patience",
+      "thought_pattern": "Thought patterns characteristic of patience",
+      "emotional_state": "Emotional states related to patience"
+    },
+    "siddhi": {
+      "name": "TIMELESSNESS",
+      "description": "The siddhi frequency of Waiting, expressing through timelessness",
+      "behavioral_signature": "Behavioral patterns associated with timelessness",
+      "somatic_signature": "Somatic manifestation of timelessness",
+      "thought_pattern": "Thought patterns characteristic of timelessness",
+      "emotional_state": "Emotional states related to timelessness"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "impatience",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SACRAL Dysfunction",
+        "distortion": "IMPATIENCE Pattern"
+      },
+      "script": "This is Gate 5 shadow frequency. The impatience you're experiencing is a distortion of your natural patience. Through awareness and experimentation, you can shift from impatience to patience.",
+      "somatic_anchor": "Feel into your sacral. Notice the sensation of impatience.",
+      "experiment": {
+        "id": "gate_5_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 5 consciously for 7 days, the impatience pattern will shift toward patience.",
+        "action": "Daily practice working with Gate 5 energy.",
+        "success_criteria": {
+          "metric": "impatience_reduction",
+          "target": "Noticeable shift from impatience toward patience",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 19,
+  "label": "Approach",
+  "i_ching_name": "Lin / Approach",
+  "frequencies": {
+    "shadow": {
+      "name": "CO-DEPENDENCE",
+      "description": "The shadow frequency of Approach, expressing through co-dependence",
+      "behavioral_signature": "Behavioral patterns associated with co-dependence",
+      "somatic_signature": "Somatic manifestation of co-dependence",
+      "thought_pattern": "Thought patterns characteristic of co-dependence",
+      "emotional_state": "Emotional states related to co-dependence"
+    },
+    "gift": {
+      "name": "SENSITIVITY",
+      "description": "The gift frequency of Approach, expressing through sensitivity",
+      "behavioral_signature": "Behavioral patterns associated with sensitivity",
+      "somatic_signature": "Somatic manifestation of sensitivity",
+      "thought_pattern": "Thought patterns characteristic of sensitivity",
+      "emotional_state": "Emotional states related to sensitivity"
+    },
+    "siddhi": {
+      "name": "SACRIFICE",
+      "description": "The siddhi frequency of Approach, expressing through sacrifice",
+      "behavioral_signature": "Behavioral patterns associated with sacrifice",
+      "somatic_signature": "Somatic manifestation of sacrifice",
+      "thought_pattern": "Thought patterns characteristic of sacrifice",
+      "emotional_state": "Emotional states related to sacrifice"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "co-dependence",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "CO-DEPENDENCE Pattern"
+      },
+      "script": "This is Gate 19 shadow frequency. The co-dependence you're experiencing is a distortion of your natural sensitivity. Through awareness and experimentation, you can shift from co-dependence to sensitivity.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of co-dependence.",
+      "experiment": {
+        "id": "gate_19_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 19 consciously for 7 days, the co-dependence pattern will shift toward sensitivity.",
+        "action": "Daily practice working with Gate 19 energy.",
+        "success_criteria": {
+          "metric": "co-dependence_reduction",
+          "target": "Noticeable shift from co-dependence toward sensitivity",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

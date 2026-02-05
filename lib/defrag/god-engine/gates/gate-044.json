@@ -1,0 +1,60 @@
+{
+  "id": 44,
+  "label": "Coming to Meet",
+  "i_ching_name": "Gou / Coming to Meet",
+  "frequencies": {
+    "shadow": {
+      "name": "INTERFERENCE",
+      "description": "The shadow frequency of Coming to Meet, expressing through interference",
+      "behavioral_signature": "Behavioral patterns associated with interference",
+      "somatic_signature": "Somatic manifestation of interference",
+      "thought_pattern": "Thought patterns characteristic of interference",
+      "emotional_state": "Emotional states related to interference"
+    },
+    "gift": {
+      "name": "TEAMWORK",
+      "description": "The gift frequency of Coming to Meet, expressing through teamwork",
+      "behavioral_signature": "Behavioral patterns associated with teamwork",
+      "somatic_signature": "Somatic manifestation of teamwork",
+      "thought_pattern": "Thought patterns characteristic of teamwork",
+      "emotional_state": "Emotional states related to teamwork"
+    },
+    "siddhi": {
+      "name": "SYNARCHY",
+      "description": "The siddhi frequency of Coming to Meet, expressing through synarchy",
+      "behavioral_signature": "Behavioral patterns associated with synarchy",
+      "somatic_signature": "Somatic manifestation of synarchy",
+      "thought_pattern": "Thought patterns characteristic of synarchy",
+      "emotional_state": "Emotional states related to synarchy"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SPLEEN",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "interference",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SPLEEN Dysfunction",
+        "distortion": "INTERFERENCE Pattern"
+      },
+      "script": "This is Gate 44 shadow frequency. The interference you're experiencing is a distortion of your natural teamwork. Through awareness and experimentation, you can shift from interference to teamwork.",
+      "somatic_anchor": "Feel into your spleen. Notice the sensation of interference.",
+      "experiment": {
+        "id": "gate_44_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 44 consciously for 7 days, the interference pattern will shift toward teamwork.",
+        "action": "Daily practice working with Gate 44 energy.",
+        "success_criteria": {
+          "metric": "interference_reduction",
+          "target": "Noticeable shift from interference toward teamwork",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

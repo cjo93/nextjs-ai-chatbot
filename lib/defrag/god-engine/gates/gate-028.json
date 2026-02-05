@@ -1,0 +1,60 @@
+{
+  "id": 28,
+  "label": "Preponderance of the Great",
+  "i_ching_name": "Da Guo / Preponderance of the Great",
+  "frequencies": {
+    "shadow": {
+      "name": "PURPOSELESSNESS",
+      "description": "The shadow frequency of Preponderance of the Great, expressing through purposelessness",
+      "behavioral_signature": "Behavioral patterns associated with purposelessness",
+      "somatic_signature": "Somatic manifestation of purposelessness",
+      "thought_pattern": "Thought patterns characteristic of purposelessness",
+      "emotional_state": "Emotional states related to purposelessness"
+    },
+    "gift": {
+      "name": "TOTALITY",
+      "description": "The gift frequency of Preponderance of the Great, expressing through totality",
+      "behavioral_signature": "Behavioral patterns associated with totality",
+      "somatic_signature": "Somatic manifestation of totality",
+      "thought_pattern": "Thought patterns characteristic of totality",
+      "emotional_state": "Emotional states related to totality"
+    },
+    "siddhi": {
+      "name": "IMMORTALITY",
+      "description": "The siddhi frequency of Preponderance of the Great, expressing through immortality",
+      "behavioral_signature": "Behavioral patterns associated with immortality",
+      "somatic_signature": "Somatic manifestation of immortality",
+      "thought_pattern": "Thought patterns characteristic of immortality",
+      "emotional_state": "Emotional states related to immortality"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SPLEEN",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "purposelessness",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SPLEEN Dysfunction",
+        "distortion": "PURPOSELESSNESS Pattern"
+      },
+      "script": "This is Gate 28 shadow frequency. The purposelessness you're experiencing is a distortion of your natural totality. Through awareness and experimentation, you can shift from purposelessness to totality.",
+      "somatic_anchor": "Feel into your spleen. Notice the sensation of purposelessness.",
+      "experiment": {
+        "id": "gate_28_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 28 consciously for 7 days, the purposelessness pattern will shift toward totality.",
+        "action": "Daily practice working with Gate 28 energy.",
+        "success_criteria": {
+          "metric": "purposelessness_reduction",
+          "target": "Noticeable shift from purposelessness toward totality",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

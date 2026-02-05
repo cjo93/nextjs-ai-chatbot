@@ -1,0 +1,60 @@
+{
+  "id": 32,
+  "label": "Duration",
+  "i_ching_name": "Heng / Duration",
+  "frequencies": {
+    "shadow": {
+      "name": "FAILURE",
+      "description": "The shadow frequency of Duration, expressing through failure",
+      "behavioral_signature": "Behavioral patterns associated with failure",
+      "somatic_signature": "Somatic manifestation of failure",
+      "thought_pattern": "Thought patterns characteristic of failure",
+      "emotional_state": "Emotional states related to failure"
+    },
+    "gift": {
+      "name": "PRESERVATION",
+      "description": "The gift frequency of Duration, expressing through preservation",
+      "behavioral_signature": "Behavioral patterns associated with preservation",
+      "somatic_signature": "Somatic manifestation of preservation",
+      "thought_pattern": "Thought patterns characteristic of preservation",
+      "emotional_state": "Emotional states related to preservation"
+    },
+    "siddhi": {
+      "name": "VENERATION",
+      "description": "The siddhi frequency of Duration, expressing through veneration",
+      "behavioral_signature": "Behavioral patterns associated with veneration",
+      "somatic_signature": "Somatic manifestation of veneration",
+      "thought_pattern": "Thought patterns characteristic of veneration",
+      "emotional_state": "Emotional states related to veneration"
+    }
+  },
+  "circuit": "Individual",
+  "center": "SPLEEN",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "failure",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SPLEEN Dysfunction",
+        "distortion": "FAILURE Pattern"
+      },
+      "script": "This is Gate 32 shadow frequency. The failure you're experiencing is a distortion of your natural preservation. Through awareness and experimentation, you can shift from failure to preservation.",
+      "somatic_anchor": "Feel into your spleen. Notice the sensation of failure.",
+      "experiment": {
+        "id": "gate_32_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 32 consciously for 7 days, the failure pattern will shift toward preservation.",
+        "action": "Daily practice working with Gate 32 energy.",
+        "success_criteria": {
+          "metric": "failure_reduction",
+          "target": "Noticeable shift from failure toward preservation",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

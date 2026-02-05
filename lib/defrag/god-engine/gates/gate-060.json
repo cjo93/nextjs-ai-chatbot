@@ -1,0 +1,60 @@
+{
+  "id": 60,
+  "label": "Limitation",
+  "i_ching_name": "Jie / Limitation",
+  "frequencies": {
+    "shadow": {
+      "name": "LIMITATION",
+      "description": "The shadow frequency of Limitation, expressing through limitation",
+      "behavioral_signature": "Behavioral patterns associated with limitation",
+      "somatic_signature": "Somatic manifestation of limitation",
+      "thought_pattern": "Thought patterns characteristic of limitation",
+      "emotional_state": "Emotional states related to limitation"
+    },
+    "gift": {
+      "name": "REALISM",
+      "description": "The gift frequency of Limitation, expressing through realism",
+      "behavioral_signature": "Behavioral patterns associated with realism",
+      "somatic_signature": "Somatic manifestation of realism",
+      "thought_pattern": "Thought patterns characteristic of realism",
+      "emotional_state": "Emotional states related to realism"
+    },
+    "siddhi": {
+      "name": "JUSTICE",
+      "description": "The siddhi frequency of Limitation, expressing through justice",
+      "behavioral_signature": "Behavioral patterns associated with justice",
+      "somatic_signature": "Somatic manifestation of justice",
+      "thought_pattern": "Thought patterns characteristic of justice",
+      "emotional_state": "Emotional states related to justice"
+    }
+  },
+  "circuit": "Collective",
+  "center": "ROOT",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "limitation",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "ROOT Dysfunction",
+        "distortion": "LIMITATION Pattern"
+      },
+      "script": "This is Gate 60 shadow frequency. The limitation you're experiencing is a distortion of your natural realism. Through awareness and experimentation, you can shift from limitation to realism.",
+      "somatic_anchor": "Feel into your root. Notice the sensation of limitation.",
+      "experiment": {
+        "id": "gate_60_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 60 consciously for 7 days, the limitation pattern will shift toward realism.",
+        "action": "Daily practice working with Gate 60 energy.",
+        "success_criteria": {
+          "metric": "limitation_reduction",
+          "target": "Noticeable shift from limitation toward realism",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

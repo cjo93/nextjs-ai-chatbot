@@ -1,0 +1,60 @@
+{
+  "id": 26,
+  "label": "The Taming Power of the Great",
+  "i_ching_name": "Da Chu / The Taming Power of the Great",
+  "frequencies": {
+    "shadow": {
+      "name": "PRIDE",
+      "description": "The shadow frequency of The Taming Power of the Great, expressing through pride",
+      "behavioral_signature": "Behavioral patterns associated with pride",
+      "somatic_signature": "Somatic manifestation of pride",
+      "thought_pattern": "Thought patterns characteristic of pride",
+      "emotional_state": "Emotional states related to pride"
+    },
+    "gift": {
+      "name": "ARTFULNESS",
+      "description": "The gift frequency of The Taming Power of the Great, expressing through artfulness",
+      "behavioral_signature": "Behavioral patterns associated with artfulness",
+      "somatic_signature": "Somatic manifestation of artfulness",
+      "thought_pattern": "Thought patterns characteristic of artfulness",
+      "emotional_state": "Emotional states related to artfulness"
+    },
+    "siddhi": {
+      "name": "INVISIBILITY",
+      "description": "The siddhi frequency of The Taming Power of the Great, expressing through invisibility",
+      "behavioral_signature": "Behavioral patterns associated with invisibility",
+      "somatic_signature": "Somatic manifestation of invisibility",
+      "thought_pattern": "Thought patterns characteristic of invisibility",
+      "emotional_state": "Emotional states related to invisibility"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "HEART",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "pride",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "HEART Dysfunction",
+        "distortion": "PRIDE Pattern"
+      },
+      "script": "This is Gate 26 shadow frequency. The pride you're experiencing is a distortion of your natural artfulness. Through awareness and experimentation, you can shift from pride to artfulness.",
+      "somatic_anchor": "Feel into your heart. Notice the sensation of pride.",
+      "experiment": {
+        "id": "gate_26_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 26 consciously for 7 days, the pride pattern will shift toward artfulness.",
+        "action": "Daily practice working with Gate 26 energy.",
+        "success_criteria": {
+          "metric": "pride_reduction",
+          "target": "Noticeable shift from pride toward artfulness",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 50,
+  "label": "The Cauldron",
+  "i_ching_name": "Ding / The Cauldron",
+  "frequencies": {
+    "shadow": {
+      "name": "CORRUPTION",
+      "description": "The shadow frequency of The Cauldron, expressing through corruption",
+      "behavioral_signature": "Behavioral patterns associated with corruption",
+      "somatic_signature": "Somatic manifestation of corruption",
+      "thought_pattern": "Thought patterns characteristic of corruption",
+      "emotional_state": "Emotional states related to corruption"
+    },
+    "gift": {
+      "name": "EQUILIBRIUM",
+      "description": "The gift frequency of The Cauldron, expressing through equilibrium",
+      "behavioral_signature": "Behavioral patterns associated with equilibrium",
+      "somatic_signature": "Somatic manifestation of equilibrium",
+      "thought_pattern": "Thought patterns characteristic of equilibrium",
+      "emotional_state": "Emotional states related to equilibrium"
+    },
+    "siddhi": {
+      "name": "HARMONY",
+      "description": "The siddhi frequency of The Cauldron, expressing through harmony",
+      "behavioral_signature": "Behavioral patterns associated with harmony",
+      "somatic_signature": "Somatic manifestation of harmony",
+      "thought_pattern": "Thought patterns characteristic of harmony",
+      "emotional_state": "Emotional states related to harmony"
+    }
+  },
+  "circuit": "Tribal",
+  "center": "SPLEEN",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "corruption",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SPLEEN Dysfunction",
+        "distortion": "CORRUPTION Pattern"
+      },
+      "script": "This is Gate 50 shadow frequency. The corruption you're experiencing is a distortion of your natural equilibrium. Through awareness and experimentation, you can shift from corruption to equilibrium.",
+      "somatic_anchor": "Feel into your spleen. Notice the sensation of corruption.",
+      "experiment": {
+        "id": "gate_50_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 50 consciously for 7 days, the corruption pattern will shift toward equilibrium.",
+        "action": "Daily practice working with Gate 50 energy.",
+        "success_criteria": {
+          "metric": "corruption_reduction",
+          "target": "Noticeable shift from corruption toward equilibrium",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}

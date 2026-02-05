@@ -1,0 +1,60 @@
+{
+  "id": 42,
+  "label": "Increase",
+  "i_ching_name": "Yi / Increase",
+  "frequencies": {
+    "shadow": {
+      "name": "EXPECTATION",
+      "description": "The shadow frequency of Increase, expressing through expectation",
+      "behavioral_signature": "Behavioral patterns associated with expectation",
+      "somatic_signature": "Somatic manifestation of expectation",
+      "thought_pattern": "Thought patterns characteristic of expectation",
+      "emotional_state": "Emotional states related to expectation"
+    },
+    "gift": {
+      "name": "DETACHMENT",
+      "description": "The gift frequency of Increase, expressing through detachment",
+      "behavioral_signature": "Behavioral patterns associated with detachment",
+      "somatic_signature": "Somatic manifestation of detachment",
+      "thought_pattern": "Thought patterns characteristic of detachment",
+      "emotional_state": "Emotional states related to detachment"
+    },
+    "siddhi": {
+      "name": "CELEBRATION",
+      "description": "The siddhi frequency of Increase, expressing through celebration",
+      "behavioral_signature": "Behavioral patterns associated with celebration",
+      "somatic_signature": "Somatic manifestation of celebration",
+      "thought_pattern": "Thought patterns characteristic of celebration",
+      "emotional_state": "Emotional states related to celebration"
+    }
+  },
+  "circuit": "Collective",
+  "center": "SACRAL",
+  "inversion_protocols": [
+    {
+      "severity_level": 2,
+      "trigger_context": [
+        "expectation",
+        "stuck",
+        "blocked"
+      ],
+      "diagnosis": {
+        "mechanism": "SACRAL Dysfunction",
+        "distortion": "EXPECTATION Pattern"
+      },
+      "script": "This is Gate 42 shadow frequency. The expectation you're experiencing is a distortion of your natural detachment. Through awareness and experimentation, you can shift from expectation to detachment.",
+      "somatic_anchor": "Feel into your sacral. Notice the sensation of expectation.",
+      "experiment": {
+        "id": "gate_42_shift",
+        "duration_days": 7,
+        "hypothesis": "If I work with Gate 42 consciously for 7 days, the expectation pattern will shift toward detachment.",
+        "action": "Daily practice working with Gate 42 energy.",
+        "success_criteria": {
+          "metric": "expectation_reduction",
+          "target": "Noticeable shift from expectation toward detachment",
+          "duration": "7_days"
+        }
+      }
+    }
+  ]
+}
