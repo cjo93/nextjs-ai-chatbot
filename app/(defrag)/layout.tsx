@@ -21,9 +21,12 @@ async function DefragLayoutContent({
 }) {
   const session = await auth();
 
-  // Only redirect to login for protected routes
-  // Landing and pricing pages should be public
-  const publicPaths = ["/", "/pricing", "/legal"];
+  // Public routes that don't require authentication
+  const publicPaths = ["/defrag", "/defrag/pricing", "/defrag/legal"];
+  
+  // Check if current path is protected (not in public paths)
+  // Note: This check happens on the server, path detection would need middleware
+  // For now, we'll handle auth checks in individual pages that need protection
   
   return (
     <div className="min-h-dvh bg-background">

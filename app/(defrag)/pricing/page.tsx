@@ -19,14 +19,15 @@ const pricingTiers = [
       "Community support",
     ],
     priceId: undefined,
+    tier: "free" as const,
   },
   {
     name: "Pro",
-    price: "$29",
+    price: "$19",
     description: "For serious personal development",
     features: [
-      "3 blueprints",
-      "50 events per month",
+      "10 blueprints",
+      "100 events per month",
       "AI-powered SEDA scripts",
       "Experiment tracking",
       "Vector state visualization",
@@ -34,6 +35,7 @@ const pricingTiers = [
       "Export data",
     ],
     priceId: process.env.NEXT_PUBLIC_STRIPE_PRO_PRICE_ID,
+    tier: "pro" as const,
     popular: true,
   },
   {
@@ -51,6 +53,7 @@ const pricingTiers = [
       "White-glove support",
     ],
     priceId: process.env.NEXT_PUBLIC_STRIPE_LINEAGE_PRICE_ID,
+    tier: "lineage" as const,
   },
 ];
 
@@ -58,13 +61,13 @@ export default function PricingPage() {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubscribe = async (priceId: string) => {
+  const handleSubscribe = async (tier: string) => {
     setIsLoading(true);
     try {
       const response = await fetch("/api/stripe/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ tier: priceId === "pro_price_id" ? "pro" : "lineage" }),
+        body: JSON.stringify({ tier }),
       });
 
       const data = await response.json();
@@ -114,16 +117,16 @@ export default function PricingPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {pricingTiers.map((tier) => (
+            {pricingTiers.map((tierData) => (
               <PricingCard
-                key={tier.name}
-                name={tier.name}
-                price={tier.price}
-                description={tier.description}
-                features={tier.features}
-                priceId={tier.priceId}
-                popular={tier.popular}
-                onSubscribe={handleSubscribe}
+                key={tierData.name}
+                name={tierData.name}
+                price={tierData.price}
+                description={tierData.description}
+                features={tierData.features}
+                priceId={tierData.priceId}
+                popular={tierData.popular}
+                onSubscribe={() => handleSubscribe(tierData.tier)}
                 isLoading={isLoading}
               />
             ))}
@@ -148,13 +151,13 @@ export default function PricingPage() {
                   <tr className="border-b">
                     <td className="p-4">Blueprints</td>
                     <td className="text-center p-4">1</td>
-                    <td className="text-center p-4">3</td>
+                    <td className="text-center p-4">10</td>
                     <td className="text-center p-4">Unlimited</td>
                   </tr>
                   <tr className="border-b">
                     <td className="p-4">Events per month</td>
                     <td className="text-center p-4">5</td>
-                    <td className="text-center p-4">50</td>
+                    <td className="text-center p-4">100</td>
                     <td className="text-center p-4">Unlimited</td>
                   </tr>
                   <tr className="border-b">

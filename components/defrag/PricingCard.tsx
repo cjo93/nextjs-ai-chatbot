@@ -21,7 +21,7 @@ interface PricingCardProps {
   priceId?: string;
   currentTier?: boolean;
   popular?: boolean;
-  onSubscribe?: (priceId: string) => void;
+  onSubscribe?: () => void;
   isLoading?: boolean;
 }
 
@@ -73,7 +73,7 @@ export function PricingCard({
           </Button>
         ) : priceId && onSubscribe ? (
           <Button
-            onClick={() => onSubscribe(priceId)}
+            onClick={onSubscribe}
             disabled={isLoading}
             className="w-full"
             variant={popular ? "default" : "outline"}
@@ -82,7 +82,7 @@ export function PricingCard({
           </Button>
         ) : (
           <Button disabled className="w-full" variant="outline">
-            Contact Sales
+            Current Plan
           </Button>
         )}
       </CardFooter>
