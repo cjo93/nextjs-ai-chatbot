@@ -2,55 +2,34 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { PricingCard } from "@/components/defrag/PricingCard";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 const pricingTiers = [
   {
     name: "Free",
-    price: "Free",
+    price: "$0",
     description: "Perfect for trying out DEFRAG",
     features: [
-      "1 blueprint",
-      "5 events per month",
-      "Basic inversion scripts",
-      "Human Design chart",
-      "Community support",
+      "1 Birth Chart",
+      "Basic Interpretation",
+      "✗ Event Tracking",
+      "✗ Relationships",
     ],
     priceId: undefined,
   },
   {
     name: "Pro",
-    price: "$29",
-    description: "For serious personal development",
+    price: "$19/mo",
+    description: "For ongoing personal development",
     features: [
-      "3 blueprints",
-      "50 events per month",
-      "AI-powered SEDA scripts",
-      "Experiment tracking",
-      "Vector state visualization",
-      "Priority support",
-      "Export data",
+      "Unlimited Charts",
+      "Full Interpretation",
+      "Event Tracking",
+      "Relationships",
     ],
-    priceId: process.env.NEXT_PUBLIC_STRIPE_PRO_PRICE_ID,
+    priceId: "pro",
     popular: true,
-  },
-  {
-    name: "Lineage",
-    price: "$99",
-    description: "For families and relationships",
-    features: [
-      "Unlimited blueprints",
-      "Unlimited events",
-      "AI-powered SEDA scripts",
-      "Relationship synastry",
-      "Family dynamics analysis",
-      "Advanced experiments",
-      "Custom insights",
-      "White-glove support",
-    ],
-    priceId: process.env.NEXT_PUBLIC_STRIPE_LINEAGE_PRICE_ID,
   },
 ];
 
@@ -58,13 +37,13 @@ export default function PricingPage() {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubscribe = async (priceId: string) => {
+  const handleSubscribe = async (tier: string) => {
     setIsLoading(true);
     try {
       const response = await fetch("/api/stripe/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ tier: priceId === "pro_price_id" ? "pro" : "lineage" }),
+        body: JSON.stringify({ tier }),
       });
 
       const data = await response.json();
@@ -93,7 +72,7 @@ export default function PricingPage() {
             <Link href="/defrag/dashboard">
               <Button variant="ghost">Dashboard</Button>
             </Link>
-            <Link href="/defrag/onboarding">
+            <Link href="/defrag/start">
               <Button>Get Started</Button>
             </Link>
           </nav>
@@ -113,78 +92,33 @@ export default function PricingPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {pricingTiers.map((tier) => (
-              <PricingCard
+              <div
                 key={tier.name}
-                name={tier.name}
-                price={tier.price}
-                description={tier.description}
-                features={tier.features}
-                priceId={tier.priceId}
-                popular={tier.popular}
-                onSubscribe={handleSubscribe}
-                isLoading={isLoading}
-              />
+                className={`border rounded-lg p-8 ${tier.popular ? "border-2 border-primary" : ""}`}
+              >
+                <h2 className="text-2xl font-bold mb-4">{tier.name}</h2>
+                <p className="text-3xl font-bold mb-6">{tier.price}</p>
+                <ul className="space-y-2 mb-8">
+                  {tier.features.map((feature) => (
+                    <li key={feature}>{feature}</li>
+                  ))}
+                </ul>
+                {tier.priceId && (
+                  <Button
+                    onClick={() => handleSubscribe(tier.priceId!)}
+                    disabled={isLoading}
+                    className="w-full"
+                  >
+                    {isLoading ? "Loading..." : "Upgrade Now"}
+                  </Button>
+                )}
+              </div>
             ))}
           </div>
 
-          {/* Feature Comparison */}
-          <div className="mt-16">
-            <h2 className="text-2xl font-bold text-center mb-8">
-              Detailed Comparison
-            </h2>
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="border-b">
-                    <th className="text-left p-4 font-semibold">Feature</th>
-                    <th className="text-center p-4 font-semibold">Free</th>
-                    <th className="text-center p-4 font-semibold">Pro</th>
-                    <th className="text-center p-4 font-semibold">Lineage</th>
-                  </tr>
-                </thead>
-                <tbody className="text-sm">
-                  <tr className="border-b">
-                    <td className="p-4">Blueprints</td>
-                    <td className="text-center p-4">1</td>
-                    <td className="text-center p-4">3</td>
-                    <td className="text-center p-4">Unlimited</td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="p-4">Events per month</td>
-                    <td className="text-center p-4">5</td>
-                    <td className="text-center p-4">50</td>
-                    <td className="text-center p-4">Unlimited</td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="p-4">Inversion scripts</td>
-                    <td className="text-center p-4">Basic</td>
-                    <td className="text-center p-4">AI-powered</td>
-                    <td className="text-center p-4">AI-powered</td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="p-4">Relationship synastry</td>
-                    <td className="text-center p-4">-</td>
-                    <td className="text-center p-4">-</td>
-                    <td className="text-center p-4">✓</td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="p-4">Experiment tracking</td>
-                    <td className="text-center p-4">-</td>
-                    <td className="text-center p-4">✓</td>
-                    <td className="text-center p-4">✓</td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="p-4">Support</td>
-                    <td className="text-center p-4">Community</td>
-                    <td className="text-center p-4">Priority</td>
-                    <td className="text-center p-4">White-glove</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+          {/* Feature Comparison - Removed for MVP */}
         </div>
       </div>
 
