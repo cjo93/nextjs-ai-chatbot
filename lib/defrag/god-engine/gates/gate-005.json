@@ -1,0 +1,49 @@
+{
+  "gateNumber": 5,
+  "name": "Waiting",
+  "hexagram": "Waiting",
+  "description": "The Gate of Fixed Rhythms - Natural patterns and fixed rhythms that support life",
+  "keywords": ["rhythm", "routine", "patience", "timing"],
+  "center": "Sacral",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "5-15",
+    "name": "Rhythm",
+    "description": "The Channel of Rhythm - A Design of Being in the Flow"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Impatience",
+    "giftFrequency": "Patience",
+    "siddhiFrequency": "Timelessness"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Disrupted routines causing stress",
+      "script": "Your body is asking for rhythm and consistency. What simple pattern can you establish today?",
+      "experiments": [
+        "Create one non-negotiable daily ritual",
+        "Sync activities to natural rhythms (light, hunger, energy)",
+        "Track your natural energy patterns for a week"
+      ]
+    },
+    "friction": {
+      "trigger": "Impatience with natural timing",
+      "script": "You're pushing against a rhythm that can't be rushed. What if the waiting itself is productive?",
+      "experiments": [
+        "Practice presence in the 'in-between' moments",
+        "Study something that grows slowly (plant, skill, relationship)",
+        "Document what emerges during waiting periods"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Exhaustion from fighting natural rhythms",
+      "script": "Your system is demanding surrender to its own timing. Recovery requires trust in biological rhythm.",
+      "experiments": [
+        "Sleep when tired, eat when hungry for one week",
+        "Remove one artificial time pressure",
+        "Practice doing nothing for set periods"
+      ]
+    }
+  }
+}

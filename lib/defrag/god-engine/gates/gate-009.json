@@ -1,0 +1,49 @@
+{
+  "gateNumber": 9,
+  "name": "The Taming Power of the Small",
+  "hexagram": "The Taming Power of the Small",
+  "description": "The Gate of Focus - The power of detail and focus through determination",
+  "keywords": ["focus", "detail", "determination", "mastery"],
+  "center": "Sacral",
+  "quarter": 3,
+  "theme": "Purpose",
+  "channel": {
+    "number": "9-52",
+    "name": "Concentration",
+    "description": "The Channel of Concentration - A Design Focused on Determination"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Inertia",
+    "giftFrequency": "Determination",
+    "siddhiFrequency": "Invincibility"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Scattered energy needing focus",
+      "script": "Your power lives in singular focus. What one thing deserves your full attention right now?",
+      "experiments": [
+        "Commit to one focus for a defined period",
+        "Remove distractions systematically",
+        "Practice deep work sessions with full presence"
+      ]
+    },
+    "friction": {
+      "trigger": "Stubbornness blocking adaptation",
+      "script": "Your determination is valuable, but so is knowing when to pivot. Is your focus serving you or has it become rigid?",
+      "experiments": [
+        "Assess if you're focused on the right thing",
+        "Practice flexible determination—committed but adaptive",
+        "Notice where persistence has become obstinacy"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Burnout from excessive focus or lost direction",
+      "script": "Your capacity for focus is reorganizing. Sometimes we must unfocus to find true north again.",
+      "experiments": [
+        "Rest completely—no focus required",
+        "Explore without agenda for a set period",
+        "Return to what fascinated you before pressure entered"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "gateNumber": 4,
+  "name": "Youthful Folly",
+  "hexagram": "Youthful Folly",
+  "description": "The Gate of Formulization - Mental pressure to resolve or answer questions through pattern recognition",
+  "keywords": ["answers", "formulization", "mental clarity", "logic"],
+  "center": "Ajna",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "4-63",
+    "name": "Logic",
+    "description": "The Channel of Logic - A Design of a Mental Ease Mixed with Doubt"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Intolerance",
+    "giftFrequency": "Understanding",
+    "siddhiFrequency": "Forgiveness"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Mental pressure seeking answers",
+      "script": "Your mind is seeking patterns and formulas. What question most needs your logical attention?",
+      "experiments": [
+        "Write the question clearly and let it rest overnight",
+        "Map the problem visually to see connections",
+        "Research existing frameworks that might apply"
+      ]
+    },
+    "friction": {
+      "trigger": "Stuck in mental loops without resolution",
+      "script": "Not all questions need immediate answers. Some patterns reveal themselves through lived experience. Can you hold the question lightly?",
+      "experiments": [
+        "Set a timer for thinking, then consciously release it",
+        "Test theories through small experiments rather than pure thought",
+        "Share the question with others to gain new perspectives"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Overwhelmed by doubt and mental confusion",
+      "script": "The doubt you feel is actually your mind's integrity—refusing false clarity. Real understanding is emerging beneath the noise.",
+      "experiments": [
+        "Practice 'I don't know' as a complete sentence",
+        "Focus on what you DO understand clearly",
+        "Ground mental energy through physical activity"
+      ]
+    }
+  }
+}

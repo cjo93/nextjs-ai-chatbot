@@ -1,0 +1,49 @@
+{
+  "gateNumber": 7,
+  "name": "The Army",
+  "hexagram": "The Army",
+  "description": "The Gate of the Role of the Self - Leadership and guidance in direction",
+  "keywords": ["leadership", "direction", "democracy", "guidance"],
+  "center": "G",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "7-31",
+    "name": "The Alpha",
+    "description": "The Channel of the Alpha - A Design of Leadership: 'No Matter What'"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Division",
+    "giftFrequency": "Guidance",
+    "siddhiFrequency": "Virtue"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Called to lead but uncertain of direction",
+      "script": "Leadership isn't about having all answers—it's about holding direction. What direction can you hold with certainty?",
+      "experiments": [
+        "Lead from your values, not your fears",
+        "Take one clear position on what matters",
+        "Guide others by example, not instruction"
+      ]
+    },
+    "friction": {
+      "trigger": "Leadership burden or resistance to authority",
+      "script": "You're experiencing the weight of influence. True leadership includes knowing when to step back. Where can you share the load?",
+      "experiments": [
+        "Delegate something you've been holding alone",
+        "Identify and empower emerging leaders",
+        "Practice leading from behind occasionally"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Crisis of authority or leadership failure",
+      "script": "This is not the end of your leadership—it's the death of an old leadership style. Your authority is being refined.",
+      "experiments": [
+        "Study leaders who transformed through failure",
+        "Examine where ego replaced service",
+        "Return to why you lead in the first place"
+      ]
+    }
+  }
+}

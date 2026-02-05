@@ -1,0 +1,49 @@
+{
+  "gateNumber": 1,
+  "name": "The Creative",
+  "hexagram": "Creative",
+  "description": "The Gate of Self-Expression - The power of creative expression through individual action",
+  "keywords": ["creativity", "self-expression", "individuality", "manifestation"],
+  "center": "G",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "1-8",
+    "name": "Inspiration",
+    "description": "The Channel of Inspiration - A Design of a Creative Role Model"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Entropy",
+    "giftFrequency": "Freshness",
+    "siddhiFrequency": "Beauty"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Creative impulse without outlet",
+      "script": "Your creative energy seeks expression. What small act of creation calls to you today?",
+      "experiments": [
+        "Create something physical with your hands",
+        "Express yourself through movement or dance",
+        "Write or draw without judgment for 10 minutes"
+      ]
+    },
+    "friction": {
+      "trigger": "Blocked creative flow",
+      "script": "You're experiencing creative resistance. This isn't lack of ability—it's energy seeking its proper channel. What feels natural to express right now?",
+      "experiments": [
+        "Change your environment to inspire fresh perspective",
+        "Collaborate with someone who energizes your creativity",
+        "Lower the stakes—create something intentionally imperfect"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Creative identity crisis",
+      "script": "Your creative self is undergoing transformation. This discomfort is actually recalibration. You're not losing your creativity—you're evolving it.",
+      "experiments": [
+        "Document your creative journey without judgment",
+        "Explore a completely new creative medium",
+        "Mentor someone in your creative practice"
+      ]
+    }
+  }
+}

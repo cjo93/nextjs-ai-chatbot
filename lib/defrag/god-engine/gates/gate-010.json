@@ -1,0 +1,49 @@
+{
+  "gateNumber": 10,
+  "name": "Treading",
+  "hexagram": "Treading (Conduct)",
+  "description": "The Gate of the Behavior of the Self - The power of authentic self-love and behavior",
+  "keywords": ["self-love", "behavior", "authenticity", "empowerment"],
+  "center": "G",
+  "quarter": 2,
+  "theme": "Initiation",
+  "channel": {
+    "number": "10-20",
+    "name": "Awakening",
+    "description": "The Channel of Awakening - A Design of Commitment to Higher Principles"
+  },
+  "geneKeys": {
+    "shadowFrequency": "Self-Obsession",
+    "giftFrequency": "Naturalness",
+    "siddhiFrequency": "Being"
+  },
+  "inversionProtocols": {
+    "signal": {
+      "trigger": "Acting from should instead of authentic desire",
+      "script": "You're performing a role rather than being yourself. What would you do if you fully loved yourself?",
+      "experiments": [
+        "Do one thing today purely because you want to",
+        "Practice saying 'I love myself' and notice resistance",
+        "Choose self-honoring behavior in one small way"
+      ]
+    },
+    "friction": {
+      "trigger": "Self-betrayal through people-pleasing",
+      "script": "You're abandoning yourself to gain external approval. Your behavior must align with self-love. Where are you performing?",
+      "experiments": [
+        "Identify one behavior that doesn't serve you and stop it",
+        "Practice disappointing others in service of self-integrity",
+        "Ask: 'Would someone who loves themselves do this?'"
+      ]
+    },
+    "breakpoint": {
+      "trigger": "Deep self-rejection or identity crisis",
+      "script": "The self you've been trying to be is dissolving so your true self can emerge. This death is necessary for authentic rebirth.",
+      "experiments": [
+        "Work with a therapist on self-compassion",
+        "Write daily: 'I am learning to love myself by...'",
+        "Practice mirror work—meet your own eyes with kindness"
+      ]
+    }
+  }
+}
