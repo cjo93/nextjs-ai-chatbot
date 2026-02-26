@@ -58,7 +58,7 @@ REDIS_URL=redis://host:6379
 
 2. **Create Products**:
    - Go to https://dashboard.stripe.com/products
-   - Create "Pro" product with $29/month recurring price
+   - Create "Pro" product with $19/month recurring price
    - Create "Lineage" product with $99/month recurring price
    - Copy the price IDs:
    ```env
