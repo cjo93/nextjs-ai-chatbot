@@ -16,7 +16,7 @@ export default function LandingPage() {
             <Link href="/defrag/pricing">
               <Button variant="ghost">Pricing</Button>
             </Link>
-            <Link href="/defrag/onboarding">
+            <Link href="/defrag/start">
               <Button>Get Started</Button>
             </Link>
           </nav>
@@ -27,20 +27,15 @@ export default function LandingPage() {
       <section className="container py-24 md:py-32 lg:py-40">
         <div className="mx-auto max-w-3xl text-center space-y-8">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            Transform Life's{" "}
-            <span className="text-primary">Chaos</span>
-            {" "}into{" "}
-            <span className="text-primary">Clarity</span>
+            Mechanical Clarity for Relational Dynamics
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground sm:text-xl">
-            DEFRAG maps your unique Human Design blueprint to a 3D vector state,
-            helping you understand stress patterns and generate personalized
-            inversion scripts for any challenge.
+            Transform friction into understanding using Human Design mechanics
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/defrag/onboarding">
+            <Link href="/defrag/start">
               <Button size="lg" className="w-full sm:w-auto">
-                Start Your Blueprint
+                Calculate Your Free Chart
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
@@ -114,7 +109,7 @@ export default function LandingPage() {
               Create your blueprint in under 2 minutes. Start with our free tier
               and upgrade as you grow.
             </p>
-            <Link href="/defrag/onboarding">
+            <Link href="/defrag/start">
               <Button size="lg">
                 Get Started Now
                 <ArrowRight className="ml-2 h-4 w-4" />
